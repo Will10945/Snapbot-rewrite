@@ -1,0 +1,2251 @@
+{
+    "Atlas Prime Neuroptics": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Banshee Prime Chassis": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Chroma Prime Neuroptics": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Ember Prime Blueprint": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Equinox Prime Systems": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Frost Prime Blueprint": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Gara Prime Blueprint": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Hydroid Prime Systems": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Inaros Prime Neuroptics": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Ivara Prime Chassis": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Limbo Prime Chassis": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Loki Prime Systems": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Mag Prime Blueprint": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Mesa Prime Systems": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Mirage Prime Blueprint": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Nekros Prime Systems": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Nezha Prime Neuroptics": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Nidus Prime Chassis": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Nova Prime Chassis": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Nyx Prime Neuroptics": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Oberon Prime Neuroptics": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Octavia Prime Blueprint": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Rhino Prime Blueprint": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Saryn Prime Chassis": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Titania Prime Systems": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Valkyr Prime Chassis": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Vauban Prime Systems": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Wukong Prime Blueprint": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Zephyr Prime Systems": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 1
+    },
+    "Vectis Prime Receiver": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Tekko Prime Blade": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Euphona Prime Receiver": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Helios Prime Cerebrum": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Gram Prime Handle": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Glaive Prime Blueprint": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Sicarus Prime Receiver": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Stradavar Prime Blueprint": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Tipedo Prime Handle": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Astilla Prime Barrel": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Volnus Prime Handle": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Ballistica Prime Blueprint": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Nami Skyla Prime Blade": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Karyst Prime Blade": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Panthera Prime Receiver": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Aksomati Prime Link": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Destreza Prime Blade": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Pyrana Prime Blueprint": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Boar Prime Stock": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Redeemer Prime Handle": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Akbolto Prime Receiver": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Kogake Prime Gauntlet": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Galatine Prime Blueprint": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Tigris Prime Blueprint": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Zakti Prime Blueprint": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Magnus Prime Barrel": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Strun Prime Blueprint": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Soma Prime Stock": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Scindo Prime Blade": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Silva & Aegis Prime Guard": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Sybaris Prime Barrel": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Pandero Prime Receiver": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Tenora Prime Barrel": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Boltor Prime Blueprint": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Nikana Prime Hilt": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Spira Prime Pouch": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Corinth Prime Barrel": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Pangolin Prime Blueprint": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Dual Kamas Prime Blade": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Cernos Prime Lower": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Venka Prime Gauntlet": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Akstiletto Prime Blueprint": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Ninkondi Prime Handle": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Zhuge Prime Barrel": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Kronen Prime Blade": {
+        "rarity value": 5,
+        "uses": 1,
+        "priority": 0
+    },
+    "Ash Prime Neuroptics": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Ash Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Atlas Prime Chassis": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Atlas Prime Systems": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Banshee Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Banshee Prime Systems": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 1
+    },
+    "Chroma Prime Systems": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 1
+    },
+    "Ember Prime Systems": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Equinox Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Equinox Prime Neuroptics": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Gara Prime Chassis": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Gara Prime Neuroptics": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Hydroid Prime Neuroptics": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Hydroid Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Inaros Prime Chassis": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Inaros Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Ivara Prime Systems": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Ivara Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Limbo Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Loki Prime Chassis": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Mag Prime Chassis": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Mesa Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Mirage Prime Systems": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Nekros Prime Blueprint": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 1
+    },
+    "Nekros Prime Neuroptics": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Nezha Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Nidus Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Nova Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Nyx Prime Systems": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Nyx Prime Chassis": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 1
+    },
+    "Oberon Prime Systems": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 1
+    },
+    "Oberon Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Octavia Prime Chassis": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Rhino Prime Neuroptics": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Rhino Prime Chassis": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 1
+    },
+    "Saryn Prime Blueprint": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 1
+    },
+    "Titania Prime Neuroptics": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Titania Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Trinity Prime Chassis": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Trinity Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Valkyr Prime Systems": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 1
+    },
+    "Valkyr Prime Neuroptics": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Vauban Prime Blueprint": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 1
+    },
+    "Volt Prime Systems": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Volt Prime Chassis": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Wukong Prime Chassis": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Wukong Prime Systems": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Zephyr Prime Blueprint": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 1
+    },
+    "Carrier Prime Cerebrum": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Vectis Prime Stock": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Vectis Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Dethcube Prime Carapace": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Tekko Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Euphona Prime Barrel": {
+        "rarity value": 3,
+        "uses": 2,
+        "priority": 0
+    },
+    "Helios Prime Systems": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Helios Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Gram Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 2,
+        "priority": 0
+    },
+    "Rubico Prime Stock": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Glaive Prime Blade": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Glaive Prime Disc": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Stradavar Prime Barrel": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Tipedo Prime Ornament": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Reaper Prime Blade": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Astilla Prime Stock": {
+        "rarity value": 3,
+        "uses": 2,
+        "priority": 0
+    },
+    "Astilla Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Volnus Prime Head": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Ballistica Prime String": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Ballistica Prime Receiver": {
+        "rarity value": 3,
+        "uses": 2,
+        "priority": 0
+    },
+    "Ballistica Prime Upper": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Karyst Prime Handle": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Panthera Prime Stock": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Aksomati Prime Barrel": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Baza Prime Barrel": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Destreza Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Bo Prime Handle": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Wyrm Prime Systems": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Boar Prime Barrel": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Dakra Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Dakra Prime Blade": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Akjagara Prime Receiver": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Akjagara Prime Link": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Redeemer Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Akbolto Prime Link": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Akbolto Prime Barrel": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Kogake Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 2,
+        "priority": 0
+    },
+    "Galatine Prime Handle": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Tigris Prime Barrel": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Tigris Prime Receiver": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Guandao Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Zakti Prime Barrel": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Magnus Prime Receiver": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Strun Prime Barrel": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Strun Prime Stock": {
+        "rarity value": 3,
+        "uses": 2,
+        "priority": 0
+    },
+    "Vasto Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Scindo Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Silva & Aegis Prime Blade": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Silva & Aegis Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Sybaris Prime Receiver": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Pandero Prime Barrel": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Tenora Prime Stock": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Ankyros Prime Blade": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Boltor Prime Receiver": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Nikana Prime Blade": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Spira Prime Blade": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Corinth Prime Receiver": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Pangolin Prime Blade": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Dual Kamas Prime Handle": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Kavasa Prime Kubrow Collar Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Kavasa Prime Band": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Cernos Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Venka Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Akstiletto Prime Link": {
+        "rarity value": 3,
+        "uses": 2,
+        "priority": 0
+    },
+    "Fragor Prime Blueprint": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Fragor Prime Handle": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Odonata Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Ninkondi Prime Chain": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Zhuge Prime Blueprint": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Zhuge Prime Receiver": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Kronen Prime Handle": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Tiberon Prime Barrel": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Corinth Prime Stock": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Dethcube Prime Cerebrum": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Tenora Prime Receiver": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Panthera Prime Barrel": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Baza Prime Blueprint": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Nidus Prime Neuroptics": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 1
+    },
+    "Vauban Prime Neuroptics": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 1
+    },
+    "Nezha Prime Chassis": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 1
+    },
+    "Limbo Prime Neuroptics": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 1
+    },
+    "Mesa Prime Neuroptics": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 1
+    },
+    "Odonata Prime Wings": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Kavasa Prime Buckle": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Ash Prime Systems": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 1
+    },
+    "Volt Prime Neuroptics": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 1
+    },
+    "Tiberon Prime Stock": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Guandao Prime Handle": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Baza Prime Stock": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Rubico Prime Blueprint": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Dethcube Prime Blueprint": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Akjagara Prime Barrel": {
+        "rarity value": 4,
+        "uses": 1,
+        "priority": 0
+    },
+    "Strun Prime Stock 2": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Ballistica Prime Receiver 2": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Astilla Prime Stock 2": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Akstiletto Prime Link 2": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Gram Prime Blueprint 2": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Kogake Prime Blueprint 2": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Euphona Prime Barrel 2": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Ash Prime Chassis": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Atlas Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Banshee Prime Neuroptics": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Chroma Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Chroma Prime Chassis": {
+        "rarity value": 2,
+        "uses": 1,
+        "priority": 1
+    },
+    "Ember Prime Chassis": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Ember Prime Neuroptics": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Equinox Prime Chassis": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Frost Prime Neuroptics": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Frost Prime Chassis": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Gara Prime Systems": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Hydroid Prime Chassis": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Inaros Prime Systems": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Ivara Prime Neuroptics": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Limbo Prime Systems": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 1
+    },
+    "Loki Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Loki Prime Neuroptics": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Mag Prime Systems": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Mag Prime Neuroptics": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Mesa Prime Chassis": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 1
+    },
+    "Mirage Prime Chassis": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Mirage Prime Neuroptics": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Nekros Prime Chassis": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Nezha Prime Systems": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Nidus Prime Systems": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Nova Prime Systems": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Nova Prime Neuroptics": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Nyx Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Oberon Prime Chassis": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Octavia Prime Systems": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Octavia Prime Neuroptics": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Rhino Prime Systems": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Saryn Prime Systems": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Saryn Prime Neuroptics": {
+        "rarity value": 3,
+        "uses": 2,
+        "priority": 1
+    },
+    "Titania Prime Chassis": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Trinity Prime Systems": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Trinity Prime Neuroptics": {
+        "rarity value": 2,
+        "uses": 1,
+        "priority": 1
+    },
+    "Valkyr Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 1
+    },
+    "Vauban Prime Chassis": {
+        "rarity value": 2,
+        "uses": 1,
+        "priority": 1
+    },
+    "Volt Prime Blueprint": {
+        "rarity value": 2,
+        "uses": 1,
+        "priority": 1
+    },
+    "Wukong Prime Neuroptics": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Zephyr Prime Neuroptics": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Zephyr Prime Chassis": {
+        "rarity value": 2,
+        "uses": 1,
+        "priority": 1
+    },
+    "Carrier Prime Systems": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Carrier Prime Carapace": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Carrier Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Vectis Prime Barrel": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Dethcube Prime Systems": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Tekko Prime Gauntlet": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Euphona Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Helios Prime Carapace": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Gram Prime Blade": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Rubico Prime Barrel": {
+        "rarity value": 2,
+        "uses": 1,
+        "priority": 0
+    },
+    "Rubico Prime Receiver": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Sicarus Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Sicarus Prime Barrel": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Stradavar Prime Receiver": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Stradavar Prime Stock": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Tipedo Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Latron Prime Barrel": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Latron Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Latron Prime Receiver": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Latron Prime Stock": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Reaper Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Reaper Prime Handle": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Astilla Prime Receiver": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Volnus Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Ballistica Prime Lower": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Nami Skyla Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Karyst Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Panthera Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Aksomati Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Aksomati Prime Receiver": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Baza Prime Receiver": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Destreza Prime Handle": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Pyrana Prime Barrel": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Bo Prime Ornament": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Bo Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Wyrm Prime Carapace": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Wyrm Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Wyrm Prime Cerebrum": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Boar Prime Receiver": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Boar Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Dakra Prime Handle": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Akjagara Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Redeemer Prime Blade": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Akbolto Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Kogake Prime Boot": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Galatine Prime Blade": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Tigris Prime Stock": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Guandao Prime Blade": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Zakti Prime Receiver": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Magnus Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Strun Prime Receiver": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Soma Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 3,
+        "priority": 0
+    },
+    "Soma Prime Barrel": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Vasto Prime Barrel": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Vasto Prime Receiver": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Hikou Prime Pouch": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Hikou Prime Stars": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Hikou Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Scindo Prime Handle": {
+        "rarity value": 2,
+        "uses": 1,
+        "priority": 0
+    },
+    "Silva & Aegis Prime Hilt": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Sybaris Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Sybaris Prime Stock": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Pandero Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Tenora Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Ankyros Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Ankyros Prime Gauntlet": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Boltor Prime Stock": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Boltor Prime Barrel": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Nikana Prime Blueprint": {
+        "rarity value": 2,
+        "uses": 1,
+        "priority": 0
+    },
+    "Spira Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Corinth Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Pangolin Prime Handle": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Dual Kamas Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Cernos Prime String": {
+        "rarity value": 2,
+        "uses": 1,
+        "priority": 0
+    },
+    "Cernos Prime Grip": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Cernos Prime Upper": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Venka Prime Blades": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Akstiletto Prime Barrel": {
+        "rarity value": 2,
+        "uses": 1,
+        "priority": 0
+    },
+    "Akstiletto Prime Receiver": {
+        "rarity value": 3,
+        "uses": 2,
+        "priority": 0
+    },
+    "Fragor Prime Head": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Odonata Prime Harness": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Odonata Prime Systems": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Ninkondi Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Zhuge Prime String": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Zhuge Prime Grip": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Kronen Prime Blueprint": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Tiberon Prime Receiver": {
+        "rarity value": 1,
+        "uses": 2,
+        "priority": 0
+    },
+    "Tiberon Prime Blueprint": {
+        "rarity value": 2,
+        "uses": 1,
+        "priority": 0
+    },
+    "Frost Prime Systems": {
+        "rarity value": 2,
+        "uses": 1,
+        "priority": 1
+    },
+    "Pyrana Prime Receiver": {
+        "rarity value": 2,
+        "uses": 1,
+        "priority": 0
+    },
+    "Nami Skyla Prime Handle": {
+        "rarity value": 2,
+        "uses": 1,
+        "priority": 0
+    },
+    "Soma Prime Receiver": {
+        "rarity value": 2,
+        "uses": 1,
+        "priority": 0
+    },
+    "Vectis Prime Barrel 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Carrier Prime Carapace 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Tiberon Prime Receiver 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Akbolto Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Tekko Prime Gauntlet 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Boltor Prime Barrel 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Latron Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Galatine Prime Blade 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Hikou Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Ninkondi Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Zakti Prime Receiver 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Latron Prime Receiver 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Tenora Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Euphona Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Pangolin Prime Handle 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Pandero Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Helios Prime Carapace 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Tigris Prime Stock 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Stradavar Prime Receiver 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Tipedo Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Dual Kamas Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Guandao Prime Blade 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Vasto Prime Receiver 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Aksomati Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Destreza Prime Handle 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Zhuge Prime Grip 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Rubico Prime Receiver 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Hikou Prime Pouch 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Karyst Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Redeemer Prime Blade 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Bo Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Carrier Prime Systems 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Boar Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Dethcube Prime Systems 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Cernos Prime Grip 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Corinth Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Spira Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Soma Prime Barrel 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Wyrm Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Nami Skyla Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Ankyros Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Carrier Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Wyrm Prime Cerebrum 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Ankyros Prime Gauntlet 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Akstiletto Prime Receiver 2": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 0
+    },
+    "Volnus Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Odonata Prime Harness 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Sicarus Prime Barrel 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Wyrm Prime Carapace 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Ballistica Prime Lower 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Aksomati Prime Receiver 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Stradavar Prime Stock 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Sybaris Prime Stock 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Magnus Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Reaper Prime Handle 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Venka Prime Blades 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Boar Prime Receiver 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Kogake Prime Boot 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Panthera Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Soma Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Odonata Prime Systems 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Cernos Prime Upper 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Astilla Prime Receiver 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Sicarus Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Bo Prime Ornament 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Strun Prime Receiver 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Sybaris Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Latron Prime Barrel 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Dakra Prime Handle 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Pyrana Prime Barrel 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Vasto Prime Barrel 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Akjagara Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Reaper Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Boltor Prime Stock 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Latron Prime Stock 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Fragor Prime Head 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Kronen Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Baza Prime Receiver 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Gram Prime Blade 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Hikou Prime Stars 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Zhuge Prime String 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Silva & Aegis Prime Hilt 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "Limbo Prime Systems 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Valkyr Prime Blueprint 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Mesa Prime Chassis 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 1
+    },
+    "Saryn Prime Neuroptics 2": {
+        "rarity value": 3,
+        "uses": 1,
+        "priority": 1
+    },
+    "Soma Prime Blueprint 2 2": {
+        "rarity value": 1,
+        "uses": 1,
+        "priority": 0
+    },
+    "frames": [
+        "Ash",
+        "Atlas",
+        "Banshee",
+        "Chroma",
+        "Ember",
+        "Equinox",
+        "Frost",
+        "Gara",
+        "Hydroid",
+        "Inaros",
+        "Ivara",
+        "Limbo",
+        "Loki",
+        "Mag",
+        "Mesa",
+        "Mirage",
+        "Nekros",
+        "Nezha",
+        "Nidus",
+        "Nova",
+        "Nyx",
+        "Oberon",
+        "Octavia",
+        "Rhino",
+        "Saryn",
+        "Titania",
+        "Trinity",
+        "Valkyr",
+        "Vauban",
+        "Volt",
+        "Wukong",
+        "Zephyr"
+    ]
+}

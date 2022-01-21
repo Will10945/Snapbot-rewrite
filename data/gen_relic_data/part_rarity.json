@@ -1,0 +1,2114 @@
+{
+    "Sets": {
+        "Akstiletto Prime": {
+            "Barrel": {
+                "ducats": 25,
+                "rarity": "Common",
+                "rarity value": 2
+            },
+            "Receiver": {
+                "ducats": 45,
+                "rarity": "Common",
+                "rarity value": 3
+            },
+            "Link": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Trinity Prime": {
+            "Systems": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Neuroptics": {
+                "ducats": 25,
+                "rarity": "Common",
+                "rarity value": 2
+            },
+            "Chassis": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Fragor Prime": {
+            "Head": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 65,
+                "rarity": "Uncommon",
+                "rarity value": 4
+            },
+            "Handle": {
+                "ducats": 65,
+                "rarity": "Uncommon",
+                "rarity value": 4
+            }
+        },
+        "Dual Kamas Prime": {
+            "Handle": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blade": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Braton Prime": {
+            "Stock": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Barrel": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 25,
+                "rarity": "Common",
+                "rarity value": 2
+            },
+            "Receiver": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Nikana Prime": {
+            "Blueprint": {
+                "ducats": 25,
+                "rarity": "Common",
+                "rarity value": 2
+            },
+            "Hilt": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Blade": {
+                "ducats": 65,
+                "rarity": "Uncommon",
+                "rarity value": 4
+            }
+        },
+        "Aksomati Prime": {
+            "Link": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Receiver": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Barrel": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Wukong Prime": {
+            "Chassis": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Systems": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Neuroptics": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Paris Prime": {
+            "Grip": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Lower": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Upper": {
+                "ducats": 25,
+                "rarity": "Common",
+                "rarity value": 2
+            },
+            "String": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Akbronco Prime": {
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Link": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Stradavar Prime": {
+            "Receiver": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Stock": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Barrel": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Atlas Prime": {
+            "Neuroptics": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Chassis": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Systems": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Pangolin Prime": {
+            "Blade": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Handle": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Zhuge Prime": {
+            "String": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Receiver": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Grip": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Barrel": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Fang Prime": {
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Handle": {
+                "ducats": 25,
+                "rarity": "Common",
+                "rarity value": 2
+            },
+            "Blade": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Burston Prime": {
+            "Receiver": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Barrel": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Stock": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Akbolto Prime": {
+            "Receiver": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Link": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Barrel": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Helios Prime": {
+            "Systems": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Carapace": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Cerebrum": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Banshee Prime": {
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Systems": {
+                "ducats": 65,
+                "rarity": "Uncommon",
+                "rarity value": 4
+            },
+            "Neuroptics": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Chassis": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Mirage Prime": {
+            "Chassis": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Systems": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Neuroptics": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Kogake Prime": {
+            "Boot": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Gauntlet": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Orthos Prime": {
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Handle": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blade": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Inaros Prime": {
+            "Systems": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Neuroptics": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Chassis": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Karyst Prime": {
+            "Handle": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blade": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Nidus Prime": {
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Chassis": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Systems": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Neuroptics": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Zakti Prime": {
+            "Receiver": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Barrel": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Volnus Prime": {
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Head": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Handle": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Aklex Prime": {
+            "Link": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Lex Prime": {
+            "Blueprint": {
+                "ducats": 25,
+                "rarity": "Common",
+                "rarity value": 2
+            },
+            "Receiver": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Barrel": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Hydroid Prime": {
+            "Neuroptics": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Chassis": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Systems": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Cernos Prime": {
+            "String": {
+                "ducats": 25,
+                "rarity": "Common",
+                "rarity value": 2
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Lower": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Grip": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Upper": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Ballistica Prime": {
+            "String": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Lower": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Receiver": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Upper": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Zephyr Prime": {
+            "Neuroptics": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 65,
+                "rarity": "Uncommon",
+                "rarity value": 4
+            },
+            "Chassis": {
+                "ducats": 25,
+                "rarity": "Common",
+                "rarity value": 2
+            },
+            "Systems": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Akvasto Prime": {
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Link": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Vasto Prime": {
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Barrel": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Receiver": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Tipedo Prime": {
+            "Ornament": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Handle": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Chroma Prime": {
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Systems": {
+                "ducats": 65,
+                "rarity": "Uncommon",
+                "rarity value": 4
+            },
+            "Chassis": {
+                "ducats": 25,
+                "rarity": "Common",
+                "rarity value": 2
+            },
+            "Neuroptics": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Ash Prime": {
+            "Systems": {
+                "ducats": 65,
+                "rarity": "Rare",
+                "rarity value": 4
+            },
+            "Chassis": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Neuroptics": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Carrier Prime": {
+            "Systems": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Carapace": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Cerebrum": {
+                "ducats": 65,
+                "rarity": "Uncommon",
+                "rarity value": 4
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Gram Prime": {
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blade": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Handle": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Pyrana Prime": {
+            "Barrel": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Receiver": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Equinox Prime": {
+            "Chassis": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Neuroptics": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Systems": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Ivara Prime": {
+            "Systems": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Neuroptics": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Chassis": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Rubico Prime": {
+            "Stock": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Barrel": {
+                "ducats": 25,
+                "rarity": "Common",
+                "rarity value": 2
+            },
+            "Receiver": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Kavasa Prime": {
+            "Buckle": {
+                "ducats": 65,
+                "rarity": "Rare",
+                "rarity value": 4
+            },
+            "Kubrow Collar Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Band": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Euphona Prime": {
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Receiver": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Barrel": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Sybaris Prime": {
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Receiver": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Stock": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Barrel": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Baza Prime": {
+            "Stock": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Barrel": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Receiver": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Akjagara Prime": {
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Receiver": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Link": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Barrel": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Vectis Prime": {
+            "Barrel": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Stock": {
+                "ducats": 65,
+                "rarity": "Uncommon",
+                "rarity value": 4
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Receiver": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Silva & Aegis Prime": {
+            "Blade": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Hilt": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Guard": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Corinth Prime": {
+            "Barrel": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Receiver": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Stock": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Panthera Prime": {
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Stock": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Barrel": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Receiver": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Tekko Prime": {
+            "Gauntlet": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blade": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Pandero Prime": {
+            "Barrel": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Receiver": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Destreza Prime": {
+            "Blade": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Handle": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Tiberon Prime": {
+            "Receiver": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 25,
+                "rarity": "Common",
+                "rarity value": 2
+            },
+            "Stock": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Barrel": {
+                "ducats": 65,
+                "rarity": "Uncommon",
+                "rarity value": 4
+            }
+        },
+        "Ember Prime": {
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Systems": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Chassis": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Neuroptics": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Glaive Prime": {
+            "Blade": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Disc": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Latron Prime": {
+            "Barrel": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Receiver": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Stock": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Sicarus Prime": {
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Receiver": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Barrel": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Frost Prime": {
+            "Neuroptics": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Chassis": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Systems": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Bronco Prime": {
+            "Barrel": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Receiver": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Galatine Prime": {
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Handle": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blade": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Nekros Prime": {
+            "Chassis": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 65,
+                "rarity": "Uncommon",
+                "rarity value": 4
+            },
+            "Neuroptics": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Systems": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Saryn Prime": {
+            "Systems": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 65,
+                "rarity": "Uncommon",
+                "rarity value": 4
+            },
+            "Neuroptics": {
+                "ducats": 45,
+                "rarity": "Common",
+                "rarity value": 3
+            },
+            "Chassis": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Redeemer Prime": {
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Handle": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Blade": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Kronen Prime": {
+            "Handle": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blade": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Ninkondi Prime": {
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Chain": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Handle": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Gara Prime": {
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Chassis": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Systems": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Neuroptics": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Nezha Prime": {
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Chassis": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Systems": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Neuroptics": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Oberon Prime": {
+            "Chassis": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Systems": {
+                "ducats": 65,
+                "rarity": "Uncommon",
+                "rarity value": 4
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Neuroptics": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Mesa Prime": {
+            "Chassis": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Neuroptics": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Systems": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Dethcube Prime": {
+            "Systems": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Carapace": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Cerebrum": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Strun Prime": {
+            "Receiver": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Barrel": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Stock": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Tenora Prime": {
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Stock": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Barrel": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Receiver": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Odonata Prime": {
+            "Harness": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Wings": {
+                "ducats": 65,
+                "rarity": "Rare",
+                "rarity value": 4
+            },
+            "Systems": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Hikou Prime": {
+            "Pouch": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Stars": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Loki Prime": {
+            "Systems": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Chassis": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Neuroptics": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Reaper Prime": {
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Handle": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blade": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Wyrm Prime": {
+            "Carapace": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Cerebrum": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Systems": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Limbo Prime": {
+            "Neuroptics": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Chassis": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Systems": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Nami Skyla Prime": {
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blade": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Handle": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Volt Prime": {
+            "Systems": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 25,
+                "rarity": "Common",
+                "rarity value": 2
+            },
+            "Neuroptics": {
+                "ducats": 65,
+                "rarity": "Rare",
+                "rarity value": 4
+            },
+            "Chassis": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Bo Prime": {
+            "Ornament": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Handle": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Magnus Prime": {
+            "Barrel": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Receiver": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Titania Prime": {
+            "Chassis": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Systems": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Neuroptics": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Astilla Prime": {
+            "Receiver": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Barrel": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Stock": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Octavia Prime": {
+            "Systems": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Neuroptics": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Chassis": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Venka Prime": {
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blades": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Gauntlet": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Rhino Prime": {
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Systems": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Neuroptics": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Chassis": {
+                "ducats": 65,
+                "rarity": "Uncommon",
+                "rarity value": 4
+            }
+        },
+        "Dakra Prime": {
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blade": {
+                "ducats": 65,
+                "rarity": "Uncommon",
+                "rarity value": 4
+            },
+            "Handle": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Ankyros Prime": {
+            "Blade": {
+                "ducats": 65,
+                "rarity": "Uncommon",
+                "rarity value": 4
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Gauntlet": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Boltor Prime": {
+            "Stock": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Receiver": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Barrel": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Mag Prime": {
+            "Systems": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Neuroptics": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Chassis": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Boar Prime": {
+            "Receiver": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Barrel": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Stock": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Scindo Prime": {
+            "Blade": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Handle": {
+                "ducats": 25,
+                "rarity": "Common",
+                "rarity value": 2
+            }
+        },
+        "Nyx Prime": {
+            "Systems": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Chassis": {
+                "ducats": 65,
+                "rarity": "Uncommon",
+                "rarity value": 4
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Neuroptics": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Soma Prime": {
+            "Stock": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Receiver": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Barrel": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Nova Prime": {
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Systems": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Neuroptics": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Chassis": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Spira Prime": {
+            "Pouch": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Blade": {
+                "ducats": 65,
+                "rarity": "Uncommon",
+                "rarity value": 4
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Tigris Prime": {
+            "Barrel": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Blueprint": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Receiver": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            },
+            "Stock": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            }
+        },
+        "Vauban Prime": {
+            "Chassis": {
+                "ducats": 25,
+                "rarity": "Common",
+                "rarity value": 2
+            },
+            "Blueprint": {
+                "ducats": 65,
+                "rarity": "Uncommon",
+                "rarity value": 4
+            },
+            "Systems": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Neuroptics": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            }
+        },
+        "Valkyr Prime": {
+            "Systems": {
+                "ducats": 65,
+                "rarity": "Uncommon",
+                "rarity value": 4
+            },
+            "Chassis": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Blueprint": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Neuroptics": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        },
+        "Guandao Prime": {
+            "Handle": {
+                "ducats": 100,
+                "rarity": "Rare",
+                "rarity value": 5
+            },
+            "Blade": {
+                "ducats": 15,
+                "rarity": "Common",
+                "rarity value": 1
+            },
+            "Blueprint": {
+                "ducats": 45,
+                "rarity": "Uncommon",
+                "rarity value": 3
+            }
+        }
+    }
+}

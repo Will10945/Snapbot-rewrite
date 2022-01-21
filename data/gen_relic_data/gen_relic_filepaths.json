@@ -1,0 +1,5 @@
+{
+    "generated_relics": "./data/gen_relic_out/generated_relics.json",
+    "generated_relics_data": "./data/gen_relic_out/generated_relics_data.json",
+    "part_rarity": "./data/gen_relic_data/part_rarity.json"
+}
