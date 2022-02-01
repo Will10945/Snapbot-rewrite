@@ -8,11 +8,12 @@ from datetime import datetime, time, timedelta
 from discord.ext import commands, tasks
 from discord.ext.commands import has_permissions
 
-from lib.utils.file_utils import get_rarest_relics
+from lib.utils.file_utils import get_rarest_relics, get_set_data
 from lib.utils.relic_utils import update_relic_dbs, set_parse, find_relics_with_sets, get_shared_relics, flatten_dict, is_prime_junk, \
                                   parse_related_relics, ERA_IMAGES
 from lib.utils.spreadsheet_utils import check_for_website_update, availability_parser, availability_manager, update_steamcharts_data, parse_vault_order, \
-                                        find_vault_order, update_unvault_relics, find_unvault_sets, get_full_sheet, sort_relics, is_related, related_sorted_time
+                                        find_vault_order, update_unvault_relics, find_unvault_sets, get_full_sheet, sort_relics, is_related, related_sort_manager
+
 
 class Relic_Tools(commands.Cog):
 
@@ -23,7 +24,6 @@ class Relic_Tools(commands.Cog):
         self.auto_update_steamcharts_info.start().set_name('auto_update_steamcharts_info')
 
         # self.asd.start().set_name('cringe test code')
-
 
 
     @commands.Cog.listener()
@@ -220,6 +220,10 @@ class Relic_Tools(commands.Cog):
                       )
     async def related_relics(self, ctx):
 
+        if len(ctx.message.content.split()) == 1:
+            await ctx.send('You must provide at least one valid relic.')
+            return
+
         flags = parse_related_relics(ctx.author.id, ctx.message.content)
 
         if not flags['relics']:
@@ -249,37 +253,48 @@ class Relic_Tools(commands.Cog):
 
             await ctx.send(embed=embed)
 
-        elif flags['sort_style'] == 'Time':
-            relics_sorted_time = related_sorted_time(flags)
+        else:
 
-            embed = discord.Embed(
-                description=f"**Parameters:**\n"
-                            f"Sort Style: `{flags['sort_style']}`\n"
-                            f"Average Return: `{flags['average_return']}`\n"
-                            f"Junk Amount: `{flags['junk_amount']}`\n"
-                            f"Unvault Relics Only: `{flags['return_unvault']}`\n"
-                            f"Rarest Relics Only: `{flags['rarest']}`\n"
-                            f"Detailed: `{flags['detailed']}`\n\n"
-                            f"For more info on parameters, check out `s!help related`",
-                color=(discord.Color.teal() if 'lith' in relic_era.lower() else discord.Color.blue() if 'meso' in relic_era.lower()
-                else discord.Color.red() if 'neo' in relic_era.lower() else discord.Color.gold())
-            )
-            embed.set_author(
+            related_relics_time, related_relics_sets, related_relics_price, related_relics_event, related_relics_links = related_sort_manager(flags)
+
+            embeds = [
+                discord.Embed(
+                    description=f"**Parameters:**\n" +
+                                (f"Sort Style: `{flags['sort_style']}`\n" if not flags['links'] else '') +
+                                (f"Starting Price: `{flags['price_threshold']}`\n" if flags['links'] else '') +
+                                (f"Increment at: `{flags['threshold_increment']}`\n" if flags['links'] else '') +
+                                (f"Average Return: `{flags['average_return']}`\n" if True else '') +
+                                (f"Min Set Price: `{flags['set_price']}`\n" if flags['sort_style'] in ['Sets'] else '') +
+                                (f"Junk Amount: `{flags['junk_amount']}`\n" if flags['sort_style'] not in ['Sets'] else '') +
+                                (f"Unvault Relics Only: `{flags['return_unvault']}`\n" if True else '') +
+                                (f"Rarest Relics Only: `{flags['rarest']}`\n" if True else '') +
+                                (f"Detailed: `{flags['detailed']}`\n\n" if False else '') +
+                                f"For more info on parameters, check out `s!help related`",
+                    color=(discord.Color.teal() if 'lith' in relic_era.lower() else discord.Color.blue() if 'meso' in relic_era.lower()
+                    else discord.Color.red() if 'neo' in relic_era.lower() else discord.Color.gold())
+                )
+            ]
+            embeds[-1].set_author(
                 name=flags['relics'][0],
                 icon_url=ERA_IMAGES[relic_era]
             )
 
-            if flags['detailed']:
-                for _time in relics_sorted_time:
+            if related_relics_links:
 
+                for i, link_msg in enumerate(related_relics_links):
+                    if len(embeds[-1].fields) >= 25 * len(embeds) - len(embeds):
+                        await self.create_embed(flags, relic_era)
 
+                    embeds[-1].add_field(
+                        name=f"Links {i+1}",
+                        value=link_msg,
+                        inline=False
+                    )
 
-                    for relic in relics_sorted_time[_time]:
-                        pass
+            elif related_relics_time:
 
-            else:
                 time_sorted = {}
-                for relic, span in relics_sorted_time['totals'].items():
+                for relic, span in related_relics_time['totals'].items():
                     if span not in time_sorted:
                         time_sorted[span] = []
                     time_sorted[span].append(relic)
@@ -295,8 +310,6 @@ class Relic_Tools(commands.Cog):
                             time_era_sorted[_time][era] = []
                         time_era_sorted[_time][era].append(name)
 
-                # print(time_era_sorted)
-
                 time_era_sorted_temp = {}
                 for _time in time_era_sorted:
                     time_era_sorted_temp[_time] = {}
@@ -306,8 +319,6 @@ class Relic_Tools(commands.Cog):
 
                 time_era_sorted = time_era_sorted_temp.copy()
                 del time_era_sorted_temp
-
-                # print(time_era_sorted)
 
                 embed_str_list = ['']
                 for _time in time_era_sorted:
@@ -321,25 +332,76 @@ class Relic_Tools(commands.Cog):
                         embed_str_list[-1] = embed_str_list[-1][:-2] + '\n'
                     embed_str_list.append('')
 
-                # print(embed_str_list)
-
                 for embed_str, _time in zip(embed_str_list, time_era_sorted):
-                    embed.add_field(name=f"{_time} Days",
-                                    value=embed_str,
-                                    inline=True
-                                    )
+                    if len(embeds[-1].fields) >= 25 * len(embeds) - len(embeds):
+                        await self.create_embed(flags, relic_era)
 
-            await ctx.send(embed=embed)
+                    embeds[-1].add_field(
+                        name=f"{_time} Days",
+                        value=embed_str,
+                        inline=True
+                    )
 
-        elif flags['sort_style'] == 'Sets':
-            pass
+            elif related_relics_sets:
 
-        elif flags['sort_style'] == 'Price':
-            pass
+                sets = sorted(list(related_relics_sets))
+                embed_str = ['']
 
-        elif flags['sort_style'] == 'Event':
-            pass
+                for _set in sets:
+                    for relic in related_relics_sets[_set]:
+                        era = relic.split(' ')[0]
+                        name = relic.split(' ')[1]
+                        if era not in embed_str[-1]:
+                            embed_str[-1] = embed_str[-1][:-2]
+                            embed_str[-1] += f"\n**{era}**\n"
+                        if f"{relic} RELIC".upper() in get_rarest_relics():
+                            embed_str[-1] += f"__{name}__, "
+                        else:
+                            embed_str[-1] += f"{name}, "
+                    embed_str[-1] = embed_str[-1][:-2]
+                    embed_str.append('')
 
+                # print(embed_str)
+
+
+
+                for _set, _str in zip(sets, embed_str):
+
+                    if flags['set_price'] <= get_set_data()[f"{_set} Prime"]['plat']:
+
+                        if len(embeds[-1].fields) >= 25 * len(embeds) - len(embeds):
+                            embeds.append(await self.create_embed(flags, relic_era))
+
+                        embeds[-1].add_field(
+                            name=_set,
+                            value=_str,
+                            inline=True
+                        )
+
+                pass
+
+            elif related_relics_price:
+                pass
+
+            elif related_relics_event:
+                pass
+
+            for embed in embeds:
+                await ctx.send(embed=embed)
+
+
+    async def create_embed(self, flags, relic_era):
+
+        embed = discord.Embed(
+            color=(discord.Color.teal() if 'lith' in relic_era.lower() else discord.Color.blue() if 'meso' in relic_era.lower()
+                   else discord.Color.red() if 'neo' in relic_era.lower() else discord.Color.gold())
+        )
+        embed.set_author(
+            name=f"{flags['relics'][0]} Continued",
+            icon_url=ERA_IMAGES[relic_era]
+        )
+
+        return embed
 
     @tasks.loop(minutes=15)
     async def update_unvault_relics_db(self):

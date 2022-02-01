@@ -11,6 +11,7 @@ from matplotlib import colors as mcolors
 from google.oauth2.service_account import Credentials
 
 from lib.utils.file_utils import get_relic_data, get_set_data, get_unvault_relic_sets, update_unvault_relic_sets, get_prime_junk, get_rarest_relics
+from lib.utils.relic_utils import get_relic_4b4_avg
 
 RELIC_SPREADSHEET_URL = "https://docs.google.com/spreadsheets/d/1lHt3CaaCEdNR1ZSH8BaWFERMFHnxSkpGxQV4R_CiSyI/edit?usp=sharing"
 
@@ -584,20 +585,110 @@ def is_related(relics):
     return related_dict
 
 
-def related_sorted_time(flags):
+def related_sort_manager(flags):
 
     availability_dict = get_availability_dict(flags['relics'])
     target_relic = flags['relics'][0]
-    # print(availability_dict)
+    all_relics, relics_detailed = get_all_relics_dict(availability_dict[target_relic]['release'], availability_dict[target_relic]['vault'], target_relic, flags)
+    related_relics_time, related_relics_sets, related_relics_price, related_relics_event, related_relics_links = None, None, None, None, None
 
-    related_relics = get_all_relics_over_time_period(availability_dict[target_relic]['release'], availability_dict[target_relic]['vault'], flags['relics'][0], flags)
-    # print(related_relics)
+    if flags['links']:
+        related_relics_links = related_sorted_price(all_relics, links=True)
+        related_relics_links = related_links(related_relics_links, flags)
+
+    elif flags['sort_style'] == 'Time':
+        related_relics_time = related_sorted_time(relics_detailed)
+
+    elif flags['sort_style'] == 'Sets':
+        related_relics_sets = related_sorted_sets(all_relics)
+
+    elif flags['sort_style'] == 'Price':
+        related_relics_price = related_sorted_price(all_relics)
+
+    elif flags['sort_style'] == 'Event':
+        related_relics_event = None
+
+    return related_relics_time, related_relics_sets, related_relics_price, related_relics_event, related_relics_links
+
+
+def related_sorted_time(relics_detailed):
+
+    related_relics = get_all_relics_over_time_period(relics_detailed)
 
     return related_relics
 
 
-def get_all_relics_over_time_period(start, end, relic, flags):
+def related_sorted_sets(all_relics):
+
+    set_sorted_related_relics = {}
+
+    for relic in all_relics:
+        for _set in get_sets_in_relic(relic):
+            if _set not in set_sorted_related_relics:
+                set_sorted_related_relics[_set] = []
+            set_sorted_related_relics[_set].append(relic)
+
+    return set_sorted_related_relics
+
+
+def related_sorted_price(all_relics, links=False):
+
+    price_sorted_related_relics = {}
+
+    for relic in all_relics:
+
+        relic_avg = get_relic_4b4_avg(relic)
+
+        if relic_avg not in price_sorted_related_relics:
+            price_sorted_related_relics[relic_avg] = []
+        price_sorted_related_relics[relic_avg].append(relic)
+
+    prices_sorted = sorted(list(price_sorted_related_relics), reverse=(not links))
+    price_sorted_related_relics = {k: sorted(price_sorted_related_relics[k], key=sort_relics) for k in prices_sorted}
+
+    return price_sorted_related_relics
+
+
+def related_links(price_sorted_related_relics, flags):
+
+    link_strs_list = ['']
+    adj_price_sorted_relics = {}
+
+    for price in price_sorted_related_relics:
+        adj_price = int(price / flags['threshold_increment'])
+        if adj_price not in adj_price_sorted_relics:
+            adj_price_sorted_relics[adj_price] = []
+        adj_price_sorted_relics[adj_price] += price_sorted_related_relics[price]
+
+    for price in adj_price_sorted_relics:
+        adj_price_sorted_relics[price] = sorted(adj_price_sorted_relics[price], key=sort_relics)
+
+    priced = False
+    for price, relics in adj_price_sorted_relics.items():
+        for relic in relics:
+            if len(link_strs_list[-1]) >= 200:
+                if not priced:
+                    link_strs_list[-1] += f" {price + flags['price_threshold']}p each"
+                link_strs_list.append('')
+            link_strs_list[-1] += f"{' ' * bool(link_strs_list[-1])}[{relic} Relic]"
+            if relic == relics[-1]:
+                link_strs_list[-1] += f" {price + flags['price_threshold']}p each"
+                priced = True
+            else:
+                priced = False
+
+    return link_strs_list
+
+
+def get_sets_in_relic(relic):
+
+    return [x.split(' Prime')[0] for x in get_relic_data()[relic]['Intact']['drops']
+            if (x not in "Forma Blueprint" and x.split(' Prime')[0] not in get_prime_junk())]
+
+
+def get_all_relics_dict(start, end, relic, flags):
     relics_detailed = {}
+    all_relics = []
     for s, e in zip(start, end):
         relics = []
         relics_detailed[f"{s}-{e}"] = {}
@@ -608,10 +699,14 @@ def get_all_relics_over_time_period(start, end, relic, flags):
 
         relics = sorted(list(set(relics)), key=sort_relics)
         relics = format_relic_list(relics, flags)
+        all_relics += relics
 
         relics_detailed[f"{s}-{e}"] = get_availability_dict(relics)
 
-    # print(json.dumps(relics_detailed, indent=4))
+    return sorted(list(set(all_relics)), key=sort_relics), relics_detailed
+
+
+def get_all_relics_over_time_period(relics_detailed):
 
     relics_sorted_time_available = {
         'totals': {}

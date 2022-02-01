@@ -7,6 +7,7 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from discord import Intents, Forbidden, HTTPException
 from discord.ext.commands import Bot as BotBase, BadArgument, MissingRequiredArgument, \
     CommandOnCooldown, MissingPermissions, MissingRole, CommandNotFound
+from discord_slash import SlashCommand
 
 from lib.utils.file_utils import get_server_prefixes
 
@@ -134,3 +135,4 @@ class Bot(BotBase):
 
 
 bot = Bot()
+slash = SlashCommand(bot, override_type=True, sync_commands=True)

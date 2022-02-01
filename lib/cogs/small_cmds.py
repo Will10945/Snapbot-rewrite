@@ -1,12 +1,39 @@
 import random
 
 from discord.ext import commands
+from discord_slash import SlashCommand, SlashContext, cog_ext
+from discord_slash.utils.manage_commands import create_choice, create_option
 
 
 class Small_Cmds(commands.Cog):
 
     def __init__(self, client):
         self.client = client
+
+    @cog_ext.cog_slash(
+        name="hello",
+        description="Sends hello",
+        # options=[
+        #     create_option(
+        #         name="ping",
+        #         description="Pings user back if true",
+        #         required=False,
+        #         option_type=3,
+        #         choices=[
+        #             create_choice(
+        #                 name="True",
+        #                 value="Hello asdasd"
+        #             ),
+        #             create_choice(
+        #                 name="False",
+        #                 value="Hello"
+        #             )
+        #         ]
+        #     )
+        # ]
+    )
+    async def _hello(self, ctx: SlashContext, option: str):
+        await ctx.send(option)
 
     @commands.command(name='hello',
                       aliases=['hi'],

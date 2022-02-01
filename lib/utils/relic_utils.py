@@ -85,6 +85,18 @@ def set_parse(args):
     return sets
 
 
+def get_relic_4b4_avg(relic):
+
+    relic_data = get_relic_data()
+
+    best_price = 0
+    for ref in relic_data[relic]:
+        if (new_price := relic_data[relic][ref]['average_return']['4b4']) > best_price:
+            best_price = int(new_price)
+
+    return best_price
+
+
 def find_relics_with_sets(sets, exclusive=True):
 
     relic_data = get_relic_data()
@@ -157,6 +169,7 @@ def parse_related_relics(user_id, content):
             'sort_style': 'Time',
             'links': False,
             'average_return': 15,
+            'set_price': 0,
             'price_threshold': 0,
             'threshold_increment': 10,
             'junk_amount': 6,
@@ -212,12 +225,22 @@ def parse_related_relics(user_id, content):
                 current = next(args_iter, None)
                 pass
             else:
+                flags['links'] = True
                 current = up_next
 
         elif current in ['Average', 'Return', 'Avg', 'Ret', 'A']:
             up_next = next(args_iter, None)
             if up_next.isnumeric():
                 flags['average_return'] = int(up_next)
+                current = next(args_iter, None)
+                pass
+            else:
+                current = up_next
+
+        elif current in ['Setprice', 'Setvalue', 'Svalue', 'Sprice', 'Sv', 'Sp']:
+            up_next = next(args_iter, None)
+            if up_next.isnumeric():
+                flags['set_price'] = int(up_next)
                 current = next(args_iter, None)
                 pass
             else:
@@ -244,7 +267,7 @@ def parse_related_relics(user_id, content):
         elif current in ['Junk', 'Trash', 'J']:
             up_next = next(args_iter, None)
             if up_next.isnumeric():
-                flags['junk_amount'] = int(up_next) * int(up_next) < 6 + 5 * int(up_next) >= 6
+                flags['junk_amount'] = int(up_next) * (int(up_next) < 6 + 5 * int(up_next) >= 6)
                 current = next(args_iter, None)
                 pass
             else:
@@ -261,6 +284,7 @@ def parse_related_relics(user_id, content):
                 current = next(args_iter, None)
                 pass
             else:
+                flags['return_unvault'] = True
                 current = up_next
 
         elif current in ['Concise', 'Short', 'Small', 'C']:
@@ -300,6 +324,7 @@ def parse_related_relics(user_id, content):
                 current = next(args_iter, None)
                 pass
             else:
+                flags['rarest_only'] = True
                 current = up_next
 
         else:
