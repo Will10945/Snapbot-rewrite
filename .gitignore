@@ -4,5 +4,7 @@
 
 /relicbot.log
 
-/lib/bot/TOKEN
-/lib/data/service_account.json
+/bot/TOKEN
+
+data/service_account.json
+data/plot_image.png
