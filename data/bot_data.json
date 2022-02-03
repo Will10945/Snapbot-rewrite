@@ -507,6 +507,29 @@
             "Axi L4",
             "Axi M3",
             "Axi S4"
+        ],
+        "Ash, Ember, Frost, Hydroid, Limbo, Loki, Mag, Mesa, Nekros, Nova, Oberon, Saryn, Trinity, Valkyr, Vauban, Volt": [
+            "Lith C5",
+            "Lith G1",
+            "Lith S9",
+            "Lith T3",
+            "Lith V6",
+            "Lith V7",
+            "Lith V8",
+            "Meso F2",
+            "Meso N8",
+            "Meso O4",
+            "Meso V6",
+            "Neo A4",
+            "Neo G3",
+            "Neo N11",
+            "Neo S5",
+            "Neo S13",
+            "Axi A7",
+            "Axi E1",
+            "Axi S5",
+            "Axi S6",
+            "Axi V9"
         ]
     },
     "ocr-ignore": [
