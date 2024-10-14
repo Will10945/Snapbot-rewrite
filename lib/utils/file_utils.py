@@ -58,6 +58,9 @@ def get_unvault_relic_sets():
 def get_backup_params():
     return bot_data['backup_params']
 
+def get_vault_dates():
+    return bot_data['vault_dates']
+
 def update_server_prefixes(arg):
     bot_data['server_prefixes'] = arg
     update_bot_data()
@@ -70,12 +73,29 @@ def update_prime_access_dict(arg):
     bot_data['prime_access'] = arg
     update_bot_data()
 
-def update_relic_numbers(arg):
-    bot_data['relic_numbers'] = arg
+def update_relic_numbers():
+    relic_names = {}
+    for relic in get_relic_data().keys():
+        if (len(relic_names) == 0 or relic.split(' ')[0] not in relic_names):
+            relic_names[relic.split(' ')[0]] = {
+                relic.split(' ')[1][0]: 1
+            }
+        elif (relic.split(' ')[1][0] not in relic_names[relic.split(' ')[0]]):
+            relic_names[relic.split(' ')[0]][relic.split(' ')[1][0]] = 1
+        else:
+            relic_names[relic.split(' ')[0]][relic.split(' ')[1][0]] += 1
+
+    relic_names['Neo']['S'] += 1
+
+    bot_data['relic_numbers'] = relic_names
     update_bot_data()
 
 def update_unvault_relic_sets(arg):
     bot_data['unvault_relic_sets'] = arg
+    update_bot_data()
+
+def update_vault_dates(arg):
+    bot_data['vault_dates'] = arg
     update_bot_data()
 
 

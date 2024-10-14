@@ -20,6 +20,8 @@ class Admin(commands.Cog):
         self.auto_backup.start()
         print(f"Backups set to run every {get_backup_params()['frequency']} hours")
 
+        self.client.cogs_ready.ready_up('admin')
+
     @commands.Cog.listener()
     async def on_guild_join(self, guild):
         prefixes = get_server_prefixes()
@@ -65,6 +67,17 @@ class Admin(commands.Cog):
             await ctx.send(f'Only power users can change the server prefix\nServer prefix unchanged: `{prefixes[guild_id]}`')
 
         update_server_prefixes(prefixes)
+
+    @commands.has_permissions(manage_messages=True)
+    @commands.command(name='sync_slash')
+    async def sync_slash_commands(self, ctx):
+        await self.client.tree.sync(guild=discord.Object(id=824288433517232149))
+        await self.client.tree.sync(guild=discord.Object(id=780376195182493707))
+        await self.client.tree.sync(guild=discord.Object(id=780199960980750376))
+        await self.client.tree.sync(guild=discord.Object(id=1075900645204316200))
+        await self.client.tree.sync()
+        await ctx.send('synced slash commands', delete_after=2)
+        await ctx.message.delete(delay=2)
 
 
     @commands.is_owner()
@@ -145,9 +158,9 @@ class Admin(commands.Cog):
 
         for cog in cog_to_reload:
             try:
-                self.client.reload_extension(f"lib.cogs.{cog.lower()}")
+                await self.client.reload_extension(f"lib.cogs.{cog.lower()}")
             except discord.ext.commands.errors.ExtensionNotLoaded:
-                self.client.load_extension(f"lib.cogs.{cog}")
+                await self.client.load_extension(f"lib.cogs.{cog}")
             cogs_reloaded.append(cog)
         await ctx.send(f"{', '.join(cogs_reloaded)} reloaded", delete_after=3)
         await ctx.message.delete(delay=3)
@@ -158,6 +171,6 @@ class Admin(commands.Cog):
         backup_manager()
 
 
-def setup(client):
-    client.add_cog(Admin(client))
+async def setup(client):
+    await client.add_cog(Admin(client))
 

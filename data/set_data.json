@@ -1,506 +1,363 @@
 {
-    "Akbolto Prime": {
+    "Baruuk Prime": {
         "parts": {
-            "Akbolto Prime Barrel": {
+            "Baruuk Prime Blueprint": {
                 "plat": 8,
-                "ducats": 45,
-                "required": 2
-            },
-            "Akbolto Prime Blueprint": {
-                "plat": 4,
-                "ducats": 15,
-                "required": 1
-            },
-            "Akbolto Prime Link": {
-                "plat": 5,
-                "ducats": 45,
-                "required": 1
-            },
-            "Akbolto Prime Receiver": {
-                "plat": 32,
                 "ducats": 100,
-                "required": 2
-            }
-        },
-        "vaulted": true,
-        "type": "Secondary",
-        "plat": 95,
-        "prime-access": "Mirage"
-    },
-    "Akbronco Prime": {
-        "parts": {
-            "Akbronco Prime Blueprint": {
+                "required": 1
+            },
+            "Baruuk Prime Chassis Blueprint": {
+                "plat": 3,
+                "ducats": 45,
+                "required": 1
+            },
+            "Baruuk Prime Neuroptics Blueprint": {
+                "plat": 13,
+                "ducats": 100,
+                "required": 1
+            },
+            "Baruuk Prime Systems Blueprint": {
                 "plat": 3,
                 "ducats": 15,
-                "required": 1
-            },
-            "Akbronco Prime Link": {
-                "plat": 4,
-                "ducats": 45,
                 "required": 1
             }
         },
         "vaulted": false,
-        "type": "Secondary",
-        "plat": 15,
-        "prime-access": "N/A"
+        "type": "Warframes",
+        "plat": 32,
+        "prime-access": "Baruuk"
     },
-    "Akjagara Prime": {
+    "Afuris Prime": {
         "parts": {
-            "Akjagara Prime Barrel": {
-                "plat": 25,
-                "ducats": 100,
-                "required": 2
-            },
-            "Akjagara Prime Blueprint": {
-                "plat": 5,
+            "Afuris Prime Blueprint": {
+                "plat": 2,
                 "ducats": 15,
                 "required": 1
             },
-            "Akjagara Prime Link": {
-                "plat": 6,
+            "Afuris Prime Barrel": {
+                "plat": 2,
+                "ducats": 15,
+                "required": 2
+            },
+            "Afuris Prime Link": {
+                "plat": 2,
                 "ducats": 45,
                 "required": 1
             },
-            "Akjagara Prime Receiver": {
-                "plat": 9,
+            "Afuris Prime Receiver": {
+                "plat": 15,
+                "ducats": 100,
+                "required": 2
+            }
+        },
+        "vaulted": false,
+        "type": "Secondary",
+        "plat": 40,
+        "prime-access": "Baruuk"
+    },
+    "Cobra & Crane Prime": {
+        "parts": {
+            "Cobra & Crane Prime Blueprint": {
+                "plat": 1,
+                "ducats": 45,
+                "required": 1
+            },
+            "Cobra & Crane Prime Blade": {
+                "plat": 2,
+                "ducats": 45,
+                "required": 1
+            },
+            "Cobra & Crane Prime Guard": {
+                "plat": 7,
+                "ducats": 100,
+                "required": 1
+            },
+            "Cobra & Crane Prime Hilt": {
+                "plat": 2,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": false,
+        "type": "Melee",
+        "plat": 12,
+        "prime-access": "N/A"
+    },
+    "Gunsen Prime": {
+        "parts": {
+            "Gunsen Prime Blueprint": {
+                "plat": 1,
+                "ducats": 15,
+                "required": 1
+            },
+            "Gunsen Prime Blade": {
+                "plat": 8,
+                "ducats": 100,
+                "required": 2
+            },
+            "Gunsen Prime Handle": {
+                "plat": 3,
                 "ducats": 45,
                 "required": 2
             }
         },
-        "vaulted": true,
-        "type": "Secondary",
-        "plat": 117,
-        "prime-access": "Mesa"
+        "vaulted": false,
+        "type": "Melee",
+        "plat": 27,
+        "prime-access": "Wisp"
     },
-    "Aklex Prime": {
+    "Gauss Prime": {
         "parts": {
-            "Aklex Prime Blueprint": {
-                "plat": 8,
+            "Gauss Prime Blueprint": {
+                "plat": 7,
                 "ducats": 45,
                 "required": 1
             },
-            "Aklex Prime Link": {
+            "Gauss Prime Chassis Blueprint": {
+                "plat": 5,
+                "ducats": 15,
+                "required": 1
+            },
+            "Gauss Prime Neuroptics Blueprint": {
+                "plat": 4,
+                "ducats": 45,
+                "required": 1
+            },
+            "Gauss Prime Systems Blueprint": {
+                "plat": 11,
+                "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": false,
+        "type": "Warframes",
+        "plat": 38,
+        "prime-access": "Gauss"
+    },
+    "Frost Prime": {
+        "parts": {
+            "Frost Prime Blueprint": {
+                "plat": 55,
+                "ducats": 100,
+                "required": 1
+            },
+            "Frost Prime Chassis Blueprint": {
+                "plat": 14,
+                "ducats": 15,
+                "required": 1
+            },
+            "Frost Prime Neuroptics Blueprint": {
+                "plat": 9,
+                "ducats": 15,
+                "required": 1
+            },
+            "Frost Prime Systems Blueprint": {
+                "plat": 12,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 105,
+        "prime-access": "Frost"
+    },
+    "Hikou Prime": {
+        "parts": {
+            "Hikou Prime Blueprint": {
+                "plat": 4,
+                "ducats": 15,
+                "required": 1
+            },
+            "Hikou Prime Pouch": {
+                "plat": 12,
+                "ducats": 15,
+                "required": 2
+            },
+            "Hikou Prime Stars": {
+                "plat": 7,
+                "ducats": 15,
+                "required": 2
+            }
+        },
+        "vaulted": false,
+        "type": "Secondary",
+        "plat": 55,
+        "prime-access": "Nyx"
+    },
+    "Hydroid Prime": {
+        "parts": {
+            "Hydroid Prime Blueprint": {
+                "plat": 14,
+                "ducats": 45,
+                "required": 1
+            },
+            "Hydroid Prime Chassis Blueprint": {
+                "plat": 7,
+                "ducats": 15,
+                "required": 1
+            },
+            "Hydroid Prime Neuroptics Blueprint": {
+                "plat": 15,
+                "ducats": 45,
+                "required": 1
+            },
+            "Hydroid Prime Systems Blueprint": {
+                "plat": 43,
+                "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 100,
+        "prime-access": "Hydroid"
+    },
+    "Wyrm Prime": {
+        "parts": {
+            "Wyrm Prime Carapace": {
+                "plat": 17,
+                "ducats": 15,
+                "required": 1
+            },
+            "Wyrm Prime Cerebrum": {
+                "plat": 18,
+                "ducats": 15,
+                "required": 1
+            },
+            "Wyrm Prime Systems": {
+                "plat": 41,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Sentinels",
+        "plat": 94,
+        "prime-access": "Loki"
+    },
+    "Chroma Prime": {
+        "parts": {
+            "Chroma Prime Blueprint": {
+                "plat": 5,
+                "ducats": 15,
+                "required": 1
+            },
+            "Chroma Prime Chassis Blueprint": {
+                "plat": 6,
+                "ducats": 25,
+                "required": 1
+            },
+            "Chroma Prime Neuroptics Blueprint": {
+                "plat": 18,
+                "ducats": 100,
+                "required": 1
+            },
+            "Chroma Prime Systems Blueprint": {
+                "plat": 15,
+                "ducats": 65,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 67,
+        "prime-access": "Chroma"
+    },
+    "Rubico Prime": {
+        "parts": {
+            "Rubico Prime Blueprint": {
+                "plat": 24,
+                "ducats": 100,
+                "required": 1
+            },
+            "Rubico Prime Barrel": {
+                "plat": 8,
+                "ducats": 25,
+                "required": 1
+            },
+            "Rubico Prime Receiver": {
+                "plat": 4,
+                "ducats": 15,
+                "required": 1
+            },
+            "Rubico Prime Stock": {
+                "plat": 8,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Primary",
+        "plat": 62,
+        "prime-access": "Chroma"
+    },
+    "Banshee Prime": {
+        "parts": {
+            "Banshee Prime Blueprint": {
+                "plat": 6,
+                "ducats": 45,
+                "required": 1
+            },
+            "Banshee Prime Chassis Blueprint": {
+                "plat": 24,
+                "ducats": 100,
+                "required": 1
+            },
+            "Banshee Prime Neuroptics Blueprint": {
+                "plat": 4,
+                "ducats": 15,
+                "required": 1
+            },
+            "Banshee Prime Systems Blueprint": {
+                "plat": 27,
+                "ducats": 65,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 67,
+        "prime-access": "Banshee"
+    },
+    "Vauban Prime": {
+        "parts": {
+            "Vauban Prime Blueprint": {
+                "plat": 15,
+                "ducats": 65,
+                "required": 1
+            },
+            "Vauban Prime Chassis Blueprint": {
+                "plat": 19,
+                "ducats": 25,
+                "required": 1
+            },
+            "Vauban Prime Neuroptics Blueprint": {
+                "plat": 35,
+                "ducats": 100,
+                "required": 1
+            },
+            "Vauban Prime Systems Blueprint": {
                 "plat": 47,
                 "ducats": 100,
                 "required": 1
             }
         },
         "vaulted": true,
-        "type": "Secondary",
-        "plat": 55,
-        "prime-access": "N/A"
-    },
-    "Aksomati Prime": {
-        "parts": {
-            "Aksomati Prime Barrel": {
-                "plat": 8,
-                "ducats": 45,
-                "required": 2
-            },
-            "Aksomati Prime Blueprint": {
-                "plat": 1,
-                "ducats": 15,
-                "required": 1
-            },
-            "Aksomati Prime Link": {
-                "plat": 15,
-                "ducats": 100,
-                "required": 1
-            },
-            "Aksomati Prime Receiver": {
-                "plat": 7,
-                "ducats": 15,
-                "required": 2
-            }
-        },
-        "vaulted": true,
-        "type": "Secondary",
-        "plat": 60,
-        "prime-access": "Ivara"
-    },
-    "Akstiletto Prime": {
-        "parts": {
-            "Akstiletto Prime Barrel": {
-                "plat": 24,
-                "ducats": 25,
-                "required": 2
-            },
-            "Akstiletto Prime Blueprint": {
-                "plat": 16,
-                "ducats": 100,
-                "required": 1
-            },
-            "Akstiletto Prime Link": {
-                "plat": 7,
-                "ducats": 45,
-                "required": 1
-            },
-            "Akstiletto Prime Receiver": {
-                "plat": 15,
-                "ducats": 45,
-                "required": 2
-            }
-        },
-        "vaulted": true,
-        "type": "Secondary",
-        "plat": 122,
+        "type": "Warframes",
+        "plat": 146,
         "prime-access": "Vauban"
-    },
-    "Akvasto Prime": {
-        "parts": {
-            "Akvasto Prime Blueprint": {
-                "plat": 58,
-                "ducats": 100,
-                "required": 1
-            },
-            "Akvasto Prime Link": {
-                "plat": 15,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Secondary",
-        "plat": 95,
-        "prime-access": "N/A"
-    },
-    "Ankyros Prime": {
-        "parts": {
-            "Ankyros Prime Blade": {
-                "plat": 8,
-                "ducats": 65,
-                "required": 2
-            },
-            "Ankyros Prime Blueprint": {
-                "plat": 7,
-                "ducats": 15,
-                "required": 1
-            },
-            "Ankyros Prime Gauntlet": {
-                "plat": 11,
-                "ducats": 15,
-                "required": 2
-            }
-        },
-        "vaulted": true,
-        "type": "Melee",
-        "plat": 75,
-        "prime-access": "Rhino"
-    },
-    "Ash Prime": {
-        "parts": {
-            "Ash Prime Blueprint": {
-                "plat": 17,
-                "ducats": 45,
-                "required": 1
-            },
-            "Ash Prime Chassis Blueprint": {
-                "plat": 17,
-                "ducats": 15,
-                "required": 1
-            },
-            "Ash Prime Neuroptics Blueprint": {
-                "plat": 14,
-                "ducats": 45,
-                "required": 1
-            },
-            "Ash Prime Systems Blueprint": {
-                "plat": 59,
-                "ducats": 65,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Warframes",
-        "plat": 140,
-        "prime-access": "Ash"
-    },
-    "Astilla Prime": {
-        "parts": {
-            "Astilla Prime Barrel": {
-                "plat": 10,
-                "ducats": 100,
-                "required": 1
-            },
-            "Astilla Prime Blueprint": {
-                "plat": 5,
-                "ducats": 45,
-                "required": 1
-            },
-            "Astilla Prime Receiver": {
-                "plat": 4,
-                "ducats": 15,
-                "required": 1
-            },
-            "Astilla Prime Stock": {
-                "plat": 3,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": false,
-        "type": "Primary",
-        "plat": 26,
-        "prime-access": "Gara"
-    },
-    "Atlas Prime": {
-        "parts": {
-            "Atlas Prime Blueprint": {
-                "plat": 3,
-                "ducats": 15,
-                "required": 1
-            },
-            "Atlas Prime Chassis Blueprint": {
-                "plat": 5,
-                "ducats": 45,
-                "required": 1
-            },
-            "Atlas Prime Neuroptics Blueprint": {
-                "plat": 49,
-                "ducats": 100,
-                "required": 1
-            },
-            "Atlas Prime Systems Blueprint": {
-                "plat": 4,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Warframes",
-        "plat": 57,
-        "prime-access": "Atlas"
-    },
-    "Ballistica Prime": {
-        "parts": {
-            "Ballistica Prime Blueprint": {
-                "plat": 26,
-                "ducats": 100,
-                "required": 1
-            },
-            "Ballistica Prime Lower Limb": {
-                "plat": 8,
-                "ducats": 15,
-                "required": 1
-            },
-            "Ballistica Prime Receiver": {
-                "plat": 6,
-                "ducats": 45,
-                "required": 1
-            },
-            "Ballistica Prime String": {
-                "plat": 9,
-                "ducats": 45,
-                "required": 1
-            },
-            "Ballistica Prime Upper Limb": {
-                "plat": 9,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Secondary",
-        "plat": 87,
-        "prime-access": "Hydroid"
-    },
-    "Banshee Prime": {
-        "parts": {
-            "Banshee Prime Blueprint": {
-                "plat": 8,
-                "ducats": 45,
-                "required": 1
-            },
-            "Banshee Prime Chassis Blueprint": {
-                "plat": 40,
-                "ducats": 100,
-                "required": 1
-            },
-            "Banshee Prime Neuroptics Blueprint": {
-                "plat": 7,
-                "ducats": 15,
-                "required": 1
-            },
-            "Banshee Prime Systems Blueprint": {
-                "plat": 49,
-                "ducats": 65,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Warframes",
-        "plat": 114,
-        "prime-access": "Banshee"
-    },
-    "Baza Prime": {
-        "parts": {
-            "Baza Prime Barrel": {
-                "plat": 4,
-                "ducats": 45,
-                "required": 1
-            },
-            "Baza Prime Blueprint": {
-                "plat": 11,
-                "ducats": 100,
-                "required": 1
-            },
-            "Baza Prime Receiver": {
-                "plat": 3,
-                "ducats": 15,
-                "required": 1
-            },
-            "Baza Prime Stock": {
-                "plat": 16,
-                "ducats": 100,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Primary",
-        "plat": 43,
-        "prime-access": "Ivara"
-    },
-    "Bo Prime": {
-        "parts": {
-            "Bo Prime Blueprint": {
-                "plat": 15,
-                "ducats": 15,
-                "required": 1
-            },
-            "Bo Prime Handle": {
-                "plat": 13,
-                "ducats": 45,
-                "required": 1
-            },
-            "Bo Prime Ornament": {
-                "plat": 18,
-                "ducats": 15,
-                "required": 2
-            }
-        },
-        "vaulted": true,
-        "type": "Melee",
-        "plat": 89,
-        "prime-access": "Loki"
-    },
-    "Boar Prime": {
-        "parts": {
-            "Boar Prime Barrel": {
-                "plat": 9,
-                "ducats": 45,
-                "required": 1
-            },
-            "Boar Prime Blueprint": {
-                "plat": 12,
-                "ducats": 15,
-                "required": 1
-            },
-            "Boar Prime Receiver": {
-                "plat": 15,
-                "ducats": 15,
-                "required": 1
-            },
-            "Boar Prime Stock": {
-                "plat": 37,
-                "ducats": 100,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Primary",
-        "plat": 102,
-        "prime-access": "Mag"
-    },
-    "Boltor Prime": {
-        "parts": {
-            "Boltor Prime Barrel": {
-                "plat": 8,
-                "ducats": 15,
-                "required": 1
-            },
-            "Boltor Prime Blueprint": {
-                "plat": 11,
-                "ducats": 100,
-                "required": 1
-            },
-            "Boltor Prime Receiver": {
-                "plat": 6,
-                "ducats": 45,
-                "required": 1
-            },
-            "Boltor Prime Stock": {
-                "plat": 7,
-                "ducats": 15,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Primary",
-        "plat": 44,
-        "prime-access": "Rhino"
-    },
-    "Braton Prime": {
-        "parts": {
-            "Braton Prime Barrel": {
-                "plat": 3,
-                "ducats": 15,
-                "required": 1
-            },
-            "Braton Prime Blueprint": {
-                "plat": 3,
-                "ducats": 25,
-                "required": 1
-            },
-            "Braton Prime Receiver": {
-                "plat": 3,
-                "ducats": 45,
-                "required": 1
-            },
-            "Braton Prime Stock": {
-                "plat": 2,
-                "ducats": 25,
-                "required": 1
-            }
-        },
-        "vaulted": false,
-        "type": "Primary",
-        "plat": 11,
-        "prime-access": "N/A"
-    },
-    "Bronco Prime": {
-        "parts": {
-            "Bronco Prime Barrel": {
-                "plat": 7,
-                "ducats": 45,
-                "required": 1
-            },
-            "Bronco Prime Blueprint": {
-                "plat": 5,
-                "ducats": 15,
-                "required": 1
-            },
-            "Bronco Prime Receiver": {
-                "plat": 7,
-                "ducats": 15,
-                "required": 1
-            }
-        },
-        "vaulted": false,
-        "type": "Secondary",
-        "plat": 22,
-        "prime-access": "N/A"
     },
     "Burston Prime": {
         "parts": {
-            "Burston Prime Barrel": {
-                "plat": 3,
-                "ducats": 45,
-                "required": 1
-            },
             "Burston Prime Blueprint": {
                 "plat": 3,
                 "ducats": 15,
+                "required": 1
+            },
+            "Burston Prime Barrel": {
+                "plat": 4,
+                "ducats": 45,
                 "required": 1
             },
             "Burston Prime Receiver": {
@@ -516,593 +373,590 @@
         },
         "vaulted": false,
         "type": "Primary",
-        "plat": 9,
+        "plat": 17,
         "prime-access": "N/A"
     },
-    "Carrier Prime": {
+    "Loki Prime": {
         "parts": {
-            "Carrier Prime Blueprint": {
-                "plat": 9,
+            "Loki Prime Blueprint": {
+                "plat": 8,
                 "ducats": 15,
                 "required": 1
             },
-            "Carrier Prime Carapace": {
+            "Loki Prime Chassis Blueprint": {
+                "plat": 25,
+                "ducats": 45,
+                "required": 1
+            },
+            "Loki Prime Neuroptics Blueprint": {
                 "plat": 15,
                 "ducats": 15,
                 "required": 1
             },
-            "Carrier Prime Cerebrum": {
-                "plat": 19,
-                "ducats": 65,
-                "required": 1
-            },
-            "Carrier Prime Systems": {
-                "plat": 8,
-                "ducats": 15,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Sentinels",
-        "plat": 82,
-        "prime-access": "Ash"
-    },
-    "Cernos Prime": {
-        "parts": {
-            "Cernos Prime Blueprint": {
-                "plat": 4,
-                "ducats": 45,
-                "required": 1
-            },
-            "Cernos Prime Grip": {
-                "plat": 9,
-                "ducats": 15,
-                "required": 1
-            },
-            "Cernos Prime Lower Limb": {
-                "plat": 35,
+            "Loki Prime Systems Blueprint": {
+                "plat": 37,
                 "ducats": 100,
-                "required": 1
-            },
-            "Cernos Prime String": {
-                "plat": 5,
-                "ducats": 25,
-                "required": 1
-            },
-            "Cernos Prime Upper Limb": {
-                "plat": 10,
-                "ducats": 15,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Primary",
-        "plat": 77,
-        "prime-access": "Valkyr"
-    },
-    "Chroma Prime": {
-        "parts": {
-            "Chroma Prime Blueprint": {
-                "plat": 8,
-                "ducats": 15,
-                "required": 1
-            },
-            "Chroma Prime Chassis Blueprint": {
-                "plat": 7,
-                "ducats": 25,
-                "required": 1
-            },
-            "Chroma Prime Neuroptics Blueprint": {
-                "plat": 22,
-                "ducats": 100,
-                "required": 1
-            },
-            "Chroma Prime Systems Blueprint": {
-                "plat": 27,
-                "ducats": 65,
                 "required": 1
             }
         },
         "vaulted": true,
         "type": "Warframes",
-        "plat": 80,
-        "prime-access": "Chroma"
+        "plat": 97,
+        "prime-access": "Loki"
     },
-    "Corinth Prime": {
+    "Nova Prime": {
         "parts": {
-            "Corinth Prime Barrel": {
-                "plat": 32,
+            "Nova Prime Blueprint": {
+                "plat": 8,
+                "ducats": 45,
+                "required": 1
+            },
+            "Nova Prime Chassis Blueprint": {
+                "plat": 43,
                 "ducats": 100,
                 "required": 1
             },
-            "Corinth Prime Blueprint": {
-                "plat": 3,
+            "Nova Prime Neuroptics Blueprint": {
+                "plat": 8,
                 "ducats": 15,
                 "required": 1
             },
-            "Corinth Prime Receiver": {
-                "plat": 4,
-                "ducats": 45,
-                "required": 1
-            },
-            "Corinth Prime Stock": {
-                "plat": 10,
-                "ducats": 100,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Primary",
-        "plat": 42,
-        "prime-access": "Titania"
-    },
-    "Dakra Prime": {
-        "parts": {
-            "Dakra Prime Blade": {
-                "plat": 20,
-                "ducats": 65,
-                "required": 1
-            },
-            "Dakra Prime Blueprint": {
-                "plat": 10,
-                "ducats": 45,
-                "required": 1
-            },
-            "Dakra Prime Handle": {
+            "Nova Prime Systems Blueprint": {
                 "plat": 9,
                 "ducats": 15,
                 "required": 1
             }
         },
         "vaulted": true,
-        "type": "Melee",
-        "plat": 49,
-        "prime-access": "Mag"
+        "type": "Warframes",
+        "plat": 91,
+        "prime-access": "Nova"
     },
-    "Destreza Prime": {
+    "Nyx Prime": {
         "parts": {
-            "Destreza Prime Blade": {
-                "plat": 35,
-                "ducats": 100,
-                "required": 1
-            },
-            "Destreza Prime Blueprint": {
-                "plat": 3,
-                "ducats": 45,
-                "required": 1
-            },
-            "Destreza Prime Handle": {
-                "plat": 9,
-                "ducats": 15,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Melee",
-        "plat": 59,
-        "prime-access": "Limbo"
-    },
-    "Dethcube Prime": {
-        "parts": {
-            "Dethcube Prime Blueprint": {
-                "plat": 11,
-                "ducats": 100,
-                "required": 1
-            },
-            "Dethcube Prime Carapace": {
-                "plat": 4,
-                "ducats": 45,
-                "required": 1
-            },
-            "Dethcube Prime Cerebrum": {
-                "plat": 20,
-                "ducats": 100,
-                "required": 1
-            },
-            "Dethcube Prime Systems": {
-                "plat": 5,
-                "ducats": 15,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Sentinels",
-        "plat": 49,
-        "prime-access": "Atlas"
-    },
-    "Dual Kamas Prime": {
-        "parts": {
-            "Dual Kamas Prime Blade": {
-                "plat": 57,
-                "ducats": 100,
-                "required": 2
-            },
-            "Dual Kamas Prime Blueprint": {
+            "Nyx Prime Blueprint": {
                 "plat": 6,
                 "ducats": 15,
                 "required": 1
             },
-            "Dual Kamas Prime Handle": {
-                "plat": 10,
-                "ducats": 45,
-                "required": 2
-            }
-        },
-        "vaulted": true,
-        "type": "Melee",
-        "plat": 190,
-        "prime-access": "Trinity"
-    },
-    "Ember Prime": {
-        "parts": {
-            "Ember Prime Blueprint": {
-                "plat": 24,
+            "Nyx Prime Chassis Blueprint": {
+                "plat": 9,
+                "ducats": 65,
+                "required": 1
+            },
+            "Nyx Prime Neuroptics Blueprint": {
+                "plat": 39,
                 "ducats": 100,
                 "required": 1
             },
-            "Ember Prime Chassis Blueprint": {
-                "plat": 20,
-                "ducats": 15,
-                "required": 1
-            },
-            "Ember Prime Neuroptics Blueprint": {
-                "plat": 18,
-                "ducats": 15,
-                "required": 1
-            },
-            "Ember Prime Systems Blueprint": {
-                "plat": 14,
+            "Nyx Prime Systems Blueprint": {
+                "plat": 8,
                 "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": false,
+        "type": "Warframes",
+        "plat": 89,
+        "prime-access": "Nyx"
+    },
+    "Soma Prime": {
+        "parts": {
+            "Soma Prime Blueprint": {
+                "plat": 7,
+                "ducats": 15,
+                "required": 1
+            },
+            "Soma Prime Barrel": {
+                "plat": 12,
+                "ducats": 15,
+                "required": 1
+            },
+            "Soma Prime Receiver": {
+                "plat": 16,
+                "ducats": 45,
+                "required": 1
+            },
+            "Soma Prime Stock": {
+                "plat": 36,
+                "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Primary",
+        "plat": 95,
+        "prime-access": "Nova"
+    },
+    "Mesa Prime": {
+        "parts": {
+            "Mesa Prime Blueprint": {
+                "plat": 5,
+                "ducats": 45,
+                "required": 1
+            },
+            "Mesa Prime Chassis Blueprint": {
+                "plat": 5,
+                "ducats": 15,
+                "required": 1
+            },
+            "Mesa Prime Neuroptics Blueprint": {
+                "plat": 25,
+                "ducats": 100,
+                "required": 1
+            },
+            "Mesa Prime Systems Blueprint": {
+                "plat": 20,
+                "ducats": 100,
                 "required": 1
             }
         },
         "vaulted": true,
         "type": "Warframes",
-        "plat": 99,
-        "prime-access": "Ember"
+        "plat": 70,
+        "prime-access": "Mesa"
     },
-    "Equinox Prime": {
+    "Nekros Prime": {
         "parts": {
-            "Equinox Prime Blueprint": {
-                "plat": 15,
-                "ducats": 45,
+            "Nekros Prime Blueprint": {
+                "plat": 26,
+                "ducats": 65,
                 "required": 1
             },
-            "Equinox Prime Chassis Blueprint": {
-                "plat": 4,
+            "Nekros Prime Chassis Blueprint": {
+                "plat": 8,
                 "ducats": 15,
                 "required": 1
             },
-            "Equinox Prime Neuroptics Blueprint": {
-                "plat": 8,
+            "Nekros Prime Neuroptics Blueprint": {
+                "plat": 23,
                 "ducats": 45,
                 "required": 1
             },
-            "Equinox Prime Systems Blueprint": {
-                "plat": 38,
+            "Nekros Prime Systems Blueprint": {
+                "plat": 35,
                 "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 100,
+        "prime-access": "Nekros"
+    },
+    "Galatine Prime": {
+        "parts": {
+            "Galatine Prime Blueprint": {
+                "plat": 30,
+                "ducats": 100,
+                "required": 1
+            },
+            "Galatine Prime Blade": {
+                "plat": 6,
+                "ducats": 15,
+                "required": 1
+            },
+            "Galatine Prime Handle": {
+                "plat": 5,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Melee",
+        "plat": 44,
+        "prime-access": "Nekros"
+    },
+    "Pandero Prime": {
+        "parts": {
+            "Pandero Prime Blueprint": {
+                "plat": 3,
+                "ducats": 15,
+                "required": 1
+            },
+            "Pandero Prime Barrel": {
+                "plat": 6,
+                "ducats": 45,
+                "required": 1
+            },
+            "Pandero Prime Receiver": {
+                "plat": 18,
+                "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Secondary",
+        "plat": 32,
+        "prime-access": "Octavia"
+    },
+    "Tenora Prime": {
+        "parts": {
+            "Tenora Prime Blueprint": {
+                "plat": 3,
+                "ducats": 15,
+                "required": 1
+            },
+            "Tenora Prime Barrel": {
+                "plat": 13,
+                "ducats": 100,
+                "required": 1
+            },
+            "Tenora Prime Receiver": {
+                "plat": 16,
+                "ducats": 100,
+                "required": 1
+            },
+            "Tenora Prime Stock": {
+                "plat": 6,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Primary",
+        "plat": 55,
+        "prime-access": "Octavia"
+    },
+    "Octavia Prime": {
+        "parts": {
+            "Octavia Prime Blueprint": {
+                "plat": 32,
+                "ducats": 100,
+                "required": 1
+            },
+            "Octavia Prime Chassis Blueprint": {
+                "plat": 10,
+                "ducats": 45,
+                "required": 1
+            },
+            "Octavia Prime Neuroptics Blueprint": {
+                "plat": 6,
+                "ducats": 15,
+                "required": 1
+            },
+            "Octavia Prime Systems Blueprint": {
+                "plat": 8,
+                "ducats": 15,
                 "required": 1
             }
         },
         "vaulted": true,
         "type": "Warframes",
         "plat": 75,
-        "prime-access": "Equinox"
+        "prime-access": "Octavia"
     },
-    "Euphona Prime": {
+    "Volnus Prime": {
         "parts": {
-            "Euphona Prime Barrel": {
+            "Volnus Prime Blueprint": {
+                "plat": 2,
+                "ducats": 15,
+                "required": 1
+            },
+            "Volnus Prime Handle": {
+                "plat": 22,
+                "ducats": 100,
+                "required": 1
+            },
+            "Volnus Prime Head": {
                 "plat": 5,
                 "ducats": 45,
                 "required": 1
-            },
-            "Euphona Prime Blueprint": {
-                "plat": 5,
-                "ducats": 15,
-                "required": 1
-            },
-            "Euphona Prime Receiver": {
-                "plat": 53,
-                "ducats": 100,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Secondary",
-        "plat": 64,
-        "prime-access": "Banshee"
-    },
-    "Fang Prime": {
-        "parts": {
-            "Fang Prime Blade": {
-                "plat": 4,
-                "ducats": 15,
-                "required": 2
-            },
-            "Fang Prime Blueprint": {
-                "plat": 1,
-                "ducats": 15,
-                "required": 1
-            },
-            "Fang Prime Handle": {
-                "plat": 7,
-                "ducats": 25,
-                "required": 2
-            }
-        },
-        "vaulted": false,
-        "type": "Melee",
-        "plat": 15,
-        "prime-access": "N/A"
-    },
-    "Fragor Prime": {
-        "parts": {
-            "Fragor Prime Blueprint": {
-                "plat": 9,
-                "ducats": 65,
-                "required": 1
-            },
-            "Fragor Prime Handle": {
-                "plat": 8,
-                "ducats": 65,
-                "required": 1
-            },
-            "Fragor Prime Head": {
-                "plat": 14,
-                "ducats": 15,
-                "required": 1
             }
         },
         "vaulted": true,
         "type": "Melee",
-        "plat": 37,
-        "prime-access": "Vauban"
-    },
-    "Frost Prime": {
-        "parts": {
-            "Frost Prime Blueprint": {
-                "plat": 55,
-                "ducats": 100,
-                "required": 1
-            },
-            "Frost Prime Chassis Blueprint": {
-                "plat": 10,
-                "ducats": 15,
-                "required": 1
-            },
-            "Frost Prime Neuroptics Blueprint": {
-                "plat": 8,
-                "ducats": 15,
-                "required": 1
-            },
-            "Frost Prime Systems Blueprint": {
-                "plat": 13,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Warframes",
-        "plat": 101,
-        "prime-access": "Frost"
-    },
-    "Galatine Prime": {
-        "parts": {
-            "Galatine Prime Blade": {
-                "plat": 7,
-                "ducats": 15,
-                "required": 1
-            },
-            "Galatine Prime Blueprint": {
-                "plat": 49,
-                "ducats": 100,
-                "required": 1
-            },
-            "Galatine Prime Handle": {
-                "plat": 7,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Melee",
-        "plat": 67,
-        "prime-access": "Nekros"
+        "plat": 30,
+        "prime-access": "Gara"
     },
     "Gara Prime": {
         "parts": {
             "Gara Prime Blueprint": {
-                "plat": 24,
+                "plat": 41,
                 "ducats": 100,
                 "required": 1
             },
             "Gara Prime Chassis Blueprint": {
-                "plat": 10,
+                "plat": 9,
                 "ducats": 45,
                 "required": 1
             },
             "Gara Prime Neuroptics Blueprint": {
-                "plat": 3,
+                "plat": 4,
                 "ducats": 45,
                 "required": 1
             },
             "Gara Prime Systems Blueprint": {
-                "plat": 3,
+                "plat": 4,
                 "ducats": 15,
                 "required": 1
             }
         },
-        "vaulted": false,
+        "vaulted": true,
         "type": "Warframes",
-        "plat": 54,
+        "plat": 69,
         "prime-access": "Gara"
     },
-    "Glaive Prime": {
+    "Astilla Prime": {
         "parts": {
-            "Glaive Prime Blade": {
-                "plat": 30,
-                "ducats": 45,
-                "required": 2
-            },
-            "Glaive Prime Blueprint": {
-                "plat": 47,
-                "ducats": 100,
-                "required": 1
-            },
-            "Glaive Prime Disc": {
-                "plat": 23,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Melee",
-        "plat": 158,
-        "prime-access": "Ember"
-    },
-    "Gram Prime": {
-        "parts": {
-            "Gram Prime Blade": {
+            "Astilla Prime Blueprint": {
                 "plat": 5,
-                "ducats": 15,
-                "required": 1
-            },
-            "Gram Prime Blueprint": {
-                "plat": 7,
                 "ducats": 45,
                 "required": 1
             },
-            "Gram Prime Handle": {
-                "plat": 20,
-                "ducats": 100,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Melee",
-        "plat": 40,
-        "prime-access": "Chroma"
-    },
-    "Guandao Prime": {
-        "parts": {
-            "Guandao Prime Blade": {
-                "plat": 6,
-                "ducats": 15,
-                "required": 2
-            },
-            "Guandao Prime Blueprint": {
-                "plat": 3,
-                "ducats": 45,
-                "required": 1
-            },
-            "Guandao Prime Handle": {
-                "plat": 9,
-                "ducats": 100,
-                "required": 1
-            }
-        },
-        "vaulted": false,
-        "type": "Melee",
-        "plat": 23,
-        "prime-access": "Nezha"
-    },
-    "Harrow Prime": {
-        "parts": {
-            "Harrow Prime Blueprint": {
-                "plat": 26,
-                "ducats": 45,
-                "required": 1
-            },
-            "Harrow Prime Chassis Blueprint": {
-                "plat": 9,
-                "ducats": 15,
-                "required": 1
-            },
-            "Harrow Prime Neuroptics Blueprint": {
-                "plat": 30,
-                "ducats": 45,
-                "required": 1
-            },
-            "Harrow Prime Systems Blueprint": {
-                "plat": 14,
-                "ducats": 100,
-                "required": 1
-            }
-        },
-        "vaulted": false,
-        "type": "Warframes",
-        "plat": 100,
-        "prime-access": "N/A"
-    },
-    "Helios Prime": {
-        "parts": {
-            "Helios Prime Blueprint": {
-                "plat": 7,
-                "ducats": 45,
-                "required": 1
-            },
-            "Helios Prime Carapace": {
-                "plat": 5,
-                "ducats": 15,
-                "required": 1
-            },
-            "Helios Prime Cerebrum": {
-                "plat": 54,
-                "ducats": 100,
-                "required": 1
-            },
-            "Helios Prime Systems": {
-                "plat": 17,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Sentinels",
-        "plat": 85,
-        "prime-access": "Banshee"
-    },
-    "Hikou Prime": {
-        "parts": {
-            "Hikou Prime Blueprint": {
-                "plat": 6,
-                "ducats": 15,
-                "required": 1
-            },
-            "Hikou Prime Pouch": {
+            "Astilla Prime Barrel": {
                 "plat": 12,
-                "ducats": 15,
-                "required": 2
+                "ducats": 100,
+                "required": 1
             },
-            "Hikou Prime Stars": {
-                "plat": 9,
+            "Astilla Prime Receiver": {
+                "plat": 5,
                 "ducats": 15,
-                "required": 2
+                "required": 1
+            },
+            "Astilla Prime Stock": {
+                "plat": 6,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Primary",
+        "plat": 38,
+        "prime-access": "Gara"
+    },
+    "Strun Prime": {
+        "parts": {
+            "Strun Prime Blueprint": {
+                "plat": 18,
+                "ducats": 100,
+                "required": 1
+            },
+            "Strun Prime Barrel": {
+                "plat": 5,
+                "ducats": 45,
+                "required": 1
+            },
+            "Strun Prime Receiver": {
+                "plat": 6,
+                "ducats": 15,
+                "required": 1
+            },
+            "Strun Prime Stock": {
+                "plat": 6,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Primary",
+        "plat": 45,
+        "prime-access": "Nidus"
+    },
+    "Magnus Prime": {
+        "parts": {
+            "Magnus Prime Blueprint": {
+                "plat": 4,
+                "ducats": 15,
+                "required": 1
+            },
+            "Magnus Prime Barrel": {
+                "plat": 28,
+                "ducats": 100,
+                "required": 1
+            },
+            "Magnus Prime Receiver": {
+                "plat": 5,
+                "ducats": 45,
+                "required": 1
             }
         },
         "vaulted": true,
         "type": "Secondary",
-        "plat": 55,
-        "prime-access": "Nyx"
+        "plat": 49,
+        "prime-access": "Nidus"
     },
-    "Hydroid Prime": {
+    "Nidus Prime": {
         "parts": {
-            "Hydroid Prime Blueprint": {
-                "plat": 11,
+            "Nidus Prime Blueprint": {
+                "plat": 5,
                 "ducats": 45,
                 "required": 1
             },
-            "Hydroid Prime Chassis Blueprint": {
+            "Nidus Prime Chassis Blueprint": {
+                "plat": 22,
+                "ducats": 100,
+                "required": 1
+            },
+            "Nidus Prime Neuroptics Blueprint": {
+                "plat": 39,
+                "ducats": 100,
+                "required": 1
+            },
+            "Nidus Prime Systems Blueprint": {
+                "plat": 3,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 85,
+        "prime-access": "Nidus"
+    },
+    "Knell Prime": {
+        "parts": {
+            "Knell Prime Blueprint": {
+                "plat": 2,
+                "ducats": 15,
+                "required": 1
+            },
+            "Knell Prime Barrel": {
+                "plat": 19,
+                "ducats": 100,
+                "required": 1
+            },
+            "Knell Prime Receiver": {
+                "plat": 4,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Secondary",
+        "plat": 29,
+        "prime-access": "Harrow"
+    },
+    "Harrow Prime": {
+        "parts": {
+            "Harrow Prime Blueprint": {
+                "plat": 4,
+                "ducats": 45,
+                "required": 1
+            },
+            "Harrow Prime Chassis Blueprint": {
                 "plat": 8,
                 "ducats": 15,
                 "required": 1
             },
-            "Hydroid Prime Neuroptics Blueprint": {
-                "plat": 9,
+            "Harrow Prime Neuroptics Blueprint": {
+                "plat": 5,
                 "ducats": 45,
                 "required": 1
             },
-            "Hydroid Prime Systems Blueprint": {
+            "Harrow Prime Systems Blueprint": {
+                "plat": 22,
+                "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 49,
+        "prime-access": "Harrow"
+    },
+    "Scourge Prime": {
+        "parts": {
+            "Scourge Prime Blueprint": {
+                "plat": 11,
+                "ducats": 100,
+                "required": 1
+            },
+            "Scourge Prime Barrel": {
+                "plat": 24,
+                "ducats": 100,
+                "required": 1
+            },
+            "Scourge Prime Blade": {
+                "plat": 3,
+                "ducats": 15,
+                "required": 1
+            },
+            "Scourge Prime Handle": {
+                "plat": 3,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Primary",
+        "plat": 53,
+        "prime-access": "Harrow"
+    },
+    "Corvas Prime": {
+        "parts": {
+            "Corvas Prime Blueprint": {
+                "plat": 2,
+                "ducats": 45,
+                "required": 1
+            },
+            "Corvas Prime Barrel": {
+                "plat": 16,
+                "ducats": 100,
+                "required": 1
+            },
+            "Corvas Prime Receiver": {
+                "plat": 5,
+                "ducats": 15,
+                "required": 1
+            },
+            "Corvas Prime Stock": {
+                "plat": 3,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Archgun",
+        "plat": 39,
+        "prime-access": "Garuda"
+    },
+    "Nagantaka Prime": {
+        "parts": {
+            "Nagantaka Prime Blueprint": {
+                "plat": 11,
+                "ducats": 100,
+                "required": 1
+            },
+            "Nagantaka Prime Barrel": {
+                "plat": 5,
+                "ducats": 15,
+                "required": 1
+            },
+            "Nagantaka Prime Receiver": {
+                "plat": 3,
+                "ducats": 45,
+                "required": 1
+            },
+            "Nagantaka Prime Stock": {
+                "plat": 4,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Primary",
+        "plat": 30,
+        "prime-access": "Garuda"
+    },
+    "Garuda Prime": {
+        "parts": {
+            "Garuda Prime Blueprint": {
+                "plat": 3,
+                "ducats": 15,
+                "required": 1
+            },
+            "Garuda Prime Chassis Blueprint": {
+                "plat": 4,
+                "ducats": 45,
+                "required": 1
+            },
+            "Garuda Prime Neuroptics Blueprint": {
+                "plat": 16,
+                "ducats": 100,
+                "required": 1
+            },
+            "Garuda Prime Systems Blueprint": {
                 "plat": 48,
                 "ducats": 100,
                 "required": 1
@@ -1110,523 +964,1137 @@
         },
         "vaulted": true,
         "type": "Warframes",
-        "plat": 107,
-        "prime-access": "Hydroid"
+        "plat": 75,
+        "prime-access": "Garuda"
     },
-    "Inaros Prime": {
+    "Dual Keres Prime": {
         "parts": {
-            "Inaros Prime Blueprint": {
-                "plat": 4,
-                "ducats": 45,
-                "required": 1
-            },
-            "Inaros Prime Chassis Blueprint": {
-                "plat": 3,
-                "ducats": 45,
-                "required": 1
-            },
-            "Inaros Prime Neuroptics Blueprint": {
-                "plat": 19,
-                "ducats": 100,
-                "required": 1
-            },
-            "Inaros Prime Systems Blueprint": {
-                "plat": 5,
-                "ducats": 15,
-                "required": 1
-            }
-        },
-        "vaulted": false,
-        "type": "Warframes",
-        "plat": 34,
-        "prime-access": "Inaros"
-    },
-    "Ivara Prime": {
-        "parts": {
-            "Ivara Prime Blueprint": {
-                "plat": 5,
-                "ducats": 45,
-                "required": 1
-            },
-            "Ivara Prime Chassis Blueprint": {
-                "plat": 23,
-                "ducats": 100,
-                "required": 1
-            },
-            "Ivara Prime Neuroptics Blueprint": {
-                "plat": 5,
-                "ducats": 15,
-                "required": 1
-            },
-            "Ivara Prime Systems Blueprint": {
-                "plat": 4,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Warframes",
-        "plat": 42,
-        "prime-access": "Ivara"
-    },
-    "Karyst Prime": {
-        "parts": {
-            "Karyst Prime Blade": {
+            "Dual Keres Prime Blueprint": {
                 "plat": 10,
                 "ducats": 100,
                 "required": 1
             },
-            "Karyst Prime Blueprint": {
+            "Dual Keres Prime Blade": {
+                "plat": 5,
+                "ducats": 15,
+                "required": 2
+            },
+            "Dual Keres Prime Handle": {
+                "plat": 5,
+                "ducats": 45,
+                "required": 2
+            }
+        },
+        "vaulted": true,
+        "type": "Melee",
+        "plat": 40,
+        "prime-access": "N/A"
+    },
+    "Hystrix Prime": {
+        "parts": {
+            "Hystrix Prime Blueprint": {
+                "plat": 4,
+                "ducats": 45,
+                "required": 1
+            },
+            "Hystrix Prime Barrel": {
                 "plat": 4,
                 "ducats": 15,
                 "required": 1
             },
-            "Karyst Prime Handle": {
+            "Hystrix Prime Receiver": {
+                "plat": 9,
+                "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Secondary",
+        "plat": 19,
+        "prime-access": "Khora"
+    },
+    "Khora Prime": {
+        "parts": {
+            "Khora Prime Blueprint": {
+                "plat": 25,
+                "ducats": 100,
+                "required": 1
+            },
+            "Khora Prime Chassis Blueprint": {
                 "plat": 4,
                 "ducats": 45,
+                "required": 1
+            },
+            "Khora Prime Neuroptics Blueprint": {
+                "plat": 33,
+                "ducats": 100,
+                "required": 1
+            },
+            "Khora Prime Systems Blueprint": {
+                "plat": 4,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 70,
+        "prime-access": "Khora"
+    },
+    "Tatsu Prime": {
+        "parts": {
+            "Tatsu Prime Blueprint": {
+                "plat": 2,
+                "ducats": 15,
+                "required": 1
+            },
+            "Tatsu Prime Blade": {
+                "plat": 3,
+                "ducats": 45,
+                "required": 1
+            },
+            "Tatsu Prime Handle": {
+                "plat": 12,
+                "ducats": 100,
                 "required": 1
             }
         },
         "vaulted": true,
         "type": "Melee",
-        "plat": 19,
-        "prime-access": "Inaros"
+        "plat": 17,
+        "prime-access": "Revenant"
     },
-    "Kavasa Prime Kubrow Collar": {
+    "Revenant Prime": {
         "parts": {
-            "Kavasa Prime Band": {
-                "plat": 7,
-                "ducats": 45,
-                "required": 1
-            },
-            "Kavasa Prime Buckle": {
-                "plat": 19,
-                "ducats": 65,
-                "required": 1
-            },
-            "Kavasa Prime Kubrow Collar Blueprint": {
-                "plat": 6,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": false,
-        "type": "Skins",
-        "plat": 29,
-        "prime-access": "Trinity"
-    },
-    "Knell Prime": {
-        "parts": {
-            "Knell Prime Barrel": {
+            "Revenant Prime Blueprint": {
                 "plat": 16,
                 "ducats": 100,
                 "required": 1
             },
-            "Knell Prime Blueprint": {
-                "plat": 13,
+            "Revenant Prime Chassis Blueprint": {
+                "plat": 4,
                 "ducats": 15,
                 "required": 1
             },
-            "Knell Prime Receiver": {
-                "plat": 8,
+            "Revenant Prime Neuroptics Blueprint": {
+                "plat": 6,
+                "ducats": 45,
+                "required": 1
+            },
+            "Revenant Prime Systems Blueprint": {
+                "plat": 7,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 40,
+        "prime-access": "Revenant"
+    },
+    "Phantasma Prime": {
+        "parts": {
+            "Phantasma Prime Blueprint": {
+                "plat": 3,
+                "ducats": 45,
+                "required": 1
+            },
+            "Phantasma Prime Barrel": {
+                "plat": 10,
+                "ducats": 100,
+                "required": 1
+            },
+            "Phantasma Prime Receiver": {
+                "plat": 3,
+                "ducats": 15,
+                "required": 1
+            },
+            "Phantasma Prime Stock": {
+                "plat": 11,
+                "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Primary",
+        "plat": 34,
+        "prime-access": "Revenant"
+    },
+    "Hildryn Prime": {
+        "parts": {
+            "Hildryn Prime Blueprint": {
+                "plat": 14,
+                "ducats": 100,
+                "required": 1
+            },
+            "Hildryn Prime Chassis Blueprint": {
+                "plat": 3,
+                "ducats": 45,
+                "required": 1
+            },
+            "Hildryn Prime Neuroptics Blueprint": {
+                "plat": 2,
+                "ducats": 45,
+                "required": 1
+            },
+            "Hildryn Prime Systems Blueprint": {
+                "plat": 1,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": false,
+        "type": "Warframes",
+        "plat": 21,
+        "prime-access": "Hildryn"
+    },
+    "Larkspur Prime": {
+        "parts": {
+            "Larkspur Prime Blueprint": {
+                "plat": 1,
+                "ducats": 15,
+                "required": 1
+            },
+            "Larkspur Prime Barrel": {
+                "plat": 13,
+                "ducats": 100,
+                "required": 1
+            },
+            "Larkspur Prime Receiver": {
+                "plat": 3,
+                "ducats": 45,
+                "required": 1
+            },
+            "Larkspur Prime Stock": {
+                "plat": 2,
                 "ducats": 45,
                 "required": 1
             }
         },
         "vaulted": false,
-        "type": "Secondary",
-        "plat": 55,
-        "prime-access": "N/A"
+        "type": "Archgun",
+        "plat": 18,
+        "prime-access": "Hildryn"
     },
-    "Kogake Prime": {
+    "Shade Prime": {
         "parts": {
-            "Kogake Prime Blueprint": {
-                "plat": 5,
-                "ducats": 45,
+            "Shade Prime Carapace": {
+                "plat": 10,
+                "ducats": 100,
                 "required": 1
             },
-            "Kogake Prime Boot": {
+            "Shade Prime Cerebrum": {
+                "plat": 1,
+                "ducats": 15,
+                "required": 1
+            },
+            "Shade Prime Systems": {
+                "plat": 3,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": false,
+        "type": "Sentinels",
+        "plat": 14,
+        "prime-access": "Hildryn"
+    },
+    "Vasto Prime": {
+        "parts": {
+            "Vasto Prime Blueprint": {
                 "plat": 7,
-                "ducats": 15,
-                "required": 2
-            },
-            "Kogake Prime Gauntlet": {
-                "plat": 32,
-                "ducats": 100,
-                "required": 2
-            }
-        },
-        "vaulted": true,
-        "type": "Melee",
-        "plat": 87,
-        "prime-access": "Mirage"
-    },
-    "Kronen Prime": {
-        "parts": {
-            "Kronen Prime Blade": {
-                "plat": 72,
-                "ducats": 100,
-                "required": 2
-            },
-            "Kronen Prime Blueprint": {
-                "plat": 5,
-                "ducats": 15,
-                "required": 1
-            },
-            "Kronen Prime Handle": {
-                "plat": 19,
                 "ducats": 45,
-                "required": 2
-            }
-        },
-        "vaulted": true,
-        "type": "Melee",
-        "plat": 199,
-        "prime-access": "Zephyr"
-    },
-    "Latron Prime": {
-        "parts": {
-            "Latron Prime Barrel": {
-                "plat": 13,
-                "ducats": 15,
                 "required": 1
             },
-            "Latron Prime Blueprint": {
+            "Vasto Prime Barrel": {
                 "plat": 8,
                 "ducats": 15,
                 "required": 1
             },
-            "Latron Prime Receiver": {
-                "plat": 15,
+            "Vasto Prime Receiver": {
+                "plat": 7,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Secondary",
+        "plat": 28,
+        "prime-access": "Nova"
+    },
+    "Zhuge Prime": {
+        "parts": {
+            "Zhuge Prime Blueprint": {
+                "plat": 4,
+                "ducats": 45,
+                "required": 1
+            },
+            "Zhuge Prime Barrel": {
+                "plat": 16,
+                "ducats": 100,
+                "required": 1
+            },
+            "Zhuge Prime Receiver": {
+                "plat": 9,
+                "ducats": 45,
+                "required": 1
+            },
+            "Zhuge Prime Grip": {
+                "plat": 4,
                 "ducats": 15,
                 "required": 1
             },
-            "Latron Prime Stock": {
-                "plat": 18,
+            "Zhuge Prime String": {
+                "plat": 6,
                 "ducats": 15,
                 "required": 1
             }
         },
         "vaulted": true,
         "type": "Primary",
-        "plat": 57,
-        "prime-access": "Frost"
+        "plat": 52,
+        "prime-access": "Wukong"
     },
-    "Lex Prime": {
+    "Wisp Prime": {
         "parts": {
-            "Lex Prime Barrel": {
-                "plat": 4,
-                "ducats": 15,
-                "required": 1
-            },
-            "Lex Prime Blueprint": {
-                "plat": 3,
-                "ducats": 25,
-                "required": 1
-            },
-            "Lex Prime Receiver": {
-                "plat": 7,
-                "ducats": 15,
-                "required": 1
-            }
-        },
-        "vaulted": false,
-        "type": "Secondary",
-        "plat": 12,
-        "prime-access": "N/A"
-    },
-    "Limbo Prime": {
-        "parts": {
-            "Limbo Prime Blueprint": {
-                "plat": 6,
-                "ducats": 45,
-                "required": 1
-            },
-            "Limbo Prime Chassis Blueprint": {
-                "plat": 62,
+            "Wisp Prime Blueprint": {
+                "plat": 16,
                 "ducats": 100,
                 "required": 1
             },
-            "Limbo Prime Neuroptics Blueprint": {
-                "plat": 28,
-                "ducats": 100,
-                "required": 1
-            },
-            "Limbo Prime Systems Blueprint": {
-                "plat": 3,
-                "ducats": 15,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Warframes",
-        "plat": 114,
-        "prime-access": "Limbo"
-    },
-    "Loki Prime": {
-        "parts": {
-            "Loki Prime Blueprint": {
-                "plat": 14,
-                "ducats": 15,
-                "required": 1
-            },
-            "Loki Prime Chassis Blueprint": {
-                "plat": 42,
-                "ducats": 45,
-                "required": 1
-            },
-            "Loki Prime Neuroptics Blueprint": {
-                "plat": 29,
-                "ducats": 15,
-                "required": 1
-            },
-            "Loki Prime Systems Blueprint": {
-                "plat": 49,
-                "ducats": 100,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Warframes",
-        "plat": 165,
-        "prime-access": "Loki"
-    },
-    "Mag Prime": {
-        "parts": {
-            "Mag Prime Blueprint": {
-                "plat": 65,
-                "ducats": 100,
-                "required": 1
-            },
-            "Mag Prime Chassis Blueprint": {
-                "plat": 22,
-                "ducats": 45,
-                "required": 1
-            },
-            "Mag Prime Neuroptics Blueprint": {
-                "plat": 20,
-                "ducats": 15,
-                "required": 1
-            },
-            "Mag Prime Systems Blueprint": {
-                "plat": 25,
-                "ducats": 15,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Warframes",
-        "plat": 164,
-        "prime-access": "Mag"
-    },
-    "Magnus Prime": {
-        "parts": {
-            "Magnus Prime Barrel": {
-                "plat": 24,
-                "ducats": 100,
-                "required": 1
-            },
-            "Magnus Prime Blueprint": {
-                "plat": 3,
-                "ducats": 15,
-                "required": 1
-            },
-            "Magnus Prime Receiver": {
-                "plat": 8,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": false,
-        "type": "Secondary",
-        "plat": 40,
-        "prime-access": "Nidus"
-    },
-    "Mesa Prime": {
-        "parts": {
-            "Mesa Prime Blueprint": {
-                "plat": 6,
-                "ducats": 45,
-                "required": 1
-            },
-            "Mesa Prime Chassis Blueprint": {
-                "plat": 6,
-                "ducats": 15,
-                "required": 1
-            },
-            "Mesa Prime Neuroptics Blueprint": {
-                "plat": 40,
-                "ducats": 100,
-                "required": 1
-            },
-            "Mesa Prime Systems Blueprint": {
-                "plat": 30,
-                "ducats": 100,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Warframes",
-        "plat": 91,
-        "prime-access": "Mesa"
-    },
-    "Mirage Prime": {
-        "parts": {
-            "Mirage Prime Blueprint": {
-                "plat": 62,
-                "ducats": 100,
-                "required": 1
-            },
-            "Mirage Prime Chassis Blueprint": {
+            "Wisp Prime Chassis Blueprint": {
                 "plat": 10,
-                "ducats": 15,
-                "required": 1
-            },
-            "Mirage Prime Neuroptics Blueprint": {
-                "plat": 7,
-                "ducats": 15,
-                "required": 1
-            },
-            "Mirage Prime Systems Blueprint": {
-                "plat": 17,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Warframes",
-        "plat": 110,
-        "prime-access": "Mirage"
-    },
-    "Nami Skyla Prime": {
-        "parts": {
-            "Nami Skyla Prime Blade": {
-                "plat": 50,
                 "ducats": 100,
-                "required": 2
+                "required": 1
             },
-            "Nami Skyla Prime Blueprint": {
-                "plat": 12,
+            "Wisp Prime Neuroptics Blueprint": {
+                "plat": 3,
+                "ducats": 45,
+                "required": 1
+            },
+            "Wisp Prime Systems Blueprint": {
+                "plat": 3,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": false,
+        "type": "Warframes",
+        "plat": 75,
+        "prime-access": "Wisp"
+    },
+    "Fulmin Prime": {
+        "parts": {
+            "Fulmin Prime Blueprint": {
+                "plat": 3,
+                "ducats": 45,
+                "required": 1
+            },
+            "Fulmin Prime Barrel": {
+                "plat": 2,
                 "ducats": 15,
                 "required": 1
             },
-            "Nami Skyla Prime Handle": {
-                "plat": 14,
-                "ducats": 45,
-                "required": 2
-            }
-        },
-        "vaulted": true,
-        "type": "Melee",
-        "plat": 175,
-        "prime-access": "Hydroid"
-    },
-    "Nekros Prime": {
-        "parts": {
-            "Nekros Prime Blueprint": {
-                "plat": 38,
-                "ducats": 65,
-                "required": 1
-            },
-            "Nekros Prime Chassis Blueprint": {
+            "Fulmin Prime Receiver": {
                 "plat": 11,
-                "ducats": 15,
+                "ducats": 100,
                 "required": 1
             },
-            "Nekros Prime Neuroptics Blueprint": {
-                "plat": 28,
+            "Fulmin Prime Stock": {
+                "plat": 2,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": false,
+        "type": "Primary",
+        "plat": 19,
+        "prime-access": "Wisp"
+    },
+    "Grendel Prime": {
+        "parts": {
+            "Grendel Prime Blueprint": {
+                "plat": 9,
+                "ducats": 100,
+                "required": 1
+            },
+            "Grendel Prime Chassis Blueprint": {
+                "plat": 3,
                 "ducats": 45,
                 "required": 1
             },
-            "Nekros Prime Systems Blueprint": {
-                "plat": 52,
+            "Grendel Prime Neuroptics Blueprint": {
+                "plat": 3,
+                "ducats": 15,
+                "required": 1
+            },
+            "Grendel Prime Systems Blueprint": {
+                "plat": 19,
                 "ducats": 100,
                 "required": 1
             }
         },
-        "vaulted": true,
+        "vaulted": false,
         "type": "Warframes",
-        "plat": 162,
-        "prime-access": "Nekros"
+        "plat": 39,
+        "prime-access": "Grendel"
     },
-    "Nezha Prime": {
+    "Masseter Prime": {
         "parts": {
-            "Nezha Prime Blueprint": {
-                "plat": 5,
+            "Masseter Prime Blueprint": {
+                "plat": 3,
                 "ducats": 45,
                 "required": 1
             },
-            "Nezha Prime Chassis Blueprint": {
-                "plat": 25,
+            "Masseter Prime Blade": {
+                "plat": 8,
                 "ducats": 100,
                 "required": 1
             },
-            "Nezha Prime Neuroptics Blueprint": {
-                "plat": 14,
-                "ducats": 100,
-                "required": 1
-            },
-            "Nezha Prime Systems Blueprint": {
+            "Masseter Prime Handle": {
                 "plat": 2,
                 "ducats": 15,
                 "required": 1
             }
         },
         "vaulted": false,
-        "type": "Warframes",
-        "plat": 48,
-        "prime-access": "Nezha"
+        "type": "Melee",
+        "plat": 13,
+        "prime-access": "Grendel"
     },
-    "Nidus Prime": {
+    "Dethcube Prime": {
         "parts": {
-            "Nidus Prime Blueprint": {
+            "Dethcube Prime Carapace": {
                 "plat": 6,
                 "ducats": 45,
                 "required": 1
             },
-            "Nidus Prime Chassis Blueprint": {
-                "plat": 20,
+            "Dethcube Prime Cerebrum": {
+                "plat": 30,
+                "ducats": 65,
+                "required": 1
+            },
+            "Dethcube Prime Systems": {
+                "plat": 9,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Sentinels",
+        "plat": 75,
+        "prime-access": "Atlas"
+    },
+    "Baza Prime": {
+        "parts": {
+            "Baza Prime Blueprint": {
+                "plat": 9,
+                "ducats": 65,
+                "required": 1
+            },
+            "Baza Prime Barrel": {
+                "plat": 3,
+                "ducats": 45,
+                "required": 1
+            },
+            "Baza Prime Receiver": {
+                "plat": 4,
+                "ducats": 15,
+                "required": 1
+            },
+            "Baza Prime Stock": {
+                "plat": 29,
+                "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Primary",
+        "plat": 74,
+        "prime-access": "Ivara"
+    },
+    "Aksomati Prime": {
+        "parts": {
+            "Aksomati Prime Blueprint": {
+                "plat": 3,
+                "ducats": 15,
+                "required": 1
+            },
+            "Aksomati Prime Barrel": {
+                "plat": 9,
+                "ducats": 45,
+                "required": 2
+            },
+            "Aksomati Prime Link": {
+                "plat": 34,
                 "ducats": 100,
                 "required": 1
             },
-            "Nidus Prime Neuroptics Blueprint": {
-                "plat": 23,
+            "Aksomati Prime Receiver": {
+                "plat": 7,
+                "ducats": 15,
+                "required": 2
+            }
+        },
+        "vaulted": true,
+        "type": "Secondary",
+        "plat": 90,
+        "prime-access": "Ivara"
+    },
+    "Dual Kamas Prime": {
+        "parts": {
+            "Dual Kamas Prime Blueprint": {
+                "plat": 7,
+                "ducats": 15,
+                "required": 1
+            },
+            "Dual Kamas Prime Blade": {
+                "plat": 42,
+                "ducats": 100,
+                "required": 2
+            },
+            "Dual Kamas Prime Handle": {
+                "plat": 11,
+                "ducats": 45,
+                "required": 2
+            }
+        },
+        "vaulted": true,
+        "type": "Melee",
+        "plat": 125,
+        "prime-access": "N/A"
+    },
+    "Braton Prime": {
+        "parts": {
+            "Braton Prime Blueprint": {
+                "plat": 1,
+                "ducats": 25,
+                "required": 1
+            },
+            "Braton Prime Barrel": {
+                "plat": 2,
+                "ducats": 15,
+                "required": 1
+            },
+            "Braton Prime Receiver": {
+                "plat": 3,
+                "ducats": 45,
+                "required": 1
+            },
+            "Braton Prime Stock": {
+                "plat": 2,
+                "ducats": 25,
+                "required": 1
+            }
+        },
+        "vaulted": false,
+        "type": "Primary",
+        "plat": 8,
+        "prime-access": "N/A"
+    },
+    "Aklex Prime": {
+        "parts": {
+            "Aklex Prime Blueprint": {
+                "plat": 7,
+                "ducats": 45,
+                "required": 1
+            },
+            "Aklex Prime Link": {
+                "plat": 26,
+                "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Secondary",
+        "plat": 39,
+        "prime-access": "N/A"
+    },
+    "Sevagoth Prime": {
+        "parts": {
+            "Sevagoth Prime Blueprint": {
+                "plat": 9,
+                "ducats": 45,
+                "required": 1
+            },
+            "Sevagoth Prime Chassis Blueprint": {
+                "plat": 39,
                 "ducats": 100,
                 "required": 1
             },
-            "Nidus Prime Systems Blueprint": {
-                "plat": 8,
+            "Sevagoth Prime Neuroptics Blueprint": {
+                "plat": 6,
+                "ducats": 15,
+                "required": 1
+            },
+            "Sevagoth Prime Systems Blueprint": {
+                "plat": 4,
                 "ducats": 15,
                 "required": 1
             }
         },
         "vaulted": false,
         "type": "Warframes",
-        "plat": 78,
-        "prime-access": "Nidus"
+        "plat": 75,
+        "prime-access": "N/A"
     },
-    "Nikana Prime": {
+    "Zylok Prime": {
         "parts": {
-            "Nikana Prime Blade": {
-                "plat": 28,
-                "ducats": 65,
-                "required": 1
-            },
-            "Nikana Prime Blueprint": {
+            "Zylok Prime Blueprint": {
                 "plat": 8,
-                "ducats": 25,
+                "ducats": 100,
                 "required": 1
             },
-            "Nikana Prime Hilt": {
-                "plat": 65,
+            "Zylok Prime Barrel": {
+                "plat": 2,
+                "ducats": 15,
+                "required": 1
+            },
+            "Zylok Prime Receiver": {
+                "plat": 3,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": false,
+        "type": "Secondary",
+        "plat": 13,
+        "prime-access": "Grendel"
+    },
+    "Akarius Prime": {
+        "parts": {
+            "Akarius Prime Blueprint": {
+                "plat": 8,
                 "ducats": 100,
+                "required": 1
+            },
+            "Akarius Prime Barrel": {
+                "plat": 5,
+                "ducats": 15,
+                "required": 2
+            },
+            "Akarius Prime Link": {
+                "plat": 3,
+                "ducats": 45,
+                "required": 1
+            },
+            "Akarius Prime Receiver": {
+                "plat": 8,
+                "ducats": 100,
+                "required": 2
+            }
+        },
+        "vaulted": false,
+        "type": "Secondary",
+        "plat": 50,
+        "prime-access": "Gauss"
+    },
+    "Acceltra Prime": {
+        "parts": {
+            "Acceltra Prime Blueprint": {
+                "plat": 1,
+                "ducats": 15,
+                "required": 1
+            },
+            "Acceltra Prime Barrel": {
+                "plat": 8,
+                "ducats": 100,
+                "required": 1
+            },
+            "Acceltra Prime Receiver": {
+                "plat": 7,
+                "ducats": 45,
+                "required": 1
+            },
+            "Acceltra Prime Stock": {
+                "plat": 18,
+                "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": false,
+        "type": "Primary",
+        "plat": 38,
+        "prime-access": "Gauss"
+    },
+    "Protea Prime": {
+        "parts": {
+            "Protea Prime Blueprint": {
+                "plat": 3,
+                "ducats": 15,
+                "required": 1
+            },
+            "Protea Prime Chassis Blueprint": {
+                "plat": 22,
+                "ducats": 100,
+                "required": 1
+            },
+            "Protea Prime Neuroptics Blueprint": {
+                "plat": 7,
+                "ducats": 45,
+                "required": 1
+            },
+            "Protea Prime Systems Blueprint": {
+                "plat": 10,
+                "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": false,
+        "type": "Warframes",
+        "plat": 54,
+        "prime-access": "Protea"
+    },
+    "Velox Prime": {
+        "parts": {
+            "Velox Prime Blueprint": {
+                "plat": 3,
+                "ducats": 45,
+                "required": 1
+            },
+            "Velox Prime Barrel": {
+                "plat": 8,
+                "ducats": 100,
+                "required": 1
+            },
+            "Velox Prime Receiver": {
+                "plat": 6,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": false,
+        "type": "Secondary",
+        "plat": 20,
+        "prime-access": "Protea"
+    },
+    "Okina Prime": {
+        "parts": {
+            "Okina Prime Blueprint": {
+                "plat": 9,
+                "ducats": 100,
+                "required": 1
+            },
+            "Okina Prime Blade": {
+                "plat": 4,
+                "ducats": 15,
+                "required": 2
+            },
+            "Okina Prime Handle": {
+                "plat": 5,
+                "ducats": 45,
+                "required": 2
+            }
+        },
+        "vaulted": false,
+        "type": "Melee",
+        "plat": 39,
+        "prime-access": "Protea"
+    },
+    "Akmagnus Prime": {
+        "parts": {
+            "Akmagnus Prime Blueprint": {
+                "plat": 33,
+                "ducats": 15,
+                "required": 1
+            },
+            "Akmagnus Prime Link": {
+                "plat": 27,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Secondary",
+        "plat": 67,
+        "prime-access": "N/A"
+    },
+    "Epitaph Prime": {
+        "parts": {
+            "Epitaph Prime Blueprint": {
+                "plat": 8,
+                "ducats": 15,
+                "required": 1
+            },
+            "Epitaph Prime Barrel": {
+                "plat": 6,
+                "ducats": 45,
+                "required": 1
+            },
+            "Epitaph Prime Receiver": {
+                "plat": 23,
+                "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": false,
+        "type": "Secondary",
+        "plat": 49,
+        "prime-access": "N/A"
+    },
+    "Nautilus Prime": {
+        "parts": {
+            "Nautilus Prime Carapace": {
+                "plat": 7,
+                "ducats": 15,
+                "required": 1
+            },
+            "Nautilus Prime Cerebrum": {
+                "plat": 12,
+                "ducats": 100,
+                "required": 1
+            },
+            "Nautilus Prime Systems": {
+                "plat": 15,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": false,
+        "type": "Sentinels",
+        "plat": 70,
+        "prime-access": "N/A"
+    },
+    "Destreza Prime": {
+        "parts": {
+            "Destreza Prime Blueprint": {
+                "plat": 5,
+                "ducats": 45,
+                "required": 1
+            },
+            "Destreza Prime Blade": {
+                "plat": 27,
+                "ducats": 100,
+                "required": 1
+            },
+            "Destreza Prime Handle": {
+                "plat": 6,
+                "ducats": 15,
                 "required": 1
             }
         },
         "vaulted": true,
         "type": "Melee",
-        "plat": 114,
+        "plat": 43,
+        "prime-access": "Limbo"
+    },
+    "Saryn Prime": {
+        "parts": {
+            "Saryn Prime Blueprint": {
+                "plat": 25,
+                "ducats": 65,
+                "required": 1
+            },
+            "Saryn Prime Chassis Blueprint": {
+                "plat": 44,
+                "ducats": 100,
+                "required": 1
+            },
+            "Saryn Prime Neuroptics Blueprint": {
+                "plat": 11,
+                "ducats": 45,
+                "required": 1
+            },
+            "Saryn Prime Systems Blueprint": {
+                "plat": 5,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 92,
         "prime-access": "Saryn"
+    },
+    "Stradavar Prime": {
+        "parts": {
+            "Stradavar Prime Blueprint": {
+                "plat": 10,
+                "ducats": 100,
+                "required": 1
+            },
+            "Stradavar Prime Barrel": {
+                "plat": 2,
+                "ducats": 45,
+                "required": 1
+            },
+            "Stradavar Prime Receiver": {
+                "plat": 4,
+                "ducats": 15,
+                "required": 1
+            },
+            "Stradavar Prime Stock": {
+                "plat": 7,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Primary",
+        "plat": 33,
+        "prime-access": "Equinox"
+    },
+    "Pangolin Prime": {
+        "parts": {
+            "Pangolin Prime Blueprint": {
+                "plat": 9,
+                "ducats": 100,
+                "required": 1
+            },
+            "Pangolin Prime Blade": {
+                "plat": 4,
+                "ducats": 45,
+                "required": 1
+            },
+            "Pangolin Prime Handle": {
+                "plat": 10,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Melee",
+        "plat": 28,
+        "prime-access": "Titania"
+    },
+    "Fragor Prime": {
+        "parts": {
+            "Fragor Prime Blueprint": {
+                "plat": 11,
+                "ducats": 65,
+                "required": 1
+            },
+            "Fragor Prime Handle": {
+                "plat": 12,
+                "ducats": 65,
+                "required": 1
+            },
+            "Fragor Prime Head": {
+                "plat": 9,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Melee",
+        "plat": 50,
+        "prime-access": "Vauban"
+    },
+    "Helios Prime": {
+        "parts": {
+            "Helios Prime Carapace": {
+                "plat": 4,
+                "ducats": 15,
+                "required": 1
+            },
+            "Helios Prime Cerebrum": {
+                "plat": 39,
+                "ducats": 100,
+                "required": 1
+            },
+            "Helios Prime Systems": {
+                "plat": 9,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Sentinels",
+        "plat": 62,
+        "prime-access": "Banshee"
+    },
+    "Silva & Aegis Prime": {
+        "parts": {
+            "Silva & Aegis Prime Blueprint": {
+                "plat": 8,
+                "ducats": 45,
+                "required": 1
+            },
+            "Silva & Aegis Prime Blade": {
+                "plat": 6,
+                "ducats": 45,
+                "required": 1
+            },
+            "Silva & Aegis Prime Guard": {
+                "plat": 21,
+                "ducats": 100,
+                "required": 1
+            },
+            "Silva & Aegis Prime Hilt": {
+                "plat": 6,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Melee",
+        "plat": 52,
+        "prime-access": "N/A"
+    },
+    "Kavasa Prime Kubrow Collar": {
+        "parts": {},
+        "vaulted": true,
+        "type": "N/A",
+        "plat": 27,
+        "prime-access": "Trinity"
+    },
+    "Latron Prime": {
+        "parts": {
+            "Latron Prime Blueprint": {
+                "plat": 32,
+                "ducats": 15,
+                "required": 1
+            },
+            "Latron Prime Barrel": {
+                "plat": 16,
+                "ducats": 15,
+                "required": 1
+            },
+            "Latron Prime Receiver": {
+                "plat": 18,
+                "ducats": 15,
+                "required": 1
+            },
+            "Latron Prime Stock": {
+                "plat": 25,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Primary",
+        "plat": 120,
+        "prime-access": "Frost"
+    },
+    "Lex Prime": {
+        "parts": {
+            "Lex Prime Blueprint": {
+                "plat": 2,
+                "ducats": 25,
+                "required": 1
+            },
+            "Lex Prime Barrel": {
+                "plat": 3,
+                "ducats": 15,
+                "required": 1
+            },
+            "Lex Prime Receiver": {
+                "plat": 3,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": false,
+        "type": "Secondary",
+        "plat": 8,
+        "prime-access": "N/A"
+    },
+    "Odonata Prime": {
+        "parts": {
+            "Odonata Prime Blueprint": {
+                "plat": 7,
+                "ducats": 45,
+                "required": 1
+            },
+            "Odonata Prime Harness Blueprint": {
+                "plat": 8,
+                "ducats": 15,
+                "required": 1
+            },
+            "Odonata Prime Systems Blueprint": {
+                "plat": 7,
+                "ducats": 15,
+                "required": 1
+            },
+            "Odonata Prime Wings Blueprint": {
+                "plat": 22,
+                "ducats": 65,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 47,
+        "prime-access": "Volt"
+    },
+    "Vectis Prime": {
+        "parts": {
+            "Vectis Prime Blueprint": {
+                "plat": 5,
+                "ducats": 45,
+                "required": 1
+            },
+            "Vectis Prime Barrel": {
+                "plat": 12,
+                "ducats": 15,
+                "required": 1
+            },
+            "Vectis Prime Receiver": {
+                "plat": 42,
+                "ducats": 100,
+                "required": 1
+            },
+            "Vectis Prime Stock": {
+                "plat": 13,
+                "ducats": 65,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Primary",
+        "plat": 90,
+        "prime-access": "Ash"
+    },
+    "Rhino Prime": {
+        "parts": {
+            "Rhino Prime Blueprint": {
+                "plat": 14,
+                "ducats": 100,
+                "required": 1
+            },
+            "Rhino Prime Chassis Blueprint": {
+                "plat": 7,
+                "ducats": 65,
+                "required": 1
+            },
+            "Rhino Prime Neuroptics Blueprint": {
+                "plat": 10,
+                "ducats": 45,
+                "required": 1
+            },
+            "Rhino Prime Systems Blueprint": {
+                "plat": 6,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 53,
+        "prime-access": "Rhino"
+    },
+    "Sicarus Prime": {
+        "parts": {
+            "Sicarus Prime Blueprint": {
+                "plat": 4,
+                "ducats": 15,
+                "required": 1
+            },
+            "Sicarus Prime Barrel": {
+                "plat": 5,
+                "ducats": 15,
+                "required": 1
+            },
+            "Sicarus Prime Receiver": {
+                "plat": 15,
+                "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Secondary",
+        "plat": 30,
+        "prime-access": "Ember"
     },
     "Ninkondi Prime": {
         "parts": {
@@ -1641,252 +2109,316 @@
                 "required": 1
             },
             "Ninkondi Prime Handle": {
-                "plat": 25,
+                "plat": 20,
                 "ducats": 100,
+                "required": 2
+            }
+        },
+        "vaulted": true,
+        "type": "Melee",
+        "plat": 55,
+        "prime-access": "Wukong"
+    },
+    "Wukong Prime": {
+        "parts": {
+            "Wukong Prime Blueprint": {
+                "plat": 43,
+                "ducats": 100,
+                "required": 1
+            },
+            "Wukong Prime Chassis Blueprint": {
+                "plat": 13,
+                "ducats": 45,
+                "required": 1
+            },
+            "Wukong Prime Neuroptics Blueprint": {
+                "plat": 7,
+                "ducats": 15,
+                "required": 1
+            },
+            "Wukong Prime Systems Blueprint": {
+                "plat": 15,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 90,
+        "prime-access": "Wukong"
+    },
+    "Ember Prime": {
+        "parts": {
+            "Ember Prime Blueprint": {
+                "plat": 30,
+                "ducats": 100,
+                "required": 1
+            },
+            "Ember Prime Chassis Blueprint": {
+                "plat": 8,
+                "ducats": 15,
+                "required": 1
+            },
+            "Ember Prime Neuroptics Blueprint": {
+                "plat": 18,
+                "ducats": 15,
+                "required": 1
+            },
+            "Ember Prime Systems Blueprint": {
+                "plat": 8,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 80,
+        "prime-access": "Ember"
+    },
+    "Fang Prime": {
+        "parts": {
+            "Fang Prime Blueprint": {
+                "plat": 1,
+                "ducats": 15,
+                "required": 1
+            },
+            "Fang Prime Blade": {
+                "plat": 3,
+                "ducats": 15,
+                "required": 2
+            },
+            "Fang Prime Handle": {
+                "plat": 3,
+                "ducats": 25,
+                "required": 2
+            }
+        },
+        "vaulted": false,
+        "type": "Melee",
+        "plat": 8,
+        "prime-access": "N/A"
+    },
+    "Mag Prime": {
+        "parts": {
+            "Mag Prime Blueprint": {
+                "plat": 47,
+                "ducats": 100,
+                "required": 1
+            },
+            "Mag Prime Chassis Blueprint": {
+                "plat": 10,
+                "ducats": 45,
+                "required": 1
+            },
+            "Mag Prime Neuroptics Blueprint": {
+                "plat": 15,
+                "ducats": 15,
+                "required": 1
+            },
+            "Mag Prime Systems Blueprint": {
+                "plat": 20,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 112,
+        "prime-access": "Mag"
+    },
+    "Euphona Prime": {
+        "parts": {
+            "Euphona Prime Blueprint": {
+                "plat": 2,
+                "ducats": 15,
+                "required": 1
+            },
+            "Euphona Prime Barrel": {
+                "plat": 4,
+                "ducats": 45,
+                "required": 1
+            },
+            "Euphona Prime Receiver": {
+                "plat": 41,
+                "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Secondary",
+        "plat": 49,
+        "prime-access": "Banshee"
+    },
+    "Oberon Prime": {
+        "parts": {
+            "Oberon Prime Blueprint": {
+                "plat": 6,
+                "ducats": 45,
+                "required": 1
+            },
+            "Oberon Prime Chassis Blueprint": {
+                "plat": 8,
+                "ducats": 15,
+                "required": 1
+            },
+            "Oberon Prime Neuroptics Blueprint": {
+                "plat": 27,
+                "ducats": 100,
+                "required": 1
+            },
+            "Oberon Prime Systems Blueprint": {
+                "plat": 22,
+                "ducats": 65,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 89,
+        "prime-access": "Oberon"
+    },
+    "Bo Prime": {
+        "parts": {
+            "Bo Prime Blueprint": {
+                "plat": 10,
+                "ducats": 15,
+                "required": 1
+            },
+            "Bo Prime Handle": {
+                "plat": 12,
+                "ducats": 45,
+                "required": 1
+            },
+            "Bo Prime Ornament": {
+                "plat": 20,
+                "ducats": 15,
                 "required": 2
             }
         },
         "vaulted": true,
         "type": "Melee",
         "plat": 67,
-        "prime-access": "Wukong"
+        "prime-access": "Loki"
     },
-    "Nova Prime": {
+    "Boar Prime": {
         "parts": {
-            "Nova Prime Blueprint": {
-                "plat": 9,
+            "Boar Prime Blueprint": {
+                "plat": 12,
+                "ducats": 15,
+                "required": 1
+            },
+            "Boar Prime Barrel": {
+                "plat": 19,
                 "ducats": 45,
                 "required": 1
             },
-            "Nova Prime Chassis Blueprint": {
-                "plat": 52,
+            "Boar Prime Receiver": {
+                "plat": 13,
+                "ducats": 15,
+                "required": 1
+            },
+            "Boar Prime Stock": {
+                "plat": 69,
                 "ducats": 100,
-                "required": 1
-            },
-            "Nova Prime Neuroptics Blueprint": {
-                "plat": 9,
-                "ducats": 15,
-                "required": 1
-            },
-            "Nova Prime Systems Blueprint": {
-                "plat": 10,
-                "ducats": 15,
                 "required": 1
             }
         },
         "vaulted": true,
-        "type": "Warframes",
-        "plat": 100,
-        "prime-access": "Nova"
+        "type": "Primary",
+        "plat": 136,
+        "prime-access": "Mag"
     },
-    "Nyx Prime": {
+    "Boltor Prime": {
         "parts": {
-            "Nyx Prime Blueprint": {
-                "plat": 6,
-                "ducats": 15,
-                "required": 1
-            },
-            "Nyx Prime Chassis Blueprint": {
-                "plat": 5,
-                "ducats": 65,
-                "required": 1
-            },
-            "Nyx Prime Neuroptics Blueprint": {
-                "plat": 25,
+            "Boltor Prime Blueprint": {
+                "plat": 9,
                 "ducats": 100,
                 "required": 1
             },
-            "Nyx Prime Systems Blueprint": {
-                "plat": 8,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Warframes",
-        "plat": 57,
-        "prime-access": "Nyx"
-    },
-    "Oberon Prime": {
-        "parts": {
-            "Oberon Prime Blueprint": {
-                "plat": 9,
-                "ducats": 45,
-                "required": 1
-            },
-            "Oberon Prime Chassis Blueprint": {
+            "Boltor Prime Barrel": {
                 "plat": 10,
                 "ducats": 15,
                 "required": 1
             },
-            "Oberon Prime Neuroptics Blueprint": {
-                "plat": 32,
-                "ducats": 100,
+            "Boltor Prime Receiver": {
+                "plat": 4,
+                "ducats": 45,
                 "required": 1
             },
-            "Oberon Prime Systems Blueprint": {
-                "plat": 11,
-                "ducats": 65,
+            "Boltor Prime Stock": {
+                "plat": 7,
+                "ducats": 15,
                 "required": 1
             }
         },
         "vaulted": true,
-        "type": "Warframes",
-        "plat": 95,
-        "prime-access": "Oberon"
+        "type": "Primary",
+        "plat": 40,
+        "prime-access": "Rhino"
     },
-    "Octavia Prime": {
+    "Kogake Prime": {
         "parts": {
-            "Octavia Prime Blueprint": {
-                "plat": 36,
-                "ducats": 100,
-                "required": 1
-            },
-            "Octavia Prime Chassis Blueprint": {
-                "plat": 8,
+            "Kogake Prime Blueprint": {
+                "plat": 4,
                 "ducats": 45,
                 "required": 1
             },
-            "Octavia Prime Neuroptics Blueprint": {
-                "plat": 2,
+            "Kogake Prime Boot": {
+                "plat": 7,
                 "ducats": 15,
-                "required": 1
-            },
-            "Octavia Prime Systems Blueprint": {
-                "plat": 3,
-                "ducats": 15,
-                "required": 1
-            }
-        },
-        "vaulted": false,
-        "type": "Warframes",
-        "plat": 52,
-        "prime-access": "Octavia"
-    },
-    "Odonata Prime": {
-        "parts": {
-            "Odonata Prime Blueprint": {
-                "plat": 6,
-                "ducats": 45,
-                "required": 1
-            },
-            "Odonata Prime Harness Blueprint": {
-                "plat": 8,
-                "ducats": 15,
-                "required": 1
-            },
-            "Odonata Prime Systems Blueprint": {
-                "plat": 9,
-                "ducats": 15,
-                "required": 1
-            },
-            "Odonata Prime Wings Blueprint": {
-                "plat": 18,
-                "ducats": 65,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Archwing",
-        "plat": 42,
-        "prime-access": "Volt"
-    },
-    "Orthos Prime": {
-        "parts": {
-            "Orthos Prime Blade": {
-                "plat": 6,
-                "ducats": 45,
                 "required": 2
             },
-            "Orthos Prime Blueprint": {
-                "plat": 3,
-                "ducats": 45,
-                "required": 1
-            },
-            "Orthos Prime Handle": {
-                "plat": 2,
-                "ducats": 15,
-                "required": 1
+            "Kogake Prime Gauntlet": {
+                "plat": 21,
+                "ducats": 100,
+                "required": 2
             }
         },
         "vaulted": true,
         "type": "Melee",
-        "plat": 13,
+        "plat": 87,
+        "prime-access": "Mirage"
+    },
+    "Akvasto Prime": {
+        "parts": {
+            "Akvasto Prime Blueprint": {
+                "plat": 45,
+                "ducats": 100,
+                "required": 1
+            },
+            "Akvasto Prime Link": {
+                "plat": 17,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Secondary",
+        "plat": 79,
         "prime-access": "N/A"
     },
-    "Pandero Prime": {
+    "Ankyros Prime": {
         "parts": {
-            "Pandero Prime Barrel": {
-                "plat": 4,
-                "ducats": 45,
-                "required": 1
-            },
-            "Pandero Prime Blueprint": {
-                "plat": 4,
+            "Ankyros Prime Blueprint": {
+                "plat": 5,
                 "ducats": 15,
                 "required": 1
             },
-            "Pandero Prime Receiver": {
-                "plat": 11,
-                "ducats": 100,
-                "required": 1
-            }
-        },
-        "vaulted": false,
-        "type": "Secondary",
-        "plat": 21,
-        "prime-access": "Octavia"
-    },
-    "Pangolin Prime": {
-        "parts": {
-            "Pangolin Prime Blade": {
-                "plat": 3,
-                "ducats": 45,
-                "required": 1
+            "Ankyros Prime Blade": {
+                "plat": 4,
+                "ducats": 65,
+                "required": 2
             },
-            "Pangolin Prime Blueprint": {
+            "Ankyros Prime Gauntlet": {
                 "plat": 10,
-                "ducats": 100,
-                "required": 1
-            },
-            "Pangolin Prime Handle": {
-                "plat": 6,
                 "ducats": 15,
-                "required": 1
+                "required": 2
             }
         },
         "vaulted": true,
         "type": "Melee",
-        "plat": 18,
-        "prime-access": "Titania"
-    },
-    "Panthera Prime": {
-        "parts": {
-            "Panthera Prime Barrel": {
-                "plat": 9,
-                "ducats": 100,
-                "required": 1
-            },
-            "Panthera Prime Blueprint": {
-                "plat": 2,
-                "ducats": 15,
-                "required": 1
-            },
-            "Panthera Prime Receiver": {
-                "plat": 20,
-                "ducats": 100,
-                "required": 1
-            },
-            "Panthera Prime Stock": {
-                "plat": 3,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": false,
-        "type": "Primary",
-        "plat": 34,
-        "prime-access": "Inaros"
+        "plat": 45,
+        "prime-access": "Rhino"
     },
     "Paris Prime": {
         "parts": {
@@ -1896,7 +2428,7 @@
                 "required": 1
             },
             "Paris Prime Grip": {
-                "plat": 4,
+                "plat": 3,
                 "ducats": 45,
                 "required": 1
             },
@@ -1906,7 +2438,7 @@
                 "required": 1
             },
             "Paris Prime String": {
-                "plat": 3,
+                "plat": 2,
                 "ducats": 15,
                 "required": 1
             },
@@ -1916,837 +2448,1105 @@
                 "required": 1
             }
         },
-        "vaulted": true,
+        "vaulted": false,
         "type": "Primary",
-        "plat": 9,
+        "plat": 8,
         "prime-access": "N/A"
     },
-    "Pyrana Prime": {
+    "Trinity Prime": {
         "parts": {
-            "Pyrana Prime Barrel": {
-                "plat": 7,
-                "ducats": 15,
+            "Trinity Prime Blueprint": {
+                "plat": 13,
+                "ducats": 45,
                 "required": 1
             },
-            "Pyrana Prime Blueprint": {
-                "plat": 40,
+            "Trinity Prime Chassis Blueprint": {
+                "plat": 8,
+                "ducats": 45,
+                "required": 1
+            },
+            "Trinity Prime Neuroptics Blueprint": {
+                "plat": 10,
+                "ducats": 25,
+                "required": 1
+            },
+            "Trinity Prime Systems Blueprint": {
+                "plat": 9,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 59,
+        "prime-access": "Trinity"
+    },
+    "Ballistica Prime": {
+        "parts": {
+            "Ballistica Prime Blueprint": {
+                "plat": 17,
                 "ducats": 100,
                 "required": 1
             },
-            "Pyrana Prime Receiver": {
-                "plat": 8,
+            "Ballistica Prime Lower Limb": {
+                "plat": 3,
+                "ducats": 15,
+                "required": 1
+            },
+            "Ballistica Prime Receiver": {
+                "plat": 6,
+                "ducats": 45,
+                "required": 1
+            },
+            "Ballistica Prime String": {
+                "plat": 10,
+                "ducats": 45,
+                "required": 1
+            },
+            "Ballistica Prime Upper Limb": {
+                "plat": 6,
                 "ducats": 45,
                 "required": 1
             }
         },
         "vaulted": true,
         "type": "Secondary",
-        "plat": 67,
-        "prime-access": "Limbo"
+        "plat": 69,
+        "prime-access": "Hydroid"
+    },
+    "Venka Prime": {
+        "parts": {
+            "Venka Prime Blueprint": {
+                "plat": 4,
+                "ducats": 45,
+                "required": 1
+            },
+            "Venka Prime Blades": {
+                "plat": 6,
+                "ducats": 15,
+                "required": 2
+            },
+            "Venka Prime Gauntlet": {
+                "plat": 37,
+                "ducats": 100,
+                "required": 2
+            }
+        },
+        "vaulted": false,
+        "type": "Melee",
+        "plat": 101,
+        "prime-access": "Valkyr"
+    },
+    "Akbronco Prime": {
+        "parts": {
+            "Akbronco Prime Blueprint": {
+                "plat": 3,
+                "ducats": 15,
+                "required": 1
+            },
+            "Akbronco Prime Link": {
+                "plat": 3,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": false,
+        "type": "Secondary",
+        "plat": 8,
+        "prime-access": "N/A"
+    },
+    "Carrier Prime": {
+        "parts": {
+            "Carrier Prime Carapace": {
+                "plat": 10,
+                "ducats": 15,
+                "required": 1
+            },
+            "Carrier Prime Cerebrum": {
+                "plat": 40,
+                "ducats": 65,
+                "required": 1
+            },
+            "Carrier Prime Systems": {
+                "plat": 5,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Sentinels",
+        "plat": 82,
+        "prime-access": "Ash"
+    },
+    "Dakra Prime": {
+        "parts": {
+            "Dakra Prime Blueprint": {
+                "plat": 7,
+                "ducats": 45,
+                "required": 1
+            },
+            "Dakra Prime Blade": {
+                "plat": 11,
+                "ducats": 65,
+                "required": 1
+            },
+            "Dakra Prime Handle": {
+                "plat": 8,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Melee",
+        "plat": 35,
+        "prime-access": "Mag"
     },
     "Reaper Prime": {
         "parts": {
+            "Reaper Prime Blueprint": {
+                "plat": 7,
+                "ducats": 15,
+                "required": 1
+            },
             "Reaper Prime Blade": {
+                "plat": 10,
+                "ducats": 45,
+                "required": 1
+            },
+            "Reaper Prime Handle": {
+                "plat": 11,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Melee",
+        "plat": 48,
+        "prime-access": "Frost"
+    },
+    "Sybaris Prime": {
+        "parts": {
+            "Sybaris Prime Blueprint": {
+                "plat": 6,
+                "ducats": 15,
+                "required": 1
+            },
+            "Sybaris Prime Barrel": {
+                "plat": 30,
+                "ducats": 100,
+                "required": 1
+            },
+            "Sybaris Prime Receiver": {
+                "plat": 8,
+                "ducats": 45,
+                "required": 1
+            },
+            "Sybaris Prime Stock": {
+                "plat": 7,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Primary",
+        "plat": 67,
+        "prime-access": "Oberon"
+    },
+    "Redeemer Prime": {
+        "parts": {
+            "Redeemer Prime Blueprint": {
+                "plat": 4,
+                "ducats": 45,
+                "required": 1
+            },
+            "Redeemer Prime Blade": {
+                "plat": 4,
+                "ducats": 15,
+                "required": 1
+            },
+            "Redeemer Prime Handle": {
+                "plat": 35,
+                "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Melee",
+        "plat": 45,
+        "prime-access": "Mesa"
+    },
+    "Orthos Prime": {
+        "parts": {
+            "Orthos Prime Blueprint": {
+                "plat": 2,
+                "ducats": 45,
+                "required": 1
+            },
+            "Orthos Prime Blade": {
+                "plat": 3,
+                "ducats": 45,
+                "required": 2
+            },
+            "Orthos Prime Handle": {
+                "plat": 1,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": false,
+        "type": "Melee",
+        "plat": 8,
+        "prime-access": "N/A"
+    },
+    "Volt Prime": {
+        "parts": {
+            "Volt Prime Blueprint": {
+                "plat": 24,
+                "ducats": 25,
+                "required": 1
+            },
+            "Volt Prime Chassis Blueprint": {
+                "plat": 10,
+                "ducats": 45,
+                "required": 1
+            },
+            "Volt Prime Neuroptics Blueprint": {
+                "plat": 35,
+                "ducats": 65,
+                "required": 1
+            },
+            "Volt Prime Systems Blueprint": {
+                "plat": 14,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 95,
+        "prime-access": "Volt"
+    },
+    "Tigris Prime": {
+        "parts": {
+            "Tigris Prime Blueprint": {
+                "plat": 20,
+                "ducats": 100,
+                "required": 1
+            },
+            "Tigris Prime Barrel": {
+                "plat": 5,
+                "ducats": 45,
+                "required": 1
+            },
+            "Tigris Prime Receiver": {
+                "plat": 6,
+                "ducats": 45,
+                "required": 1
+            },
+            "Tigris Prime Stock": {
+                "plat": 4,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Primary",
+        "plat": 45,
+        "prime-access": "Nekros"
+    },
+    "Titania Prime": {
+        "parts": {
+            "Titania Prime Blueprint": {
+                "plat": 8,
+                "ducats": 45,
+                "required": 1
+            },
+            "Titania Prime Chassis Blueprint": {
+                "plat": 8,
+                "ducats": 15,
+                "required": 1
+            },
+            "Titania Prime Neuroptics Blueprint": {
+                "plat": 5,
+                "ducats": 45,
+                "required": 1
+            },
+            "Titania Prime Systems Blueprint": {
+                "plat": 41,
+                "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 74,
+        "prime-access": "Titania"
+    },
+    "Nezha Prime": {
+        "parts": {
+            "Nezha Prime Blueprint": {
+                "plat": 6,
+                "ducats": 45,
+                "required": 1
+            },
+            "Nezha Prime Chassis Blueprint": {
+                "plat": 20,
+                "ducats": 100,
+                "required": 1
+            },
+            "Nezha Prime Neuroptics Blueprint": {
+                "plat": 15,
+                "ducats": 100,
+                "required": 1
+            },
+            "Nezha Prime Systems Blueprint": {
+                "plat": 5,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 63,
+        "prime-access": "Nezha"
+    },
+    "Nami Skyla Prime": {
+        "parts": {
+            "Nami Skyla Prime Blueprint": {
+                "plat": 8,
+                "ducats": 15,
+                "required": 1
+            },
+            "Nami Skyla Prime Blade": {
+                "plat": 34,
+                "ducats": 100,
+                "required": 2
+            },
+            "Nami Skyla Prime Handle": {
+                "plat": 8,
+                "ducats": 45,
+                "required": 2
+            }
+        },
+        "vaulted": true,
+        "type": "Melee",
+        "plat": 108,
+        "prime-access": "N/A"
+    },
+    "Glaive Prime": {
+        "parts": {
+            "Glaive Prime Blueprint": {
+                "plat": 26,
+                "ducats": 100,
+                "required": 1
+            },
+            "Glaive Prime Blade": {
+                "plat": 20,
+                "ducats": 45,
+                "required": 2
+            },
+            "Glaive Prime Disc": {
+                "plat": 11,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Melee",
+        "plat": 140,
+        "prime-access": "Ember"
+    },
+    "Scindo Prime": {
+        "parts": {
+            "Scindo Prime Blueprint": {
+                "plat": 5,
+                "ducats": 45,
+                "required": 1
+            },
+            "Scindo Prime Blade": {
+                "plat": 16,
+                "ducats": 100,
+                "required": 1
+            },
+            "Scindo Prime Handle": {
+                "plat": 7,
+                "ducats": 25,
+                "required": 1
+            }
+        },
+        "vaulted": false,
+        "type": "Melee",
+        "plat": 35,
+        "prime-access": "Nyx"
+    },
+    "Akstiletto Prime": {
+        "parts": {
+            "Akstiletto Prime Blueprint": {
+                "plat": 15,
+                "ducats": 100,
+                "required": 1
+            },
+            "Akstiletto Prime Barrel": {
+                "plat": 13,
+                "ducats": 25,
+                "required": 2
+            },
+            "Akstiletto Prime Link": {
+                "plat": 10,
+                "ducats": 45,
+                "required": 1
+            },
+            "Akstiletto Prime Receiver": {
+                "plat": 18,
+                "ducats": 45,
+                "required": 2
+            }
+        },
+        "vaulted": true,
+        "type": "Secondary",
+        "plat": 128,
+        "prime-access": "Vauban"
+    },
+    "Inaros Prime": {
+        "parts": {
+            "Inaros Prime Blueprint": {
+                "plat": 7,
+                "ducats": 45,
+                "required": 1
+            },
+            "Inaros Prime Chassis Blueprint": {
+                "plat": 4,
+                "ducats": 45,
+                "required": 1
+            },
+            "Inaros Prime Neuroptics Blueprint": {
+                "plat": 30,
+                "ducats": 100,
+                "required": 1
+            },
+            "Inaros Prime Systems Blueprint": {
+                "plat": 7,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 59,
+        "prime-access": "Inaros"
+    },
+    "Karyst Prime": {
+        "parts": {
+            "Karyst Prime Blueprint": {
+                "plat": 4,
+                "ducats": 15,
+                "required": 1
+            },
+            "Karyst Prime Blade": {
+                "plat": 11,
+                "ducats": 100,
+                "required": 1
+            },
+            "Karyst Prime Handle": {
+                "plat": 3,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Melee",
+        "plat": 27,
+        "prime-access": "Inaros"
+    },
+    "Panthera Prime": {
+        "parts": {
+            "Panthera Prime Blueprint": {
+                "plat": 4,
+                "ducats": 15,
+                "required": 1
+            },
+            "Panthera Prime Barrel": {
+                "plat": 13,
+                "ducats": 100,
+                "required": 1
+            },
+            "Panthera Prime Receiver": {
+                "plat": 12,
+                "ducats": 100,
+                "required": 1
+            },
+            "Panthera Prime Stock": {
+                "plat": 7,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Primary",
+        "plat": 46,
+        "prime-access": "Inaros"
+    },
+    "Cernos Prime": {
+        "parts": {
+            "Cernos Prime Blueprint": {
+                "plat": 4,
+                "ducats": 45,
+                "required": 1
+            },
+            "Cernos Prime Grip": {
+                "plat": 6,
+                "ducats": 15,
+                "required": 1
+            },
+            "Cernos Prime Lower Limb": {
+                "plat": 25,
+                "ducats": 100,
+                "required": 1
+            },
+            "Cernos Prime String": {
+                "plat": 5,
+                "ducats": 25,
+                "required": 1
+            },
+            "Cernos Prime Upper Limb": {
+                "plat": 6,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": false,
+        "type": "Primary",
+        "plat": 65,
+        "prime-access": "Valkyr"
+    },
+    "Valkyr Prime": {
+        "parts": {
+            "Valkyr Prime Blueprint": {
+                "plat": 4,
+                "ducats": 15,
+                "required": 1
+            },
+            "Valkyr Prime Chassis Blueprint": {
+                "plat": 37,
+                "ducats": 100,
+                "required": 1
+            },
+            "Valkyr Prime Neuroptics Blueprint": {
+                "plat": 6,
+                "ducats": 45,
+                "required": 1
+            },
+            "Valkyr Prime Systems Blueprint": {
+                "plat": 10,
+                "ducats": 65,
+                "required": 1
+            }
+        },
+        "vaulted": false,
+        "type": "Warframes",
+        "plat": 70,
+        "prime-access": "Valkyr"
+    },
+    "Akbolto Prime": {
+        "parts": {
+            "Akbolto Prime Blueprint": {
+                "plat": 3,
+                "ducats": 15,
+                "required": 1
+            },
+            "Akbolto Prime Barrel": {
+                "plat": 7,
+                "ducats": 45,
+                "required": 2
+            },
+            "Akbolto Prime Link": {
+                "plat": 4,
+                "ducats": 45,
+                "required": 1
+            },
+            "Akbolto Prime Receiver": {
+                "plat": 25,
+                "ducats": 100,
+                "required": 2
+            }
+        },
+        "vaulted": true,
+        "type": "Secondary",
+        "plat": 92,
+        "prime-access": "Mirage"
+    },
+    "Limbo Prime": {
+        "parts": {
+            "Limbo Prime Blueprint": {
+                "plat": 5,
+                "ducats": 45,
+                "required": 1
+            },
+            "Limbo Prime Chassis Blueprint": {
+                "plat": 39,
+                "ducats": 100,
+                "required": 1
+            },
+            "Limbo Prime Neuroptics Blueprint": {
+                "plat": 11,
+                "ducats": 100,
+                "required": 1
+            },
+            "Limbo Prime Systems Blueprint": {
+                "plat": 4,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 77,
+        "prime-access": "Limbo"
+    },
+    "Nikana Prime": {
+        "parts": {
+            "Nikana Prime Blueprint": {
+                "plat": 8,
+                "ducats": 25,
+                "required": 1
+            },
+            "Nikana Prime Blade": {
+                "plat": 23,
+                "ducats": 65,
+                "required": 1
+            },
+            "Nikana Prime Hilt": {
+                "plat": 55,
+                "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Melee",
+        "plat": 94,
+        "prime-access": "Saryn"
+    },
+    "Spira Prime": {
+        "parts": {
+            "Spira Prime Blueprint": {
+                "plat": 3,
+                "ducats": 15,
+                "required": 1
+            },
+            "Spira Prime Blade": {
+                "plat": 16,
+                "ducats": 65,
+                "required": 2
+            },
+            "Spira Prime Pouch": {
+                "plat": 29,
+                "ducats": 100,
+                "required": 2
+            }
+        },
+        "vaulted": true,
+        "type": "Secondary",
+        "plat": 119,
+        "prime-access": "Saryn"
+    },
+    "Kronen Prime": {
+        "parts": {
+            "Kronen Prime Blueprint": {
+                "plat": 4,
+                "ducats": 15,
+                "required": 1
+            },
+            "Kronen Prime Blade": {
+                "plat": 27,
+                "ducats": 100,
+                "required": 2
+            },
+            "Kronen Prime Handle": {
+                "plat": 8,
+                "ducats": 45,
+                "required": 2
+            }
+        },
+        "vaulted": true,
+        "type": "Melee",
+        "plat": 99,
+        "prime-access": "Zephyr"
+    },
+    "Tiberon Prime": {
+        "parts": {
+            "Tiberon Prime Blueprint": {
+                "plat": 5,
+                "ducats": 25,
+                "required": 1
+            },
+            "Tiberon Prime Barrel": {
+                "plat": 8,
+                "ducats": 65,
+                "required": 1
+            },
+            "Tiberon Prime Receiver": {
+                "plat": 6,
+                "ducats": 15,
+                "required": 1
+            },
+            "Tiberon Prime Stock": {
+                "plat": 19,
+                "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Primary",
+        "plat": 49,
+        "prime-access": "Zephyr"
+    },
+    "Tipedo Prime": {
+        "parts": {
+            "Tipedo Prime Blueprint": {
+                "plat": 5,
+                "ducats": 15,
+                "required": 1
+            },
+            "Tipedo Prime Handle": {
+                "plat": 29,
+                "ducats": 100,
+                "required": 1
+            },
+            "Tipedo Prime Ornament": {
+                "plat": 10,
+                "ducats": 45,
+                "required": 2
+            }
+        },
+        "vaulted": true,
+        "type": "Melee",
+        "plat": 63,
+        "prime-access": "Equinox"
+    },
+    "Atlas Prime": {
+        "parts": {
+            "Atlas Prime Blueprint": {
+                "plat": 4,
+                "ducats": 15,
+                "required": 1
+            },
+            "Atlas Prime Chassis Blueprint": {
+                "plat": 6,
+                "ducats": 45,
+                "required": 1
+            },
+            "Atlas Prime Neuroptics Blueprint": {
+                "plat": 51,
+                "ducats": 100,
+                "required": 1
+            },
+            "Atlas Prime Systems Blueprint": {
+                "plat": 4,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 65,
+        "prime-access": "Atlas"
+    },
+    "Tekko Prime": {
+        "parts": {
+            "Tekko Prime Blueprint": {
+                "plat": 3,
+                "ducats": 45,
+                "required": 1
+            },
+            "Tekko Prime Blade": {
+                "plat": 27,
+                "ducats": 100,
+                "required": 2
+            },
+            "Tekko Prime Gauntlet": {
+                "plat": 7,
+                "ducats": 15,
+                "required": 2
+            }
+        },
+        "vaulted": true,
+        "type": "Melee",
+        "plat": 85,
+        "prime-access": "Atlas"
+    },
+    "Zephyr Prime": {
+        "parts": {
+            "Zephyr Prime Blueprint": {
+                "plat": 12,
+                "ducats": 65,
+                "required": 1
+            },
+            "Zephyr Prime Chassis Blueprint": {
+                "plat": 5,
+                "ducats": 25,
+                "required": 1
+            },
+            "Zephyr Prime Neuroptics Blueprint": {
+                "plat": 5,
+                "ducats": 15,
+                "required": 1
+            },
+            "Zephyr Prime Systems Blueprint": {
+                "plat": 40,
+                "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 80,
+        "prime-access": "Zephyr"
+    },
+    "Ivara Prime": {
+        "parts": {
+            "Ivara Prime Blueprint": {
+                "plat": 6,
+                "ducats": 45,
+                "required": 1
+            },
+            "Ivara Prime Chassis Blueprint": {
+                "plat": 33,
+                "ducats": 100,
+                "required": 1
+            },
+            "Ivara Prime Neuroptics Blueprint": {
+                "plat": 5,
+                "ducats": 15,
+                "required": 1
+            },
+            "Ivara Prime Systems Blueprint": {
+                "plat": 8,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 65,
+        "prime-access": "Ivara"
+    },
+    "Akjagara Prime": {
+        "parts": {
+            "Akjagara Prime Blueprint": {
+                "plat": 3,
+                "ducats": 15,
+                "required": 1
+            },
+            "Akjagara Prime Barrel": {
+                "plat": 20,
+                "ducats": 100,
+                "required": 2
+            },
+            "Akjagara Prime Link": {
+                "plat": 4,
+                "ducats": 45,
+                "required": 1
+            },
+            "Akjagara Prime Receiver": {
+                "plat": 8,
+                "ducats": 45,
+                "required": 2
+            }
+        },
+        "vaulted": true,
+        "type": "Secondary",
+        "plat": 86,
+        "prime-access": "Mesa"
+    },
+    "Mirage Prime": {
+        "parts": {
+            "Mirage Prime Blueprint": {
+                "plat": 41,
+                "ducats": 100,
+                "required": 1
+            },
+            "Mirage Prime Chassis Blueprint": {
+                "plat": 8,
+                "ducats": 15,
+                "required": 1
+            },
+            "Mirage Prime Neuroptics Blueprint": {
+                "plat": 5,
+                "ducats": 15,
+                "required": 1
+            },
+            "Mirage Prime Systems Blueprint": {
+                "plat": 16,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 88,
+        "prime-access": "Mirage"
+    },
+    "Gram Prime": {
+        "parts": {
+            "Gram Prime Blueprint": {
+                "plat": 6,
+                "ducats": 45,
+                "required": 1
+            },
+            "Gram Prime Blade": {
+                "plat": 3,
+                "ducats": 15,
+                "required": 1
+            },
+            "Gram Prime Handle": {
+                "plat": 17,
+                "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Melee",
+        "plat": 34,
+        "prime-access": "Chroma"
+    },
+    "Pyrana Prime": {
+        "parts": {
+            "Pyrana Prime Blueprint": {
+                "plat": 20,
+                "ducats": 100,
+                "required": 1
+            },
+            "Pyrana Prime Barrel": {
+                "plat": 5,
+                "ducats": 15,
+                "required": 1
+            },
+            "Pyrana Prime Receiver": {
+                "plat": 6,
+                "ducats": 45,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Secondary",
+        "plat": 47,
+        "prime-access": "Limbo"
+    },
+    "Equinox Prime": {
+        "parts": {
+            "Equinox Prime Blueprint": {
                 "plat": 12,
                 "ducats": 45,
                 "required": 1
             },
-            "Reaper Prime Blueprint": {
-                "plat": 13,
+            "Equinox Prime Chassis Blueprint": {
+                "plat": 4,
                 "ducats": 15,
                 "required": 1
             },
-            "Reaper Prime Handle": {
-                "plat": 15,
+            "Equinox Prime Neuroptics Blueprint": {
+                "plat": 7,
+                "ducats": 45,
+                "required": 1
+            },
+            "Equinox Prime Systems Blueprint": {
+                "plat": 30,
+                "ducats": 100,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 69,
+        "prime-access": "Equinox"
+    },
+    "Guandao Prime": {
+        "parts": {
+            "Guandao Prime Blueprint": {
+                "plat": 5,
+                "ducats": 45,
+                "required": 1
+            },
+            "Guandao Prime Blade": {
+                "plat": 8,
                 "ducats": 15,
+                "required": 2
+            },
+            "Guandao Prime Handle": {
+                "plat": 18,
+                "ducats": 100,
                 "required": 1
             }
         },
         "vaulted": true,
         "type": "Melee",
         "plat": 52,
-        "prime-access": "Frost"
-    },
-    "Redeemer Prime": {
-        "parts": {
-            "Redeemer Prime Blade": {
-                "plat": 8,
-                "ducats": 15,
-                "required": 1
-            },
-            "Redeemer Prime Blueprint": {
-                "plat": 5,
-                "ducats": 45,
-                "required": 1
-            },
-            "Redeemer Prime Handle": {
-                "plat": 50,
-                "ducats": 100,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Melee",
-        "plat": 69,
-        "prime-access": "Mesa"
-    },
-    "Rhino Prime": {
-        "parts": {
-            "Rhino Prime Blueprint": {
-                "plat": 26,
-                "ducats": 100,
-                "required": 1
-            },
-            "Rhino Prime Chassis Blueprint": {
-                "plat": 13,
-                "ducats": 65,
-                "required": 1
-            },
-            "Rhino Prime Neuroptics Blueprint": {
-                "plat": 15,
-                "ducats": 45,
-                "required": 1
-            },
-            "Rhino Prime Systems Blueprint": {
-                "plat": 8,
-                "ducats": 15,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Warframes",
-        "plat": 89,
-        "prime-access": "Rhino"
-    },
-    "Rubico Prime": {
-        "parts": {
-            "Rubico Prime Barrel": {
-                "plat": 9,
-                "ducats": 25,
-                "required": 1
-            },
-            "Rubico Prime Blueprint": {
-                "plat": 57,
-                "ducats": 100,
-                "required": 1
-            },
-            "Rubico Prime Receiver": {
-                "plat": 7,
-                "ducats": 15,
-                "required": 1
-            },
-            "Rubico Prime Stock": {
-                "plat": 13,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Primary",
-        "plat": 92,
-        "prime-access": "Chroma"
-    },
-    "Saryn Prime": {
-        "parts": {
-            "Saryn Prime Blueprint": {
-                "plat": 38,
-                "ducats": 65,
-                "required": 1
-            },
-            "Saryn Prime Chassis Blueprint": {
-                "plat": 58,
-                "ducats": 100,
-                "required": 1
-            },
-            "Saryn Prime Neuroptics Blueprint": {
-                "plat": 20,
-                "ducats": 45,
-                "required": 1
-            },
-            "Saryn Prime Systems Blueprint": {
-                "plat": 8,
-                "ducats": 15,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Warframes",
-        "plat": 145,
-        "prime-access": "Saryn"
-    },
-    "Scindo Prime": {
-        "parts": {
-            "Scindo Prime Blade": {
-                "plat": 12,
-                "ducats": 100,
-                "required": 1
-            },
-            "Scindo Prime Blueprint": {
-                "plat": 3,
-                "ducats": 45,
-                "required": 1
-            },
-            "Scindo Prime Handle": {
-                "plat": 6,
-                "ducats": 25,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Melee",
-        "plat": 32,
-        "prime-access": "Nyx"
-    },
-    "Scourge Prime": {
-        "parts": {
-            "Scourge Prime Barrel": {
-                "plat": 20,
-                "ducats": 100,
-                "required": 1
-            },
-            "Scourge Prime Blade": {
-                "plat": 8,
-                "ducats": 15,
-                "required": 1
-            },
-            "Scourge Prime Blueprint": {
-                "plat": 30,
-                "ducats": 100,
-                "required": 1
-            },
-            "Scourge Prime Handle": {
-                "plat": 4,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": false,
-        "type": "Primary",
-        "plat": 87,
-        "prime-access": "N/A"
-    },
-    "Sicarus Prime": {
-        "parts": {
-            "Sicarus Prime Barrel": {
-                "plat": 15,
-                "ducats": 15,
-                "required": 1
-            },
-            "Sicarus Prime Blueprint": {
-                "plat": 7,
-                "ducats": 15,
-                "required": 1
-            },
-            "Sicarus Prime Receiver": {
-                "plat": 19,
-                "ducats": 100,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Secondary",
-        "plat": 46,
-        "prime-access": "Ember"
-    },
-    "Silva & Aegis Prime": {
-        "parts": {
-            "Silva & Aegis Prime Blade": {
-                "plat": 9,
-                "ducats": 45,
-                "required": 1
-            },
-            "Silva & Aegis Prime Blueprint": {
-                "plat": 10,
-                "ducats": 45,
-                "required": 1
-            },
-            "Silva & Aegis Prime Guard": {
-                "plat": 30,
-                "ducats": 100,
-                "required": 1
-            },
-            "Silva & Aegis Prime Hilt": {
-                "plat": 7,
-                "ducats": 15,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Melee",
-        "plat": 73,
-        "prime-access": "Oberon"
-    },
-    "Soma Prime": {
-        "parts": {
-            "Soma Prime Barrel": {
-                "plat": 12,
-                "ducats": 15,
-                "required": 1
-            },
-            "Soma Prime Blueprint": {
-                "plat": 8,
-                "ducats": 15,
-                "required": 1
-            },
-            "Soma Prime Receiver": {
-                "plat": 11,
-                "ducats": 45,
-                "required": 1
-            },
-            "Soma Prime Stock": {
-                "plat": 18,
-                "ducats": 100,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Primary",
-        "plat": 74,
-        "prime-access": "Nova"
-    },
-    "Spira Prime": {
-        "parts": {
-            "Spira Prime Blade": {
-                "plat": 18,
-                "ducats": 65,
-                "required": 2
-            },
-            "Spira Prime Blueprint": {
-                "plat": 5,
-                "ducats": 15,
-                "required": 1
-            },
-            "Spira Prime Pouch": {
-                "plat": 42,
-                "ducats": 100,
-                "required": 2
-            }
-        },
-        "vaulted": true,
-        "type": "Secondary",
-        "plat": 180,
-        "prime-access": "Saryn"
-    },
-    "Stradavar Prime": {
-        "parts": {
-            "Stradavar Prime Barrel": {
-                "plat": 3,
-                "ducats": 45,
-                "required": 1
-            },
-            "Stradavar Prime Blueprint": {
-                "plat": 19,
-                "ducats": 100,
-                "required": 1
-            },
-            "Stradavar Prime Receiver": {
-                "plat": 5,
-                "ducats": 15,
-                "required": 1
-            },
-            "Stradavar Prime Stock": {
-                "plat": 9,
-                "ducats": 15,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Primary",
-        "plat": 37,
-        "prime-access": "Equinox"
-    },
-    "Strun Prime": {
-        "parts": {
-            "Strun Prime Barrel": {
-                "plat": 8,
-                "ducats": 45,
-                "required": 1
-            },
-            "Strun Prime Blueprint": {
-                "plat": 10,
-                "ducats": 100,
-                "required": 1
-            },
-            "Strun Prime Receiver": {
-                "plat": 6,
-                "ducats": 15,
-                "required": 1
-            },
-            "Strun Prime Stock": {
-                "plat": 4,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": false,
-        "type": "Primary",
-        "plat": 37,
-        "prime-access": "Nidus"
-    },
-    "Sybaris Prime": {
-        "parts": {
-            "Sybaris Prime Barrel": {
-                "plat": 31,
-                "ducats": 100,
-                "required": 1
-            },
-            "Sybaris Prime Blueprint": {
-                "plat": 6,
-                "ducats": 15,
-                "required": 1
-            },
-            "Sybaris Prime Receiver": {
-                "plat": 9,
-                "ducats": 45,
-                "required": 1
-            },
-            "Sybaris Prime Stock": {
-                "plat": 13,
-                "ducats": 15,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Primary",
-        "plat": 72,
-        "prime-access": "Oberon"
-    },
-    "Tekko Prime": {
-        "parts": {
-            "Tekko Prime Blade": {
-                "plat": 31,
-                "ducats": 100,
-                "required": 2
-            },
-            "Tekko Prime Blueprint": {
-                "plat": 4,
-                "ducats": 45,
-                "required": 1
-            },
-            "Tekko Prime Gauntlet": {
-                "plat": 9,
-                "ducats": 15,
-                "required": 2
-            }
-        },
-        "vaulted": true,
-        "type": "Melee",
-        "plat": 94,
-        "prime-access": "Atlas"
-    },
-    "Tenora Prime": {
-        "parts": {
-            "Tenora Prime Barrel": {
-                "plat": 10,
-                "ducats": 100,
-                "required": 1
-            },
-            "Tenora Prime Blueprint": {
-                "plat": 3,
-                "ducats": 15,
-                "required": 1
-            },
-            "Tenora Prime Receiver": {
-                "plat": 11,
-                "ducats": 100,
-                "required": 1
-            },
-            "Tenora Prime Stock": {
-                "plat": 4,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": false,
-        "type": "Primary",
-        "plat": 35,
-        "prime-access": "Octavia"
-    },
-    "Tiberon Prime": {
-        "parts": {
-            "Tiberon Prime Barrel": {
-                "plat": 11,
-                "ducats": 65,
-                "required": 1
-            },
-            "Tiberon Prime Blueprint": {
-                "plat": 4,
-                "ducats": 25,
-                "required": 1
-            },
-            "Tiberon Prime Receiver": {
-                "plat": 9,
-                "ducats": 15,
-                "required": 1
-            },
-            "Tiberon Prime Stock": {
-                "plat": 25,
-                "ducats": 100,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Primary",
-        "plat": 57,
-        "prime-access": "Zephyr"
-    },
-    "Tigris Prime": {
-        "parts": {
-            "Tigris Prime Barrel": {
-                "plat": 7,
-                "ducats": 45,
-                "required": 1
-            },
-            "Tigris Prime Blueprint": {
-                "plat": 18,
-                "ducats": 100,
-                "required": 1
-            },
-            "Tigris Prime Receiver": {
-                "plat": 11,
-                "ducats": 45,
-                "required": 1
-            },
-            "Tigris Prime Stock": {
-                "plat": 7,
-                "ducats": 15,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Primary",
-        "plat": 60,
-        "prime-access": "Nekros"
-    },
-    "Tipedo Prime": {
-        "parts": {
-            "Tipedo Prime Blueprint": {
-                "plat": 6,
-                "ducats": 15,
-                "required": 1
-            },
-            "Tipedo Prime Handle": {
-                "plat": 49,
-                "ducats": 100,
-                "required": 1
-            },
-            "Tipedo Prime Ornament": {
-                "plat": 17,
-                "ducats": 45,
-                "required": 2
-            }
-        },
-        "vaulted": true,
-        "type": "Melee",
-        "plat": 87,
-        "prime-access": "Equinox"
-    },
-    "Titania Prime": {
-        "parts": {
-            "Titania Prime Blueprint": {
-                "plat": 4,
-                "ducats": 45,
-                "required": 1
-            },
-            "Titania Prime Chassis Blueprint": {
-                "plat": 6,
-                "ducats": 15,
-                "required": 1
-            },
-            "Titania Prime Neuroptics Blueprint": {
-                "plat": 3,
-                "ducats": 45,
-                "required": 1
-            },
-            "Titania Prime Systems Blueprint": {
-                "plat": 18,
-                "ducats": 100,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Warframes",
-        "plat": 33,
-        "prime-access": "Titania"
-    },
-    "Trinity Prime": {
-        "parts": {
-            "Trinity Prime Blueprint": {
-                "plat": 24,
-                "ducats": 45,
-                "required": 1
-            },
-            "Trinity Prime Chassis Blueprint": {
-                "plat": 9,
-                "ducats": 45,
-                "required": 1
-            },
-            "Trinity Prime Neuroptics Blueprint": {
-                "plat": 17,
-                "ducats": 25,
-                "required": 1
-            },
-            "Trinity Prime Systems Blueprint": {
-                "plat": 19,
-                "ducats": 15,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Warframes",
-        "plat": 92,
-        "prime-access": "Trinity"
-    },
-    "Valkyr Prime": {
-        "parts": {
-            "Valkyr Prime Blueprint": {
-                "plat": 5,
-                "ducats": 15,
-                "required": 1
-            },
-            "Valkyr Prime Chassis Blueprint": {
-                "plat": 35,
-                "ducats": 100,
-                "required": 1
-            },
-            "Valkyr Prime Neuroptics Blueprint": {
-                "plat": 7,
-                "ducats": 45,
-                "required": 1
-            },
-            "Valkyr Prime Systems Blueprint": {
-                "plat": 11,
-                "ducats": 65,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Warframes",
-        "plat": 70,
-        "prime-access": "Valkyr"
-    },
-    "Vasto Prime": {
-        "parts": {
-            "Vasto Prime Barrel": {
-                "plat": 16,
-                "ducats": 15,
-                "required": 1
-            },
-            "Vasto Prime Blueprint": {
-                "plat": 11,
-                "ducats": 45,
-                "required": 1
-            },
-            "Vasto Prime Receiver": {
-                "plat": 13,
-                "ducats": 15,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Secondary",
-        "plat": 55,
-        "prime-access": "Nova"
-    },
-    "Vauban Prime": {
-        "parts": {
-            "Vauban Prime Blueprint": {
-                "plat": 20,
-                "ducats": 65,
-                "required": 1
-            },
-            "Vauban Prime Chassis Blueprint": {
-                "plat": 21,
-                "ducats": 25,
-                "required": 1
-            },
-            "Vauban Prime Neuroptics Blueprint": {
-                "plat": 45,
-                "ducats": 100,
-                "required": 1
-            },
-            "Vauban Prime Systems Blueprint": {
-                "plat": 50,
-                "ducats": 100,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Warframes",
-        "plat": 170,
-        "prime-access": "Vauban"
-    },
-    "Vectis Prime": {
-        "parts": {
-            "Vectis Prime Barrel": {
-                "plat": 19,
-                "ducats": 15,
-                "required": 1
-            },
-            "Vectis Prime Blueprint": {
-                "plat": 9,
-                "ducats": 45,
-                "required": 1
-            },
-            "Vectis Prime Receiver": {
-                "plat": 42,
-                "ducats": 100,
-                "required": 1
-            },
-            "Vectis Prime Stock": {
-                "plat": 11,
-                "ducats": 65,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Primary",
-        "plat": 97,
-        "prime-access": "Ash"
-    },
-    "Venka Prime": {
-        "parts": {
-            "Venka Prime Blades": {
-                "plat": 13,
-                "ducats": 15,
-                "required": 2
-            },
-            "Venka Prime Blueprint": {
-                "plat": 6,
-                "ducats": 45,
-                "required": 1
-            },
-            "Venka Prime Gauntlet": {
-                "plat": 44,
-                "ducats": 100,
-                "required": 2
-            }
-        },
-        "vaulted": true,
-        "type": "Melee",
-        "plat": 120,
-        "prime-access": "Valkyr"
-    },
-    "Volnus Prime": {
-        "parts": {
-            "Volnus Prime Blueprint": {
-                "plat": 3,
-                "ducats": 15,
-                "required": 1
-            },
-            "Volnus Prime Handle": {
-                "plat": 13,
-                "ducats": 100,
-                "required": 1
-            },
-            "Volnus Prime Head": {
-                "plat": 7,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": false,
-        "type": "Melee",
-        "plat": 25,
-        "prime-access": "Gara"
-    },
-    "Volt Prime": {
-        "parts": {
-            "Volt Prime Blueprint": {
-                "plat": 20,
-                "ducats": 25,
-                "required": 1
-            },
-            "Volt Prime Chassis Blueprint": {
-                "plat": 16,
-                "ducats": 45,
-                "required": 1
-            },
-            "Volt Prime Neuroptics Blueprint": {
-                "plat": 53,
-                "ducats": 65,
-                "required": 1
-            },
-            "Volt Prime Systems Blueprint": {
-                "plat": 12,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Warframes",
-        "plat": 114,
-        "prime-access": "Volt"
-    },
-    "Wukong Prime": {
-        "parts": {
-            "Wukong Prime Blueprint": {
-                "plat": 54,
-                "ducats": 100,
-                "required": 1
-            },
-            "Wukong Prime Chassis Blueprint": {
-                "plat": 8,
-                "ducats": 45,
-                "required": 1
-            },
-            "Wukong Prime Neuroptics Blueprint": {
-                "plat": 6,
-                "ducats": 15,
-                "required": 1
-            },
-            "Wukong Prime Systems Blueprint": {
-                "plat": 11,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Warframes",
-        "plat": 84,
-        "prime-access": "Wukong"
-    },
-    "Wyrm Prime": {
-        "parts": {
-            "Wyrm Prime Blueprint": {
-                "plat": 12,
-                "ducats": 15,
-                "required": 1
-            },
-            "Wyrm Prime Carapace": {
-                "plat": 14,
-                "ducats": 15,
-                "required": 1
-            },
-            "Wyrm Prime Cerebrum": {
-                "plat": 22,
-                "ducats": 15,
-                "required": 1
-            },
-            "Wyrm Prime Systems": {
-                "plat": 29,
-                "ducats": 45,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Sentinels",
-        "plat": 79,
-        "prime-access": "Loki"
+        "prime-access": "Nezha"
     },
     "Zakti Prime": {
         "parts": {
+            "Zakti Prime Blueprint": {
+                "plat": 15,
+                "ducats": 100,
+                "required": 1
+            },
             "Zakti Prime Barrel": {
                 "plat": 3,
                 "ducats": 45,
                 "required": 1
             },
-            "Zakti Prime Blueprint": {
-                "plat": 10,
-                "ducats": 100,
+            "Zakti Prime Receiver": {
+                "plat": 5,
+                "ducats": 15,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Secondary",
+        "plat": 33,
+        "prime-access": "Nezha"
+    },
+    "Ash Prime": {
+        "parts": {
+            "Ash Prime Blueprint": {
+                "plat": 16,
+                "ducats": 45,
                 "required": 1
             },
-            "Zakti Prime Receiver": {
+            "Ash Prime Chassis Blueprint": {
+                "plat": 12,
+                "ducats": 15,
+                "required": 1
+            },
+            "Ash Prime Neuroptics Blueprint": {
+                "plat": 10,
+                "ducats": 45,
+                "required": 1
+            },
+            "Ash Prime Systems Blueprint": {
+                "plat": 30,
+                "ducats": 65,
+                "required": 1
+            }
+        },
+        "vaulted": true,
+        "type": "Warframes",
+        "plat": 90,
+        "prime-access": "Ash"
+    },
+    "Bronco Prime": {
+        "parts": {
+            "Bronco Prime Blueprint": {
+                "plat": 1,
+                "ducats": 15,
+                "required": 1
+            },
+            "Bronco Prime Barrel": {
+                "plat": 3,
+                "ducats": 45,
+                "required": 1
+            },
+            "Bronco Prime Receiver": {
                 "plat": 3,
                 "ducats": 15,
                 "required": 1
@@ -2754,68 +3554,35 @@
         },
         "vaulted": false,
         "type": "Secondary",
-        "plat": 20,
-        "prime-access": "Nezha"
+        "plat": 7,
+        "prime-access": "N/A"
     },
-    "Zephyr Prime": {
+    "Corinth Prime": {
         "parts": {
-            "Zephyr Prime Blueprint": {
-                "plat": 16,
-                "ducats": 65,
-                "required": 1
-            },
-            "Zephyr Prime Chassis Blueprint": {
-                "plat": 8,
-                "ducats": 25,
-                "required": 1
-            },
-            "Zephyr Prime Neuroptics Blueprint": {
-                "plat": 6,
+            "Corinth Prime Blueprint": {
+                "plat": 4,
                 "ducats": 15,
                 "required": 1
             },
-            "Zephyr Prime Systems Blueprint": {
-                "plat": 53,
-                "ducats": 100,
-                "required": 1
-            }
-        },
-        "vaulted": true,
-        "type": "Warframes",
-        "plat": 99,
-        "prime-access": "Zephyr"
-    },
-    "Zhuge Prime": {
-        "parts": {
-            "Zhuge Prime Barrel": {
-                "plat": 18,
+            "Corinth Prime Barrel": {
+                "plat": 47,
                 "ducats": 100,
                 "required": 1
             },
-            "Zhuge Prime Blueprint": {
-                "plat": 5,
+            "Corinth Prime Receiver": {
+                "plat": 9,
                 "ducats": 45,
                 "required": 1
             },
-            "Zhuge Prime Grip": {
-                "plat": 6,
-                "ducats": 15,
-                "required": 1
-            },
-            "Zhuge Prime Receiver": {
-                "plat": 11,
-                "ducats": 45,
-                "required": 1
-            },
-            "Zhuge Prime String": {
-                "plat": 8,
-                "ducats": 15,
+            "Corinth Prime Stock": {
+                "plat": 12,
+                "ducats": 100,
                 "required": 1
             }
         },
         "vaulted": true,
         "type": "Primary",
-        "plat": 59,
-        "prime-access": "Wukong"
+        "plat": 80,
+        "prime-access": "Titania"
     }
 }

@@ -82,7 +82,7 @@ def partrarity():
 
     relic_names['Neo']['S'] += 1
 
-    update_relic_numbers(relic_names)
+    update_relic_numbers()
     with open(gen_relic_f['part_rarity'], 'w') as f0:
         json.dump(data, f0, indent=4)
 
@@ -857,13 +857,8 @@ def buildrelics(framesets, stuffsets, dupebool):
                 #print('adding exclude')
 
             for xk, xv in unuseddict.items():
-                #print('updateexclude main loop')
-                #print(cset + '   ' + str(xk))
                 if cset in xk and crelic not in xv['excluded']:
-                    #print(xv['excluded'])
-                    #print('adding ' + crelic)
                     xv['excluded'].append(crelic)
-                    #print(xv['excluded'])
 
             if len(oset) > 1:
                 #print('removing exclude')

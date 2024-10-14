@@ -1,3 +1,4 @@
+import asyncio
 import json
 import os
 from asyncio import sleep
@@ -7,7 +8,6 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from discord import Intents, Forbidden, HTTPException
 from discord.ext.commands import Bot as BotBase, BadArgument, MissingRequiredArgument, \
     CommandOnCooldown, MissingPermissions, MissingRole, CommandNotFound
-from discord_slash import SlashCommand
 
 from lib.utils.file_utils import get_server_prefixes
 
@@ -22,7 +22,7 @@ async def command_prefix(client, message):
     elif str(message.guild.id) in list(prefixes):
         return prefixes[str(message.guild.id)]
     else:
-        return 's1'
+        return 's!'
 
 class Ready(object):
     def __init__(self):
@@ -34,7 +34,7 @@ class Ready(object):
         print(f" {cog} cog ready")
 
     def all_ready(self):
-        return all([getattr(self,cog) for cog in COGS])
+        return all([getattr(self, cog) for cog in COGS])
 
 
 class Bot(BotBase):
@@ -52,7 +52,7 @@ class Bot(BotBase):
 
     def setup(self):
         for cog in COGS:
-            self.load_extension(f"lib.cogs.{cog}")
+            asyncio.run(self.load_extension(f"lib.cogs.{cog}"))
             print(f" {cog} cog loaded")
 
         print("Setup complete.")
@@ -88,25 +88,20 @@ class Bot(BotBase):
         elif isinstance(exc, CommandNotFound):
             pass
         elif isinstance(exc, CommandOnCooldown):
-            message = await ctx.send("Command is currently on cooldown, try again later.")
-            await sleep(2)
-            await message.delete()
-            await ctx.message.delete()
+            try:
+                await ctx.send(f"Command is currently on cooldown, try again after {exc.retry_after:0.0f} seconds.", delete_after=2)
+                await ctx.message.delete(delay=2)
+            except:
+                await ctx.response.send_message("Command is currently on cooldown, try again later.", ethereal=True)
         elif isinstance(exc, MissingPermissions):
-            message = await ctx.send("You lack the permissions to use this command here.")
-            await sleep(2)
-            await message.delete()
-            await ctx.message.delete()
+            await ctx.send("You lack the permissions to use this command here.", delete_after=2)
+            await ctx.message.delete(delay=2)
         elif isinstance(exc, MissingRole):
-            message = await ctx.send("You lack the role required to use this command here.")
-            await sleep(2)
-            await message.delete()
-            await ctx.message.delete()
+            await ctx.send("You lack the role required to use this command here.", delete_after=2)
+            await ctx.message.delete(delay=2)
         elif hasattr(exc, "original"):
             if isinstance(exc.original, SyntaxError):
-                message = await ctx.send("Something is wrong with the syntax of that command.")
-                await sleep(2)
-                await message.delete()
+                await ctx.send("Something is wrong with the syntax of that command.", delay=2)
             elif isinstance(exc, HTTPException):
                 await ctx.send("Unable to send message.")
             elif isinstance(exc, Forbidden):
@@ -135,4 +130,4 @@ class Bot(BotBase):
 
 
 bot = Bot()
-slash = SlashCommand(bot, override_type=True, sync_commands=True)
+tree = bot.tree

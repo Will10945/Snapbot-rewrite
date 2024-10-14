@@ -1,4 +1,6 @@
+import asyncio
 import datetime
+from dateutil.relativedelta import relativedelta
 import re
 import gspread_asyncio
 import discord
@@ -10,7 +12,8 @@ from matplotlib import pyplot as plt
 from matplotlib import colors as mcolors
 from google.oauth2.service_account import Credentials
 
-from lib.utils.file_utils import get_relic_data, get_set_data, get_unvault_relic_sets, update_unvault_relic_sets, get_prime_junk, get_rarest_relics
+from lib.utils.file_utils import get_relic_data, get_set_data, get_unvault_relic_sets, update_unvault_relic_sets, get_prime_junk, get_rarest_relics, \
+                                 get_vault_dates, update_vault_dates
 from lib.utils.relic_utils import get_relic_4b4_avg
 
 RELIC_SPREADSHEET_URL = "https://docs.google.com/spreadsheets/d/1lHt3CaaCEdNR1ZSH8BaWFERMFHnxSkpGxQV4R_CiSyI/edit?usp=sharing"
@@ -44,6 +47,7 @@ EVENT = 1
 RELICS_IN = 2
 RELICS_OUT = 3
 TOTAL_RELICS = 4
+PRIME_ACCESS_GROUPS = 7
 
 BARO_RELIC_DATES = 1
 BARO_RELICS = 2
@@ -118,7 +122,7 @@ async def update_unvault_relics():
                 if not end_relics:
                     end_relics = row[RELICS_OUT].split(', ')
 
-            if end_index < index < start_index or ((in_index < index and in_index) or (in_index < index < out_index if out_index else False)):
+            if end_index < index < start_index or ((in_index < index and (in_index and not out_index)) or (in_index < index < out_index if out_index else False)):
                 valid_start_frames.append(frame)
                 if not start_relics:
                     start_relics = row[RELICS_IN].split(', ')
@@ -139,9 +143,13 @@ async def check_for_website_update(force_rebuild=False):
     global spreadsheet_ranges, full_sheet
 
     agc = await agcm.authorize()
+    # print(f"{agc}")
     sheet = await agc.open_by_url(RELIC_SPREADSHEET_URL)
+    # print(f"{sheet}")
     worksheet = await sheet.get_worksheet(0)
+    # print(f"{worksheet}")
     full_sheet = await worksheet.get_all_values()
+    # print(f"{full_sheet}")
 
     category = 'relics'
     prev_row = ''
@@ -192,25 +200,16 @@ async def update_steamcharts_data():
 
 async def availability_parser(args):
 
-    era = None
     all_relics = list(get_relic_data())
     valid_relics = []
-    unused_args = []
+
+    args = [x.title() for x in args]
 
     for arg in args:
-        if len(valid_relics) >= 8:
-            break
-        if arg.title() in ['Lith', 'Meso', 'Neo', 'Axi']:
-            era = arg.title()
-        elif era:
-            if (relic := f"{era} {arg.title()}") in all_relics:
-                valid_relics.append(relic)
-            else:
-                unused_args.append(arg.title())
-        else:
-            unused_args.append(arg.title())
+        if arg in all_relics and arg not in valid_relics:
+            valid_relics.append(arg)
 
-    return valid_relics  # , unused_args
+    return valid_relics
 
 
 def get_availability_dict(relics):
@@ -252,7 +251,7 @@ def get_availability_dict(relics):
             elif relic in row[BARO_RELICS].split(', ') and i < spreadsheet_ranges['baro_history'][1]:
                 relic_locations[relic]['baro'].append(i)
 
-            elif not relic_locations[relic]['vault'] and spreadsheet_ranges['relics'][1] == i:
+            elif len(relic_locations[relic]['vault']) < len(relic_locations[relic]['release']) and spreadsheet_ranges['relics'][1] == i:
                 relic_locations[relic]['vault'].append(i - 1)
                 relic_locations[relic]['available'].append(True)
 
@@ -270,7 +269,7 @@ def get_availability_dict(relics):
 async def availability_manager(relics):
 
     relic_locations = get_availability_dict(relics)
-
+    # print(relic_locations['Lith M7'])
     embed_info = {}
 
     for relic in relic_locations:
@@ -328,7 +327,7 @@ def trim_event(event_str, _type):
         event_str = event_str.replace(' End,', ' End\n')
 
     if 'Unvault' in _type or ' End' in event_str or ' Start' in event_str:
-        event_str = event_str.replace(' and ', ' / ').replace('Unvault ', '').replace(' Start', ' ✅').replace(' End,', ' 🟥\n').replace(' End', ' 🟥').replace('In', '')
+        event_str = event_str.replace(' and ', ' / ').replace('Unvault ', '').replace(' Start', ' ✅').replace(' End,', ' 🟥\n').replace(' End', ' 🟥').replace('In:', '')
 
 
     return event_str
@@ -346,7 +345,7 @@ def create_av_graph(embed_info):
     relic_colors = {}
 
     fig = plt.figure(figsize=(12, 6), dpi=160)
-    fig.suptitle(f"Players During {', '.join(list(set(list(embed_info))))} Availability", fontsize=16)
+    fig.suptitle(f"{', '.join(list(set(list(embed_info))))} Availability", fontsize=16)
     ax = fig.add_subplot(1, 1, 1)
     ax.plot(dates, values)
     ax.plot(dates, averages, color='green')
@@ -372,8 +371,27 @@ def create_av_graph(embed_info):
 
                     ax.text(middle_x, middle_y, relic, ha='center', size='xx-small')
 
+    # Conversion Span
+    plt.axvline(datetime.datetime(2016,7,8), color='red', ls='--')
+    plt.text(datetime.datetime(2016,7,8) - datetime.timedelta(days=30), 1.02, 'Conversion', transform=ax.get_xaxis_transform(), rotation=0)
+
+    # Resurgence 1 Span
+    plt.axvline(datetime.datetime(2021, 11, 16), color='red', ls='--', alpha=0.6)
+    plt.axvline(datetime.datetime(2022, 1, 25), color='red', ls='--', alpha=0.6)
+    plt.axvspan(datetime.datetime(2021, 11, 16), datetime.datetime(2022, 1, 25),
+                ec='red', color='red', alpha=0.15, ls='--')
+    plt.text(datetime.datetime(2021, 11, 16) - datetime.timedelta(days=30), 1.02, 'Resurgence', transform=ax.get_xaxis_transform(), rotation=0)
+
+    # Conversion 2 Span
+    plt.axvline(datetime.datetime(2023, 12, 21), color='red', ls='--', alpha=0.6)
+    plt.axvline(datetime.datetime(2024, 2, 15), color='red', ls='--', alpha=0.6)
+    plt.axvspan(datetime.datetime(2023, 12, 21), datetime.datetime(2024, 2, 15),
+                ec='red', color='red', alpha=0.15, ls='--')
+    plt.text(datetime.datetime(2023, 12, 21) - datetime.timedelta(days=30), 1.02, 'Resurgence', transform=ax.get_xaxis_transform(), rotation=0)
+
     plt.legend()
     fig.tight_layout()
+    plt.margins(x=0.002)
 
     if relic_colors:
         plt.savefig('./data/plot_image.png', bbox_inches='tight', pad_inches=0.05)
@@ -482,6 +500,8 @@ def find_vault_order():
                 in_index = i
             if 'Out:' in word:
                 out_index = i
+            if 'Resurgence' in word:
+                resurgence = True
 
         for frame, index in temp_vaulted.items():
 
@@ -489,7 +509,7 @@ def find_vault_order():
                 set_vault_date[frame] = datetime.datetime.strptime(row[EVENT].split(': ')[0].replace('1st', '1').replace('2nd', '2').replace('3rd', '3').replace('th ', ' '), '%B %d %Y')
                 if frame in active:
                     active.pop(frame)
-            if end_index < index < start_index or ((in_index < index and in_index) or (in_index < index < out_index if out_index else False)):
+            if end_index < index < start_index or ((in_index < index and in_index) and (in_index < index < out_index if out_index else True)):
                 set_vault_date[frame] = tomorrow
                 if frame not in active:
                     active[frame] = datetime.datetime.strptime(row[EVENT].split(': ')[0].replace('1st', '1').replace('2nd', '2').replace('3rd', '3').replace('th ', ' '), '%B %d %Y')
@@ -691,7 +711,7 @@ def get_all_relics_dict(start, end, relic, flags):
     all_relics = []
     for s, e in zip(start, end):
         relics = []
-        relics_detailed[f"{s}-{e}"] = {}
+        relics_detailed[f"{s}-{e}"] = dict()
         for row in full_sheet[s:e]:
             relics += row[TOTAL_RELICS].split(', ')
         relics_to_remove = [rel for rel in full_sheet[e][RELICS_IN].split(', ')] + [relic]
@@ -765,7 +785,8 @@ def format_relic_list(relics, flags):
         if flags['average_return'] < get_relic_data()[relic][get_best_refinement(relic)]['average_return']['4b4'] and \
            flags['junk_amount'] > get_junk_amount(relic) and \
            (check_unvault(relic) if flags['return_unvault'] else True) and \
-           (check_rarest(relic) if flags['rarest_only'] else True):
+           (check_rarest(relic) if flags['rarest_only'] else True) and \
+           (check_sets(relic, flags['sets']) if flags['sets'] else True):
             formatted_relics.append(relic)
 
     return formatted_relics
@@ -807,3 +828,113 @@ def check_unvault(relic):
 
 def check_rarest(relic):
     return f"{relic} RELIC".upper() in get_rarest_relics()
+
+
+def check_sets(relic, sets):
+
+    for part in get_relic_data()[relic]['Intact']['drops']:
+        if part.title().split(' Prime')[0] in sets:
+            return True
+
+    return False
+
+
+def get_overlapping_relics(relics):
+
+    all_relics = []
+
+    for relic in relics:
+        for row in full_sheet[spreadsheet_ranges['relics'][0]:spreadsheet_ranges['relics'][1]]:
+            if relic in row[TOTAL_RELICS]:
+                for rel in row[TOTAL_RELICS].split(', '):
+                    if rel not in all_relics:
+                        all_relics.append(rel)
+
+    return all_relics
+
+
+def get_vault_date_order():
+    vault_dict = get_vault_dates()
+
+    embed = discord.Embed(
+        title='Frames in order of vault',
+        description='Data not updated, check the bottom of:\n[Relic Spreadsheet](https://docs.google.com/spreadsheets/d/1lHt3CaaCEdNR1ZSH8BaWFERMFHnxSkpGxQV4R_CiSyI/edit?usp=sharing)'
+    )
+
+    frame_str, date_str, timestamp_str = '', '', ''
+    present_bool = False
+    for frame, date in vault_dict.items():
+        present_bool = present_bool or ('--present' in frame)
+
+        frame_str += f"{frame}\n" * ('--present' not in frame) + '\n**Not Vaulted**\n' * ('--present' in frame)
+
+        if not present_bool:
+            date_stamp = f"<t:{int((datetime.datetime.strptime(date.replace('1st', '1').replace('2nd', '2').replace('3rd', '3').replace('th ', ' '), '%B %d %Y') + datetime.timedelta(hours=14)).timestamp())}:R>\n"
+        else:
+            try:
+                date_stamp = f"<t:{int((datetime.datetime.strptime(date, '%B %d %Y') + datetime.timedelta(hours=14)).timestamp())}:R>\n"
+            except ValueError:
+                date_stamp = '\n**Approx Vault Date**'
+
+        timestamp_str += date_stamp * ('--present' not in frame) + '\n**Approx Vault Date**\n' * ('--present' in frame)
+
+    embed.add_field(
+        name='Frame',
+        value=frame_str
+    )
+    embed.add_field(
+        name='Vaulted',
+        value=timestamp_str
+    )
+
+    return embed
+
+
+async def auto_update_vault_date_order():
+    # vault_dict = get_vault_dates()
+    vault_dict = {}
+    release_dict = {}
+    sheet_range = full_sheet[spreadsheet_ranges['relics'][0]:spreadsheet_ranges['relics'][1]]
+
+    time_between_vaults_total = 0
+    last_date = sheet_range[0][1].split(': ')[0].replace('1st', '1').replace('2nd', '2').replace('3rd', '3').replace('th ', ' ')
+    last_date = datetime.datetime.strptime(last_date, "%B %d %Y")
+
+    for cell in [c[1] for c in sheet_range]:
+        if ' Vault' in cell:
+            frame = cell.split(' Vault')[0].split(' ')[-1]
+            date = cell.split(': ')[0]
+            vault_dict[frame] = date
+
+            date = date.replace('1st', '1').replace('2nd', '2').replace('3rd', '3').replace('th ', ' ')
+            date = datetime.datetime.strptime(date, "%B %d %Y")
+            time_between_vaults_total += (date - last_date).days
+            last_date = date
+
+        if ' Release' in cell:
+            frame = cell.split(' Release')[0].split(' ')[-1]
+            date = cell.split(': ')[0]
+            release_dict[frame] = date
+
+    release_dict = {k: v for k, v in release_dict.items() if k not in vault_dict}
+
+    total_amount_vaulted = len(vault_dict)
+    average_time_between_vaults = int(time_between_vaults_total/total_amount_vaulted)
+
+    for frame in release_dict:
+        # date = release_dict[frame].replace('1st', '1').replace('2nd', '2').replace('3rd', '3').replace('th ', ' ')
+        # date = datetime.datetime.strptime(date, "%B %d %Y")
+        next_vault = last_date + relativedelta(days=average_time_between_vaults)
+        release_dict[frame] = get_closest_weekday(next_vault, 3).strftime("%B %d %Y")
+        last_date = next_vault
+
+    vault_dict.update({'--present': '--'})
+    vault_dict.update(release_dict)
+    update_vault_dates(vault_dict)
+
+def get_closest_weekday(date: datetime.datetime, weekday: int) -> datetime.datetime:
+
+    days_until_weekday = weekday - date.weekday() % 7
+    closest_weekday_date = date + datetime.timedelta(days=days_until_weekday)
+
+    return closest_weekday_date

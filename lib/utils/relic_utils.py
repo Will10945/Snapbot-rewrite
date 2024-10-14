@@ -3,11 +3,13 @@ from collections import OrderedDict
 import re
 import json
 from copy import deepcopy
+import discord
+import asyncio
 
 import relic_engine
 
 from lib.utils.file_utils import new_relic_data, new_set_data, update_prime_access_dict, get_prime_junk, get_set_data, get_relic_data, \
-                                 get_unvault_relic_sets, get_related_user_defaults, get_rarest_relics
+                                 get_unvault_relic_sets, get_related_user_defaults, get_rarest_relics, get_meta_sets, update_relic_numbers
 
 
 ERA_IMAGES = {
@@ -21,6 +23,8 @@ ERA_IMAGES = {
 def update_relic_dbs():
     time0 = time.perf_counter()
 
+    # loop = asyncio.get_event_loop()
+    # relic_data, set_data, _ = await loop.run_until_complete(relic_engine.build_json_files())
     relic_data, set_data = relic_engine.build_json_files()
 
     set_data = json.loads(json.dumps(set_data))
@@ -30,6 +34,8 @@ def update_relic_dbs():
 
     new_relic_data(relic_data)
     new_set_data(set_data)
+
+    update_relic_numbers()
 
     time1 = time.perf_counter()
     print(f"Databases updated in: {time1-time0:0.1f} seconds")
@@ -162,7 +168,7 @@ def related_relics_manager(user_id, args):
 def parse_related_relics(user_id, content):
 
     user_defaults = get_related_user_defaults()
-    args = re.split(', | |=|:', content.title())[1:]
+    # args = re.split(', | |=|:', content.title())[1:]
 
     if str(user_id) not in user_defaults:
         user_defaults[str(user_id)] = {
@@ -184,154 +190,18 @@ def parse_related_relics(user_id, content):
         }
 
     flags = deepcopy(user_defaults[str(user_id)])
-    args_iter = iter(args)
-    current = next(args_iter)
+
+    flags['relics'].append(content[0].title())
+    flags['return_unvault'] = content[1]
+    flags['junk_amount'] = content[2]
+    flags['sort_style'] = content[3]
+    flags['links'] = content[4]
+    flags['average_return'] = content[5]
+    flags['price_threshold'] = content[6]
+    flags['threshold_increment'] = content[7]
+    flags['sets'] = get_meta_sets()
 
     relic_data = get_relic_data()
-    unused_args = []
-
-    while current:
-        era = ''
-
-        if current in ['Lith', 'Meso', 'Neo', 'Axi']:
-            era = current
-            up_next = next(args_iter, None)
-            while re.match(r'[A-Z]\d{1,2}\Z', up_next):
-                relic = f"{era} {up_next}"
-                if relic in relic_data:
-                    flags['relics'].append(relic)
-                    up_next = next(args_iter, None)
-                    if not up_next:
-                        break
-            current = up_next
-
-        elif current in ['Style', 'S']:
-            up_next = next(args_iter, None)
-            if up_next in ['Time', 'Sets', 'Price', 'Event']:
-                flags['sort_style'] = up_next
-                current = next(args_iter, None)
-                pass
-            else:
-                current = up_next
-
-        elif current in ['Links', 'Link', 'L']:
-            up_next = next(args_iter, None)
-            if up_next in ['T', 'True']:
-                flags['links'] = True
-                current = next(args_iter, None)
-                pass
-            elif up_next in ['F', 'False']:
-                flags['links'] = False
-                current = next(args_iter, None)
-                pass
-            else:
-                flags['links'] = True
-                current = up_next
-
-        elif current in ['Average', 'Return', 'Avg', 'Ret', 'A']:
-            up_next = next(args_iter, None)
-            if up_next.isnumeric():
-                flags['average_return'] = int(up_next)
-                current = next(args_iter, None)
-                pass
-            else:
-                current = up_next
-
-        elif current in ['Setprice', 'Setvalue', 'Svalue', 'Sprice', 'Sv', 'Sp']:
-            up_next = next(args_iter, None)
-            if up_next.isnumeric():
-                flags['set_price'] = int(up_next)
-                current = next(args_iter, None)
-                pass
-            else:
-                current = up_next
-
-        elif current in ['Threshold', 'Start', 'Begin', 'Initial', 'Init', 'T']:
-            up_next = next(args_iter, None)
-            if up_next.isnumeric():
-                flags['price_threshold'] = int(up_next)
-                current = next(args_iter, None)
-                pass
-            else:
-                current = up_next
-
-        elif current in ['Increment', 'Increase', 'Inc', 'I']:
-            up_next = next(args_iter, None)
-            if up_next.isnumeric():
-                flags['threshold_increment'] = int(up_next)
-                current = next(args_iter, None)
-                pass
-            else:
-                current = up_next
-
-        elif current in ['Junk', 'Trash', 'J']:
-            up_next = next(args_iter, None)
-            if up_next.isnumeric():
-                flags['junk_amount'] = int(up_next) * (int(up_next) < 6 + 5 * int(up_next) >= 6)
-                current = next(args_iter, None)
-                pass
-            else:
-                current = up_next
-
-        elif current in ['Unvault', 'U']:
-            up_next = next(args_iter, None)
-            if up_next in ['T', 'True']:
-                flags['return_unvault'] = True
-                current = next(args_iter, None)
-                pass
-            elif up_next in ['F', 'False']:
-                flags['return_unvault'] = False
-                current = next(args_iter, None)
-                pass
-            else:
-                flags['return_unvault'] = True
-                current = up_next
-
-        elif current in ['Concise', 'Short', 'Small', 'C']:
-            up_next = next(args_iter, None)
-            if up_next in ['T', 'True']:
-                flags['concise'] = True
-                current = next(args_iter, None)
-                pass
-            elif up_next in ['F', 'False']:
-                flags['concise'] = False
-                current = next(args_iter, None)
-                pass
-            else:
-                current = up_next
-
-        elif current in ['Detailed', 'Detail', 'D']:
-            up_next = next(args_iter, None)
-            if up_next in ['T', 'True']:
-                flags['detailed'] = True
-                current = next(args_iter, None)
-                pass
-            elif up_next in ['F', 'False']:
-                flags['detailed'] = False
-                current = next(args_iter, None)
-                pass
-            else:
-                current = up_next
-
-        elif current in ['Rarest', 'Rare', 'R']:
-            up_next = next(args_iter, None)
-            if up_next in ['T', 'True']:
-                flags['rarest_only'] = True
-                current = next(args_iter, None)
-                pass
-            elif up_next in ['F', 'False']:
-                flags['rarest_only'] = False
-                current = next(args_iter, None)
-                pass
-            else:
-                flags['rarest_only'] = True
-                current = up_next
-
-        else:
-            unused_args.append(current)
-            current = next(args_iter, None)
-
-    flags['sets'] = set_parse(unused_args)
 
     rarest = [x.title().split(' Relic')[0] for x in get_rarest_relics()]
     unv_sets = get_unvault_relic_sets()
@@ -345,7 +215,7 @@ def parse_related_relics(user_id, content):
 
         for part in relic_data[relic]['Intact']['drops']:
             if not is_prime_junk(part := part.split(' Prime')[0]) and part != 'Forma Blueprint':
-                flags['sets'].append(part)
+                part not in flags['sets'] and flags['sets'].append(part)
 
 
 
@@ -356,3 +226,131 @@ def parse_related_relics(user_id, content):
 def is_related():
 
     pass
+
+
+def build_settings_embed(settings):
+
+    settings_str = '\n'.join([f"{f'{x}:':12} {y}" for x, y in settings.items()])
+
+    embed = discord.Embed(
+        title='Relic Settings',
+        description=f"```"
+                    f"{settings_str}"
+                    f"```"
+    )
+
+    return embed
+
+
+class BuildRelics:
+
+    def __init__(self):
+
+        self.random = False
+        self.random_override = False
+        self.frames = []
+
+        self.settings = {}
+
+
+
+
+class FrameSelectModal(discord.ui.Modal, title='Choose Frames'):
+
+    def __init__(self):
+        super().__init__()
+
+        self.random = True
+        self.frames = []
+        self.random_override = False
+
+        frame_list = list([x.split()[0] for x, y in get_set_data().items() if y['type'] == 'Warframes'])
+        frame_list_list = [frame_list[i:i+25] for i in range(0, len(frame_list), 25)]
+
+        self.__random__ = discord.ui.Select(options=[discord.SelectOption(label=f"Yes"), discord.SelectOption(label=f"No")], placeholder='Random Frames?', min_values=0, max_values=1)
+        super().add_item(self.__random__)
+
+        self.__attributes__ = [self.__random__]
+        for i, frl in enumerate(frame_list_list):
+            setattr(self, f"select_frames_{i}", discord.ui.Select(options=[discord.SelectOption(label=f"{x}") for x in frl], min_values=0, max_values=len(frl), placeholder=f"Select Frames: ({frl[0]} - {frl[-1]})"))
+            super().add_item(getattr(self, f"select_frames_{i}"))
+            self.__attributes__.append(getattr(self, f"select_frames_{i}"))
+
+    async def on_submit(self, interaction: discord.Interaction):
+
+        if self.__attributes__[0].values and 'Yes' not in self.__attributes__[0].values:
+            self.random = False
+
+        if not self.__random__:
+            self.frames = [x for y in self.__attributes__[1:] for x in y.values]
+
+        if not self.frames:
+            self.random = True
+            self.random_override = True
+
+        new_relics.frames = self.frames
+        BuildRelics.random = self.random
+        BuildRelics.random_override = self.random_override
+
+        settings = {'Duplicates': 'No'}
+        embed = build_settings_embed(settings)
+        await interaction.response.send_message(f"Would you like to change any of the settings?", embed=embed, view=ChangeSettingsButtons(settings), ephemeral=True)
+
+
+
+    # async def on_error(self, interaction: discord.Interaction, error: Exception):
+    #     await interaction.response.send_message('Uh oh', ephemeral=True)
+
+
+class RelicBuildOptionModal(discord.ui.Modal, title='Select Options'):
+
+    def __init__(self, settings):
+        super().__init__()
+        self.settings = settings
+        self.attributes = {}
+
+        for setting, value in self.settings.items():
+            setattr(self, setting, discord.ui.Select(options=[discord.SelectOption(label=f"Yes"), discord.SelectOption(label=f"No")], placeholder=setting))
+            super().add_item(getattr(self, setting))
+            self.attributes[setting] = getattr(self, setting)
+
+
+    async def on_submit(self, interaction: discord.Interaction):
+        for sett, value in self.attributes.items():
+            self.settings[sett] = value.values[0]
+        print(self.settings)
+        BuildRelics.settings = self.settings
+
+        await interaction.response.edit_message(content=f'Would you like to change any of the settings?', embed=build_settings_embed(self.settings), view=ChangeSettingsButtons(self.settings))
+
+    async def on_error(self, interaction: discord.Interaction, error: Exception):
+        await interaction.response.send_message('Uh oh', ephemeral=True)
+
+
+class RandomFramesButton(discord.ui.View):
+
+    def __init__(self):
+        super().__init__()
+        self.value = False
+
+    @discord.ui.button(label='Random', style=discord.ButtonStyle.blurple)
+    async def random_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        self.value = True
+        self.stop()
+
+
+class ChangeSettingsButtons(discord.ui.View):
+
+    def __init__(self, settings):
+        super().__init__()
+        self.settings = settings
+
+    @discord.ui.button(label='Change', style=discord.ButtonStyle.blurple)
+    async def change_settings_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        await interaction.response.send_modal(RelicBuildOptionModal(self.settings))
+        self.stop()
+
+    @discord.ui.button(label='Build', style=discord.ButtonStyle.green)
+    async def build_relics_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        await interaction.response.edit_message(content=f"Building relics ...", embed=None, view=None)
+        self.stop()

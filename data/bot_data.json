@@ -1,24 +1,27 @@
 {
     "prime_access": {
         "Ash": [
-            "Carrier",
-            "Vectis"
+            "Vectis",
+            "Carrier"
         ],
         "Atlas": [
             "Dethcube",
             "Tekko"
         ],
         "Banshee": [
-            "Euphona",
-            "Helios"
+            "Helios",
+            "Euphona"
+        ],
+        "Baruuk": [
+            "Afuris"
         ],
         "Chroma": [
-            "Gram",
-            "Rubico"
+            "Rubico",
+            "Gram"
         ],
         "Ember": [
-            "Glaive",
-            "Sicarus"
+            "Sicarus",
+            "Glaive"
         ],
         "Equinox": [
             "Stradavar",
@@ -29,55 +32,83 @@
             "Reaper"
         ],
         "Gara": [
-            "Astilla",
-            "Volnus"
+            "Volnus",
+            "Astilla"
+        ],
+        "Garuda": [
+            "Corvas",
+            "Nagantaka"
+        ],
+        "Gauss": [
+            "Akarius",
+            "Acceltra"
+        ],
+        "Grendel": [
+            "Masseter",
+            "Zylok"
+        ],
+        "Harrow": [
+            "Knell",
+            "Scourge"
+        ],
+        "Hildryn": [
+            "Larkspur",
+            "Shade"
         ],
         "Hydroid": [
-            "Ballistica",
-            "Nami Skyla"
+            "Ballistica"
         ],
         "Inaros": [
             "Karyst",
             "Panthera"
         ],
         "Ivara": [
-            "Aksomati",
-            "Baza"
+            "Baza",
+            "Aksomati"
         ],
         "Junk": [
-            "Akbronco",
-            "Aklex",
-            "Akvasto",
-            "Braton",
-            "Bronco",
+            "Cobra & Crane",
             "Burston",
-            "Fang",
-            "Harrow",
-            "Knell",
+            "Dual Keres",
+            "Dual Kamas",
+            "Braton",
+            "Aklex",
+            "Sevagoth",
+            "Akmagnus",
+            "Epitaph",
+            "Nautilus",
+            "Silva & Aegis",
             "Lex",
-            "Orthos",
+            "Fang",
+            "Akvasto",
             "Paris",
-            "Scourge"
+            "Akbronco",
+            "Orthos",
+            "Nami Skyla",
+            "Bronco"
+        ],
+        "Khora": [
+            "Hystrix"
         ],
         "Limbo": [
             "Destreza",
             "Pyrana"
         ],
         "Loki": [
-            "Bo",
-            "Wyrm"
+            "Wyrm",
+            "Bo"
         ],
         "Mag": [
             "Boar",
             "Dakra"
         ],
         "Mesa": [
-            "Akjagara",
-            "Redeemer"
+            "Redeemer",
+            "Akjagara"
         ],
         "Mirage": [
-            "Akbolto",
-            "Kogake"
+            "Kogake",
+            "Akbolto"
         ],
         "Nekros": [
             "Galatine",
@@ -88,8 +119,8 @@
             "Zakti"
         ],
         "Nidus": [
-            "Magnus",
-            "Strun"
+            "Strun",
+            "Magnus"
         ],
         "Nova": [
             "Soma",
@@ -100,43 +131,53 @@
             "Scindo"
         ],
         "Oberon": [
-            "Silva & Aegis",
             "Sybaris"
         ],
         "Octavia": [
             "Pandero",
             "Tenora"
         ],
+        "Protea": [
+            "Velox",
+            "Okina"
+        ],
+        "Revenant": [
+            "Tatsu",
+            "Phantasma"
+        ],
         "Rhino": [
-            "Ankyros",
-            "Boltor"
+            "Boltor",
+            "Ankyros"
         ],
         "Saryn": [
             "Nikana",
             "Spira"
         ],
         "Titania": [
-            "Corinth",
-            "Pangolin"
+            "Pangolin",
+            "Corinth"
         ],
         "Trinity": [
-            "Dual Kamas",
             "Kavasa"
         ],
         "Valkyr": [
-            "Cernos",
-            "Venka"
+            "Venka",
+            "Cernos"
         ],
         "Vauban": [
-            "Akstiletto",
-            "Fragor"
+            "Fragor",
+            "Akstiletto"
         ],
         "Volt": [
             "Odonata"
         ],
+        "Wisp": [
+            "Gunsen",
+            "Fulmin"
+        ],
         "Wukong": [
-            "Ninkondi",
-            "Zhuge"
+            "Zhuge",
+            "Ninkondi"
         ],
         "Zephyr": [
             "Kronen",
@@ -161,7 +202,60 @@
         "Trinity",
         "Vauban",
         "Volt",
-        "Kronen"
+        "Zephyr",
+        "Boltor",
+        "Nyx",
+        "Hikou",
+        "Ankyros",
+        "Odonata",
+        "Carrier",
+        "Dual Kamas",
+        "Dakra",
+        "Boar",
+        "Reaper",
+        "Scindo",
+        "Akstiletto",
+        "Helios",
+        "Vasto",
+        "Latron",
+        "Sicarus",
+        "Kogake",
+        "Tigris",
+        "Cernos",
+        "Nami Skyla",
+        "Akbolto",
+        "Hydroid",
+        "Sybaris",
+        "Soma",
+        "Banshee",
+        "Kavasa",
+        "Euphona",
+        "Fang",
+        "Venka",
+        "Spira",
+        "Valkyr",
+        "Mesa",
+        "Redeemer",
+        "Limbo",
+        "Destreza",
+        "Galatine",
+        "Silva & Aegis",
+        "Akjagara",
+        "Ballistica",
+        "Ivara",
+        "Zhuge",
+        "Wukong",
+        "Tiberon",
+        "Gram",
+        "Mirage",
+        "Fragor",
+        "Afuris",
+        "Shade",
+        "Wisp",
+        "Gunsen",
+        "Hildryn",
+        "Cobra & Crane",
+        "Fulmin"
     ],
     "expanded_meta_sets": [
         "Ash",
@@ -209,101 +303,116 @@
     ],
     "relic_numbers": {
         "Axi": {
-            "A": 13,
-            "B": 4,
-            "C": 6,
-            "D": 2,
+            "A": 18,
+            "B": 8,
+            "C": 8,
+            "D": 5,
             "E": 2,
-            "G": 6,
-            "H": 5,
-            "I": 1,
-            "K": 5,
-            "L": 5,
-            "M": 1,
-            "N": 7,
-            "O": 5,
-            "P": 3,
-            "R": 3,
-            "S": 8,
-            "T": 7,
-            "V": 10,
-            "W": 2,
+            "F": 2,
+            "G": 12,
+            "H": 7,
+            "I": 3,
+            "K": 12,
+            "L": 6,
+            "M": 5,
+            "N": 10,
+            "O": 6,
+            "P": 7,
+            "R": 4,
+            "S": 17,
+            "T": 11,
+            "V": 11,
+            "W": 3,
             "Z": 1
         },
         "Lith": {
-            "A": 4,
-            "B": 8,
-            "C": 8,
-            "D": 4,
+            "A": 6,
+            "B": 11,
+            "C": 12,
+            "D": 5,
+            "E": 1,
             "F": 2,
-            "G": 4,
-            "H": 2,
+            "G": 12,
+            "H": 10,
             "I": 1,
-            "K": 6,
-            "L": 2,
-            "M": 7,
-            "N": 6,
-            "O": 2,
-            "P": 5,
-            "S": 10,
-            "T": 6,
-            "V": 8,
-            "W": 2,
-            "Z": 2
+            "K": 11,
+            "L": 4,
+            "M": 8,
+            "N": 15,
+            "O": 3,
+            "P": 9,
+            "R": 5,
+            "S": 15,
+            "T": 12,
+            "V": 10,
+            "W": 4,
+            "Z": 3
         },
         "Meso": {
-            "A": 2,
-            "B": 4,
-            "C": 6,
-            "D": 6,
+            "A": 7,
+            "B": 10,
+            "C": 10,
+            "D": 7,
             "E": 5,
-            "F": 3,
-            "G": 2,
-            "H": 1,
-            "I": 1,
-            "K": 3,
-            "L": 1,
-            "M": 3,
-            "N": 11,
-            "O": 4,
-            "P": 5,
-            "R": 4,
-            "S": 9,
-            "T": 5,
-            "V": 6,
-            "W": 1,
-            "Z": 4
+            "F": 5,
+            "G": 7,
+            "H": 7,
+            "I": 2,
+            "K": 6,
+            "L": 2,
+            "M": 4,
+            "N": 17,
+            "O": 6,
+            "P": 14,
+            "R": 5,
+            "S": 14,
+            "T": 6,
+            "V": 9,
+            "W": 5,
+            "Z": 5
         },
         "Neo": {
-            "A": 5,
-            "B": 7,
-            "C": 1,
-            "D": 3,
-            "E": 2,
-            "F": 1,
-            "G": 3,
-            "H": 2,
-            "I": 2,
-            "K": 3,
-            "L": 1,
-            "M": 3,
-            "N": 15,
-            "O": 1,
-            "P": 2,
-            "R": 4,
-            "S": 14,
-            "T": 4,
+            "A": 13,
+            "B": 9,
+            "C": 4,
+            "D": 8,
+            "E": 4,
+            "F": 3,
+            "G": 7,
+            "H": 3,
+            "I": 3,
+            "K": 7,
+            "L": 3,
+            "M": 5,
+            "N": 22,
+            "O": 2,
+            "P": 7,
+            "R": 5,
+            "S": 18,
+            "T": 8,
             "V": 10,
-            "Z": 8
+            "W": 1,
+            "Z": 11
+        },
+        "Requiem": {
+            "I": 4
         }
     },
     "last_price_update": {
         "autoupdate": "true",
         "lastruntime": "2021-12-08 00:00:00"
     },
-    "default_prefix": "s1",
+    "default_prefix": "s!",
     "server_prefixes": {
-        "824288433517232149": "s1"
+        "824288433517232149": "s!",
+        "780376195182493707": "s!",
+        "780199960980750376": "s!",
+        "853329350186500096": "s!",
+        "1075900645204316200": "s!",
+        "594982670367457312": "s1",
+        "895927933724688384": "s1",
+        "728347368973533235": "s1",
+        "656068499805831188": "s1"
     },
     "dad_users": [
         251052096047022091,
@@ -508,7 +617,7 @@
             "Axi M3",
             "Axi S4"
         ],
-        "Ash, Ember, Frost, Hydroid, Limbo, Loki, Mag, Mesa, Nekros, Nova, Oberon, Saryn, Trinity, Valkyr, Vauban, Volt": [
+        "Ash, Ember, Frost, Nekros, Oberon, Saryn, Valkyr, Vauban": [
             "Lith C5",
             "Lith G1",
             "Lith S9",
@@ -530,6 +639,93 @@
             "Axi S5",
             "Axi S6",
             "Axi V9"
+        ],
+        "Equinox, Wukong": [
+            "Lith N13",
+            "Lith S13",
+            "Meso W2",
+            "Neo E3",
+            "Neo Z9",
+            "Axi T9"
+        ],
+        "Ivara, Oberon": [
+            "Lith B9",
+            "Meso O6",
+            "Neo I3",
+            "Neo S16",
+            "Axi A15",
+            "Axi S13"
+        ],
+        "Atlas, Vauban": [
+            "Lith A5",
+            "Lith V9",
+            "Meso T6",
+            "Meso V8",
+            "Neo A7",
+            "Neo D6",
+            "Axi F1"
+        ],
+        "Limbo, Mesa": [
+            "Lith D5",
+            "Lith P7",
+            "Meso L2",
+            "Neo A9",
+            "Neo R5",
+            "Axi M4"
+        ],
+        "Ash, Inaros": [
+            "Lith V10",
+            "Meso C7",
+            "Meso P12",
+            "Neo A10",
+            "Axi I3",
+            "Axi K12"
+        ],
+        "Frost, Mag": [],
+        "Nezha, Octavia": [],
+        "Atlas, Hydroid, Ivara, Loki, Mesa, Nova, Nyx, Oberon, Rhino, Saryn, Trinity, Valkyr, Vauban, Volt": [
+            "Lith A5",
+            "Lith B9",
+            "Lith C5",
+            "Lith K4",
+            "Lith N9",
+            "Lith O2",
+            "Lith R1",
+            "Lith V6",
+            "Lith V9",
+            "Meso B7",
+            "Meso D5",
+            "Meso N8",
+            "Meso O3",
+            "Meso O6",
+            "Meso T6",
+            "Meso V8",
+            "Neo A6",
+            "Neo A7",
+            "Neo D6",
+            "Neo H3",
+            "Neo I3",
+            "Neo N12",
+            "Neo S13",
+            "Neo S16",
+            "Neo V8",
+            "Axi A15",
+            "Axi F1",
+            "Axi L4",
+            "Axi M3",
+            "Axi S5",
+            "Axi S7",
+            "Axi S13",
+            "Axi V9"
+        ],
+        "Gara, Titania": [
+            "Lith G11",
+            "Lith T11",
+            "Meso A6",
+            "Meso C10",
+            "Neo P5",
+            "Axi C8",
+            "Axi V11"
         ]
     },
     "ocr-ignore": [
@@ -538,5 +734,150 @@
     "backup_params": {
         "frequency": 4,
         "lifespan": 72
+    },
+    "vault_dates": {
+        "Nyx": "August 23rd 2016",
+        "Nova": "November 22nd 2016",
+        "Volt": "February 28th 2017",
+        "Ash": "May 30th 2017",
+        "Trinity": "August 29th 2017",
+        "Saryn": "December 12th 2017",
+        "Vauban": "March 20th 2018",
+        "Nekros": "June 19th 2018",
+        "Valkyr": "September 25th 2018",
+        "Banshee": "December 18th 2018",
+        "Oberon": "April 2nd 2019",
+        "Hydroid": "July 6th 2019",
+        "Mirage": "October 1st 2019",
+        "Zephyr": "December 17th 2019",
+        "Limbo": "March 31st 2020",
+        "Chroma": "July 14th 2020",
+        "Mesa": "October 27th 2020",
+        "Equinox": "February 23rd 2021",
+        "Wukong": "May 25th 2021",
+        "Atlas": "September 8th 2021",
+        "Ivara": "December 15th 2021",
+        "Titania": "March 28th 2022",
+        "Inaros": "July 16th 2022",
+        "Nezha": "October 5th 2022",
+        "Octavia": "December 14th 2022",
+        "Gara": "March 15th 2023",
+        "Nidus": "July 27th 2023",
+        "Harrow": "October 18th 2023",
+        "Garuda": "January 17th 2024",
+        "Khora": "May 1st 2024",
+        "--present": "--",
+        "Revenant": "August 01 2024",
+        "Baruuk": "November 07 2024",
+        "Hildryn": "February 13 2025",
+        "Wisp": "May 15 2025",
+        "Grendel": "August 21 2025",
+        "Gauss": "November 20 2025",
+        "Protea": "February 26 2026"
+    },
+    "sheesh_leaderboard": {
+        "155736623613476865": 64,
+        "585035501929758721": 62,
+        "137365776121200650": 58,
+        "356363339112382464": 58,
+        "148706546308612096": 54,
+        "107317852612075520": 54,
+        "702626987012915290": 54,
+        "259424581197103116": 53,
+        "723885909426307172": 52,
+        "326726258102632448": 50,
+        "111156393049866240": 50,
+        "632642240568885250": 49,
+        "175617745314906112": 49,
+        "501329359932751874": 48,
+        "852976154926645319": 48,
+        "419095972568891403": 48,
+        "385150325142716446": 48,
+        "166263217998397440": 48,
+        "182359932518006794": 48,
+        "152172263276281856": 47,
+        "355712978462572544": 47,
+        "280689828214079489": 46,
+        "369291763510149120": 46,
+        "328145199845081088": 45,
+        "154714780035186688": 45,
+        "486876988175286282": 45,
+        "270254801298653185": 45,
+        "147900503911563264": 44,
+        "212406648554258432": 44,
+        "777427723106254899": 43,
+        "389414360528977921": 43,
+        "225783394489991168": 43,
+        "714871884939919370": 42,
+        "365173705308897280": 41,
+        "252840035731243008": 41,
+        "591333156620206100": 41,
+        "825921976401002526": 40,
+        "156005333930737665": 39,
+        "368108660687372309": 38,
+        "492255815160430593": 38,
+        "247387002536722434": 38,
+        "884366187973193748": 38,
+        "227155732305281027": 37,
+        "833015746447147078": 37,
+        "78960275528622080": 37,
+        "321617373675126786": 37,
+        "177139713843396608": 36,
+        "281471947177459712": 36,
+        "471311562041458708": 36,
+        "388477549606469633": 36,
+        "299911168733085706": 35,
+        "429387354424213515": 35,
+        "750954596641276004": 34,
+        "392073402799882241": 34,
+        "495538698914496532": 34,
+        "402168269467025408": 34,
+        "196243346748866560": 33,
+        "688937641084977166": 33,
+        "609381213442146304": 33,
+        "298805245813850122": 32,
+        "137914401658241024": 32,
+        "230016515418619904": 32,
+        "449198201367560192": 32,
+        "459643602948325383": 31,
+        "331962545130831874": 30,
+        "434345567137562624": 30,
+        "760261307495874591": 30,
+        "197089704020148224": 30,
+        "305433464134565888": 29,
+        "167596939460739072": 29,
+        "233336226772549632": 28,
+        "760122845610901514": 27,
+        "479027625872982016": 27,
+        "991633609511415849": 27,
+        "269281034263068672": 25,
+        "247109557870919683": 25,
+        "113361399727558656": 25,
+        "656864089632669696": 23,
+        "456884031666126848": 23,
+        "406538869224374272": 23,
+        "254213278908153857": 23,
+        "335898224600678400": 22,
+        "220196937704407050": 21,
+        "379700550926860288": 20,
+        "580139521363148800": 20,
+        "297830607948349450": 19,
+        "658652604842246204": 19,
+        "689862499536732161": 18,
+        "310869359356805120": 17,
+        "466277717940240414": 17,
+        "245575579808563201": 16,
+        "592421020426698785": 15,
+        "656462384864559115": 15,
+        "172522648562040832": 14,
+        "352789817039257621": 12,
+        "1009210342791970846": 12,
+        "208936270016020480": 10,
+        "1028842730610249729": 10,
+        "245893694115282945": 10,
+        "698277128763867146": 9,
+        "327415684134993923": 4,
+        "388675619329671168": 3,
+        "428826033761026048": 3
     }
 }

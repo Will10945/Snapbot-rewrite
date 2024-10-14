@@ -17,7 +17,7 @@ class BuildRelics(commands.Cog):
 
     @commands.Cog.listener()
     async def on_ready(self):
-        pass
+        self.client.cogs_ready.ready_up('build_relics')
 
 
     @commands.command(name='asdf',
@@ -276,12 +276,12 @@ class BuildRelics(commands.Cog):
             
             if not validrelics:
                 print('No relics generated')
-                f  = open('generationlog.txt', 'a', encoding='utf-8')
+                f = open('generationlog.txt', 'a', encoding='utf-8')
                 f.writelines((str('[' + datetime.datetime.today().strftime('%m/%d/%y') + ' ' + datetime.datetime.now().strftime('%H:%M:%S')) + ']  Created by user ' + str(messageauthor) + ' in ' + str(messageserver) + ' [' + str(badframes) + ']  Duplicates: ' + str(dupe) + ' FAILED'))
                 f.writelines('\n')
                 f.close()
 
             await textchannel.delete_messages(messagestodelete)
 
-def setup(client):
-    client.add_cog(BuildRelics(client))
+async def setup(client):
+    await client.add_cog(BuildRelics(client))

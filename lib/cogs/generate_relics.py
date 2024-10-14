@@ -1,5 +1,6 @@
 import asyncio
 from concurrent.futures import ThreadPoolExecutor, as_completed, wait, ALL_COMPLETED
+import random
 
 from discord.ext import commands
 import discord
@@ -19,7 +20,7 @@ class Generated_Relics(commands.Cog):
 
     @commands.Cog.listener()
     async def on_ready(self):
-        pass
+        self.client.cogs_ready.ready_up('generate_relics')
 
     @commands.command(name='',
                       aliases=['build', 'gen'],
@@ -40,6 +41,10 @@ class Generated_Relics(commands.Cog):
             guild_id = ctx.guild.id
 
         flags = gen_relics_parse(ctx.message.content)
+
+        if len(flags['pa']) == 2 and set(flags['pa']) == {'Ash', 'Inaros'}:
+            await ctx.send(f"{ctx.author.mention} <- THIS IDIOR THOUGHT THEY COULD BUILD ASH/INAROS RELICS")
+            return
 
         if len(flags['pa']) < 2:
             await ctx.send(f"Relic build currently only works for 2+ prime accesses. Please add more frames you would like to see.\n"
@@ -139,5 +144,5 @@ class Generated_Relics(commands.Cog):
 
 
 
-def setup(client):
-    client.add_cog(Generated_Relics(client))
+async def setup(client):
+    await client.add_cog(Generated_Relics(client))
